@@ -1,0 +1,262 @@
+{
+  "targetUrl": "https://www.skinn.in/",
+  "generatedAt": "2026-06-04T09:36:30.299Z",
+  "seoSecurityAudit": {
+    "url": "https://www.skinn.in/",
+    "baseUrl": "https://www.skinn.in",
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.skinn.in/sitemap_index.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.skinn.in/",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": true,
+      "article": null
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": true,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [],
+    "llms": {
+      "found": false,
+      "hasTitle": false,
+      "hasDescription": false,
+      "links": [],
+      "tooSmall": false,
+      "error": "Request failed with status code 404"
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url"
+      ],
+      "missingTwitter": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [
+      "header",
+      "nav",
+      "section",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 97
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 85,
+        "ttfbMs": 11,
+        "lcpMs": 2081,
+        "cls": 0,
+        "totalBlockingTimeMs": 91,
+        "compressionEnabled": false,
+        "compressionEncoding": null,
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 323,
+        "lcpMs": 2266,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": true,
+      "titleLength": 48,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 164,
+      "h1Optimized": false,
+      "h1Count": 0,
+      "h2Count": 50,
+      "h3Count": 5,
+      "properHeadingHierarchy": false,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 6186,
+      "hasDefinitions": false,
+      "hasComparisons": true,
+      "hasBulletPoints": true,
+      "bulletCount": 201,
+      "hasMultimedia": true,
+      "imageCount": 61,
+      "videoCount": 0,
+      "iframeCount": 1,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.skinn.in/",
+        "finalUrl": "https://www.skinn.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Buy Best Perfumes For Men & Women Online - SKINN",
+        "h1": null,
+        "canonical": "https://www.skinn.in/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "13343 ms",
+        "totalRequests": 421,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": "a065f043de097ff8-MAA",
+        "renderedTextPreview": "Explore the new Eau de parfum: Amalfi Riviera SHOP NOW MEN WOMEN COLLECTIONS GIFTING FASTRACK FRAGRANCES SKINN BLOG SALE 0 0 Trending Products Previous SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Next Previous Next Previous Next FOR HER FOR HIM SOME GIFTS SPEAK BEYOND WORDS A gift that captures every feeling unexpressed, every word unsaid and every emotion unknown, is a gift that lasts forever. Show your loved ones how much they mean to you with fragrances as unique as your bond, because some thi",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html"
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.skinn.in/",
+        "finalUrl": "https://www.skinn.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Buy Best Perfumes For Men & Women Online - SKINN",
+        "h1": null,
+        "canonical": "https://www.skinn.in/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "8917 ms",
+        "totalRequests": 493,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": "a065f0499f7b8632-MAA",
+        "renderedTextPreview": "Explore the new Eau de parfum: Amalfi Riviera SHOP NOW MEN WOMEN COLLECTIONS GIFTING FASTRACK FRAGRANCES SKINN BLOG SALE 0 0 Trending Products Previous SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Next Previous Next Previous Next FOR HER FOR HIM SOME GIFTS SPEAK BEYOND WORDS A gift that captures every feeling unexpressed, every word unsaid and every emotion unknown, is a gift that lasts forever. Show your loved ones how much they mean to you with fragrances as unique as your bond, because some thi",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html"
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.skinn.in/",
+        "finalUrl": "https://www.skinn.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Buy Best Perfumes For Men & Women Online - SKINN",
+        "h1": null,
+        "canonical": "https://www.skinn.in/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "15535 ms",
+        "totalRequests": 414,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": "a065f0631f5a7e9e-MAA",
+        "renderedTextPreview": "Explore the new Eau de parfum: Amalfi Riviera SHOP NOW MEN WOMEN COLLECTIONS GIFTING FASTRACK FRAGRANCES SKINN BLOG SALE 0 0 Trending Products Previous SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Next Previous Next Previous Next FOR HER FOR HIM SOME GIFTS SPEAK BEYOND WORDS A gift that captures every feeling unexpressed, every word unsaid and every emotion unknown, is a gift that lasts forever. Show your loved ones how much they mean to you with fragrances as unique as your bond, because some thi",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html"
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.skinn.in/",
+        "finalUrl": "https://www.skinn.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Buy Best Perfumes For Men & Women Online - SKINN",
+        "h1": null,
+        "canonical": "https://www.skinn.in/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "19429 ms",
+        "totalRequests": 383,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": "a065f082dc3e0bc9-BLR",
+        "renderedTextPreview": "Explore the new Eau de parfum: Amalfi Riviera SHOP NOW MEN WOMEN COLLECTIONS GIFTING FASTRACK FRAGRANCES SKINN BLOG SALE 0 0 Trending Products Previous SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Next Previous Next Previous Next FOR HER FOR HIM SOME GIFTS SPEAK BEYOND WORDS A gift that captures every feeling unexpressed, every word unsaid and every emotion unknown, is a gift that lasts forever. Show your loved ones how much they mean to you with fragrances as unique as your bond, because some thi",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html"
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.skinn.in/",
+        "finalUrl": "https://www.skinn.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Buy Best Perfumes For Men & Women Online - SKINN",
+        "h1": null,
+        "canonical": "https://www.skinn.in/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "27782 ms",
+        "totalRequests": 405,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": "a065f097dd3fb85b-MAA",
+        "renderedTextPreview": "Explore the new Eau de parfum: Amalfi Riviera SHOP NOW MEN WOMEN COLLECTIONS GIFTING FASTRACK FRAGRANCES SKINN BLOG SALE 0 0 Trending Products Previous SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Next Previous Next Previous Next FOR HER FOR HIM SOME GIFTS SPEAK BEYOND WORDS A gift that captures every feeling unexpressed, every word unsaid and every emotion unknown, is a gift that lasts forever. Show your loved ones how much they mean to you with fragrances as unique as your bond, because some thi",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html"
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.skinn.in/",
+        "finalUrl": "https://www.skinn.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Buy Best Perfumes For Men & Women Online - SKINN",
+        "h1": null,
+        "canonical": "https://www.skinn.in/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "42727 ms",
+        "totalRequests": 398,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": "a065f0aba9b2ea32-BLR",
+        "renderedTextPreview": "Explore the new Eau de parfum: Amalfi Riviera SHOP NOW MEN WOMEN COLLECTIONS GIFTING FASTRACK FRAGRANCES SKINN BLOG SALE 0 0 Trending Products Previous SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Skinn Amalfi Riviera Unisex Eau de Parfum 90 ml ₹ 3,095 Skinn by Titan Nova for Men - 100 ml ₹ 3,095 Skinn by Titan Aura for Women - 100 ml ₹ 3,095 Skinn by Titan Raw 100 ML Perfume for Men EDP ₹ 2,795 SKINN Noura Floret Eau De Parfum For her ₹ 3,295 SKINN Nox Pour Femme Eau De Parfum 100 ml ₹ 3,995 Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP ₹ 2,895 SKINN Nox Oud 100 ml Eau De Parfum For him ₹ 4,995 Next Previous Next Previous Next FOR HER FOR HIM SOME GIFTS SPEAK BEYOND WORDS A gift that captures every feeling unexpressed, every word unsaid and every emotion unknown, is a gift that lasts forever. Show your loved ones how much they mean to you with fragrances as unique as your bond, because some thi",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html"
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.skinn.in/",
+        "success": false,
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.skinn.in/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+      }
+    ],
+    "error": null
+  }
+}

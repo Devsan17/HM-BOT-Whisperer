@@ -1,0 +1,12 @@
+{
+  "id": "77e42697-dac7-4b28-a441-69564238c254",
+  "url": "https://www.roff.in/",
+  "status": "failed",
+  "progress": 100,
+  "step": "Audit failed",
+  "createdAt": "2026-05-24T07:11:37.517Z",
+  "updatedAt": "2026-05-24T07:11:51.001Z",
+  "error": "Audit process exited with code 3221225786",
+  "reportPath": null,
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\devtest\\reports\\jobs\\77e42697-dac7-4b28-a441-69564238c254\\audit.log"
+}

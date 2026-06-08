@@ -1,0 +1,12 @@
+{
+  "id": "4202e2c9-79f9-4f65-b624-b21c30a733c8",
+  "url": "https://www.drfixit.co.in/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-05-24T09:30:13.938Z",
+  "updatedAt": "2026-05-24T09:32:09.874Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\devtest\\reports\\jobs\\4202e2c9-79f9-4f65-b624-b21c30a733c8\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\devtest\\reports\\jobs\\4202e2c9-79f9-4f65-b624-b21c30a733c8\\audit.log"
+}

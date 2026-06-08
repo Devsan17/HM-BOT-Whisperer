@@ -1,0 +1,12 @@
+{
+  "id": "ab6d1d74-2e89-4cf7-aede-20dd122c787f",
+  "url": "https://www.skinn.in/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-06-03T11:19:54.136Z",
+  "updatedAt": "2026-06-03T11:22:21.882Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\ab6d1d74-2e89-4cf7-aede-20dd122c787f\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\ab6d1d74-2e89-4cf7-aede-20dd122c787f\\audit.log"
+}

@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "axios": "^1.16.1",
+    "cheerio": "^1.2.0",
+    "ci": "^2.3.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.16.0",
+    "next": "^15.5.18",
+    "playwright": "^1.60.0",
+    "playwright-extra": "^4.3.6",
+    "postcss": "^8.5.15",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "recharts": "^3.8.1",
+    "robots-parser": "^3.0.1",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

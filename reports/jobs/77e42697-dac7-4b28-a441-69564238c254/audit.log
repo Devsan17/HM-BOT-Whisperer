@@ -1,0 +1,54 @@
+Starting audit for https://www.roff.in/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.roff.in/sitemap_index.xml
+
+============================
+FETCHING PAGE
+============================
+
+CANONICAL CHECK
+
+Canonical Found: https://www.roff.in/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema found
+Product/Service schema missing
+Organization schema found
+Article schema missing
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS missing
+CSP missing
+X-Frame-Options enabled
+X-Content-Type-Options missing
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+
+Audit process exited with code 3221225786

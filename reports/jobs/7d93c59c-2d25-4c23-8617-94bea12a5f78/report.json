@@ -1,0 +1,292 @@
+{
+  "targetUrl": "https://www.roff.in/",
+  "generatedAt": "2026-06-08T18:44:24.940Z",
+  "seoSecurityAudit": {
+    "url": "https://www.roff.in/",
+    "baseUrl": "https://www.roff.in",
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.roff.in/sitemap_index.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.roff.in/",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": true,
+      "productOrService": null,
+      "organization": true,
+      "article": null
+    },
+    "security": {
+      "https": true,
+      "hsts": false,
+      "csp": false,
+      "xFrameOptions": true,
+      "xContentTypeOptions": false
+    },
+    "mixedContent": [],
+    "adminUrls": [
+      {
+        "path": "/admin",
+        "status": 200
+      },
+      {
+        "path": "/wp-admin",
+        "status": 200
+      },
+      {
+        "path": "/login",
+        "status": 200
+      },
+      {
+        "path": "/dashboard",
+        "status": 200
+      }
+    ],
+    "llms": {
+      "found": false,
+      "hasTitle": false,
+      "hasDescription": false,
+      "links": [],
+      "tooSmall": false,
+      "error": "Request failed with status code 404"
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:url"
+      ],
+      "missingTwitter": [
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [
+      "header",
+      "nav",
+      "section",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 52
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 43,
+        "ttfbMs": 88,
+        "lcpMs": 5482,
+        "cls": 0,
+        "totalBlockingTimeMs": 536,
+        "compressionEnabled": false,
+        "compressionEncoding": null,
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 190,
+        "lcpMs": 4663,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": true,
+      "titleLength": 51,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 150,
+      "h1Optimized": false,
+      "h1Count": 2,
+      "h2Count": 3,
+      "h3Count": 5,
+      "properHeadingHierarchy": false,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 2332,
+      "hasDefinitions": false,
+      "hasComparisons": false,
+      "hasBulletPoints": true,
+      "bulletCount": 91,
+      "hasMultimedia": true,
+      "imageCount": 84,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "access denied",
+        "title": "Sucuri WebSite Firewall - Access Denied",
+        "h1": "Access Denied - Sucuri Website Firewall",
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "8066 ms",
+        "totalRequests": 3,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html",
+        "cfRay": null,
+        "renderedTextPreview": "Website Firewall Back to sucuri.net Access Denied - Sucuri Website Firewall If you are the site owner (or you manage this site), please whitelist your IP or if you think this block is an error please open a support ticket and make sure to include the block details (displayed in the box below), so we can assist you in troubleshooting the issue. Block details: Your IP: 116.75.120.122 URL: www.roff.in/ Your Browser: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.3; +https://openai.com/searchbot Block ID: BNP003 Block reason: Bad bot access attempt. Time: 2026-06-08 14:42:46 Server ID: 19012 © 2026 Sucuri Inc. All rights reserved. Privacy",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html"
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "10422 ms",
+        "totalRequests": 260,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search Previous The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Beautify with colourful tile joint fillers! See how tile joints add to beauty! LEARN MORE Next Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. Solutions To Modern Tile & Stone Fixing Challenges A quick fix won’t do. Your dream home deserves nothing less than solutions crafted by the experts. EXPLORE ALL SOLUTIONS Previous Next Tile Joint Filler Visualizer Keep it subtle with a matching grout shade or dive into a pop of fun colours? Try it yourself. Decide. EXPLORE POSSIBILITIES Roff Product Solutions The one-stop shop for all your tile and stone fixing requirements! Useful Tools Friendly tools to help you select the right product, match shades to your tiles, and estimate the right quantity. Filler Coverage Calculator Adhesive Coverage Calculator Tile Adhesive Selector Blogs & Current Trends Check out the biggest trends of the season and our expert take on them. MORE Joint V",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html"
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "11081 ms",
+        "totalRequests": 265,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search Previous The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Beautify with colourful tile joint fillers! See how tile joints add to beauty! LEARN MORE Next Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. Solutions To Modern Tile & Stone Fixing Challenges A quick fix won’t do. Your dream home deserves nothing less than solutions crafted by the experts. EXPLORE ALL SOLUTIONS Previous Next Tile Joint Filler Visualizer Keep it subtle with a matching grout shade or dive into a pop of fun colours? Try it yourself. Decide. EXPLORE POSSIBILITIES Roff Product Solutions The one-stop shop for all your tile and stone fixing requirements! Useful Tools Friendly tools to help you select the right product, match shades to your tiles, and estimate the right quantity. Filler Coverage Calculator Adhesive Coverage Calculator Tile Adhesive Selector Blogs & Current Trends Check out the biggest trends of the season and our expert take on them. MORE Joint V",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html"
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "11544 ms",
+        "totalRequests": 258,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search Previous The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Beautify with colourful tile joint fillers! See how tile joints add to beauty! LEARN MORE Next Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. Solutions To Modern Tile & Stone Fixing Challenges A quick fix won’t do. Your dream home deserves nothing less than solutions crafted by the experts. EXPLORE ALL SOLUTIONS Previous Next Tile Joint Filler Visualizer Keep it subtle with a matching grout shade or dive into a pop of fun colours? Try it yourself. Decide. EXPLORE POSSIBILITIES Roff Product Solutions The one-stop shop for all your tile and stone fixing requirements! Useful Tools Friendly tools to help you select the right product, match shades to your tiles, and estimate the right quantity. Filler Coverage Calculator Adhesive Coverage Calculator Tile Adhesive Selector Blogs & Current Trends Check out the biggest trends of the season and our expert take on them. MORE Joint V",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html"
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "11182 ms",
+        "totalRequests": 260,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search Previous The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Beautify with colourful tile joint fillers! See how tile joints add to beauty! LEARN MORE Next Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. Solutions To Modern Tile & Stone Fixing Challenges A quick fix won’t do. Your dream home deserves nothing less than solutions crafted by the experts. EXPLORE ALL SOLUTIONS Previous Next Tile Joint Filler Visualizer Keep it subtle with a matching grout shade or dive into a pop of fun colours? Try it yourself. Decide. EXPLORE POSSIBILITIES Roff Product Solutions The one-stop shop for all your tile and stone fixing requirements! Useful Tools Friendly tools to help you select the right product, match shades to your tiles, and estimate the right quantity. Filler Coverage Calculator Adhesive Coverage Calculator Tile Adhesive Selector Blogs & Current Trends Check out the biggest trends of the season and our expert take on them. MORE Joint V",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html"
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "10940 ms",
+        "totalRequests": 261,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search Previous The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Beautify with colourful tile joint fillers! See how tile joints add to beauty! LEARN MORE Next Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. Solutions To Modern Tile & Stone Fixing Challenges A quick fix won’t do. Your dream home deserves nothing less than solutions crafted by the experts. EXPLORE ALL SOLUTIONS Previous Next Tile Joint Filler Visualizer Keep it subtle with a matching grout shade or dive into a pop of fun colours? Try it yourself. Decide. EXPLORE POSSIBILITIES Roff Product Solutions The one-stop shop for all your tile and stone fixing requirements! Useful Tools Friendly tools to help you select the right product, match shades to your tiles, and estimate the right quantity. Filler Coverage Calculator Adhesive Coverage Calculator Tile Adhesive Selector Blogs & Current Trends Check out the biggest trends of the season and our expert take on them. MORE Joint V",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html"
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "10474 ms",
+        "totalRequests": 266,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search Previous The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Beautify with colourful tile joint fillers! See how tile joints add to beauty! LEARN MORE Next Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. Solutions To Modern Tile & Stone Fixing Challenges A quick fix won’t do. Your dream home deserves nothing less than solutions crafted by the experts. EXPLORE ALL SOLUTIONS Previous Next Tile Joint Filler Visualizer Keep it subtle with a matching grout shade or dive into a pop of fun colours? Try it yourself. Decide. EXPLORE POSSIBILITIES Roff Product Solutions The one-stop shop for all your tile and stone fixing requirements! Useful Tools Friendly tools to help you select the right product, match shades to your tiles, and estimate the right quantity. Filler Coverage Calculator Adhesive Coverage Calculator Tile Adhesive Selector Blogs & Current Trends Check out the biggest trends of the season and our expert take on them. MORE Joint V",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html"
+      }
+    ],
+    "error": null
+  }
+}

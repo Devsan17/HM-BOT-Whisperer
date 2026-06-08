@@ -1,0 +1,12 @@
+{
+  "id": "6ca72b15-7661-4157-a22b-f2429dc35179",
+  "url": "https://www.pidilite.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-05-24T07:37:10.358Z",
+  "updatedAt": "2026-05-24T07:44:56.168Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\devtest\\reports\\jobs\\6ca72b15-7661-4157-a22b-f2429dc35179\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\devtest\\reports\\jobs\\6ca72b15-7661-4157-a22b-f2429dc35179\\audit.log"
+}
