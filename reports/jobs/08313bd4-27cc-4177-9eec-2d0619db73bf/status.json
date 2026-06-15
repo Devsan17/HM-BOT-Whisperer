@@ -1,0 +1,12 @@
+{
+  "id": "08313bd4-27cc-4177-9eec-2d0619db73bf",
+  "url": "https://www.whistlingwoods.net/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-06-15T10:10:19.655Z",
+  "updatedAt": "2026-06-15T10:13:26.577Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\08313bd4-27cc-4177-9eec-2d0619db73bf\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\08313bd4-27cc-4177-9eec-2d0619db73bf\\audit.log"
+}

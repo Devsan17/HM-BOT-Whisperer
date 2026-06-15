@@ -1154,7 +1154,6 @@ async function runSeoSecurityAudit(url) {
       const ttfb =
         audits["server-response-time"]
           ?.numericValue || 0;
-      result.performance.pageSpeed.success = true;
       result.performance.pageSpeed.ttfbMs = Math.round(ttfb);
 
       if (ttfb <= 400) {
@@ -1244,7 +1243,7 @@ async function runSeoSecurityAudit(url) {
       // ==========================================
 
       const encoding =
-        response.headers[
+        headers?.[
           "content-encoding"
         ];
       result.performance.pageSpeed.compressionEncoding =
@@ -1276,12 +1275,14 @@ async function runSeoSecurityAudit(url) {
           .score * 100;
       result.performance.pageSpeed.performanceScore =
         Math.round(performanceScore);
+      result.performance.pageSpeed.success = true;
 
       console.log(
         `✅ Performance Score: ${performanceScore}`
       );
 
     } catch (err) {
+      result.performance.pageSpeed.success = false;
       result.performance.pageSpeed.error =
         err.message;
       console.log(

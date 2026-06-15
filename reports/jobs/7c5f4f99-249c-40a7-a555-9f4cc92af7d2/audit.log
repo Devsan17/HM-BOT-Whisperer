@@ -1,0 +1,205 @@
+Starting audit for https://www.whistlingwoods.net/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://whistlingwoods.net/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, #1 School For Filmmaking, Acting, Communication & Creative Arts | Whistling Woods International)
+CANONICAL CHECK
+
+Canonical Found: https://www.whistlingwoods.net/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema found
+Product/Service schema missing
+Organization schema found
+Article schema missing
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS missing
+CSP enabled
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+Google StoreBot Mobile FAILED
+page.goto: net::ERR_NETWORK_CHANGED at https://www.whistlingwoods.net/
+Call log:
+[2m  - navigating to "https://www.whistlingwoods.net/", waiting until "domcontentloaded"[22m
+
+
+Retrying Google StoreBot Mobile (attempt 2/2)
+
+Testing Google StoreBot Mobile
+No common admin URLs exposed
+
+============================
+LLMS.TXT CHECK
+============================
+
+Direct llms.txt fetch failed: Request failed with status code 404 (404 Not Found)
+Falling back to browser-visible llms.txt
+GPTBot ALLOWED
+{
+  status: 200,
+  title: '#1 School For Filmmaking, Acting, Communication & Creative Arts | Whistling Woods International',
+  blocked: false,
+  reason: null
+}
+Copilot FAILED
+page.goto: Timeout 45000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.whistlingwoods.net/", waiting until "domcontentloaded"[22m
+
+
+Retrying Copilot (attempt 2/2)
+
+Testing Copilot
+llms.txt missing
+
+============================
+META TAG CHECKS
+============================
+
+Open Graph tags found
+Missing Twitter tags: twitter:title, twitter:description
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (header, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+112 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (95 chars)
+❌ Poor meta description (171 chars)
+✅ Optimized H1
+✅ H2 Count: 0
+✅ H3 Count: 0
+✅ Proper heading hierarchy
+❌ No answer-style content
+✅ Content length good (2059 words)
+❌ No definitions found
+❌ No comparisons found
+✅ Bullet points found (75)
+✅ Multimedia found (Images: 146, Videos: 0)
+❌ No summary section found
+❌ No freshness signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+Google StoreBot Mobile FAILED
+page.goto: Timeout 45000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.whistlingwoods.net/", waiting until "domcontentloaded"[22m
+
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  title: '#1 School For Filmmaking, Acting, Communication & Creative Arts | Whistling Woods International',
+  blocked: false,
+  reason: null
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  title: '#1 School For Filmmaking, Acting, Communication & Creative Arts | Whistling Woods International',
+  blocked: false,
+  reason: null
+}
+Gemini ALLOWED
+{
+  status: 200,
+  title: '#1 School For Filmmaking, Acting, Communication & Creative Arts | Whistling Woods International',
+  blocked: false,
+  reason: null
+}
+OAI-SearchBot BLOCKED (access denied)
+{
+  status: 403,
+  title: 'GoDaddy Security - Access Denied',
+  blocked: true,
+  reason: 'access denied'
+}
+Copilot ALLOWED
+{
+  status: 200,
+  title: '#1 School For Filmmaking, Acting, Communication & Creative Arts | Whistling Woods International',
+  blocked: false,
+  reason: null
+}
+
+BOT AUDIT COMPLETE
+
+❌ Failed to fetch PageSpeed data
+
+============================
+CRUX REAL USER DATA
+============================
+
+✅ INP Passed (136ms)
+✅ Real User LCP: 4.42s
+✅ Real User CLS: 0.001
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================
