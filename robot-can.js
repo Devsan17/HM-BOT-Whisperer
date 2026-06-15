@@ -60,6 +60,37 @@ function cleanFileName(name) {
   return name.replace(/[^a-z0-9]/gi, "_");
 }
 
+function formatHttpError(error, fallbackUrl) {
+  const status = error?.response?.status;
+  const statusText = error?.response?.statusText;
+  const url = error?.config?.url || fallbackUrl || "unknown URL";
+  const server = error?.response?.headers?.server || null;
+  const body = typeof error?.response?.data === "string" ? error.response.data.toLowerCase() : "";
+
+  let reason = error?.message || "Request failed";
+
+  if (body.includes("request blocked")) {
+    reason = "Request blocked by site protection";
+  } else if (body.includes("access denied")) {
+    reason = "Access denied by the target site";
+  } else if (status === 403) {
+    reason = "Access forbidden by the target site";
+  } else if (status === 429) {
+    reason = "Rate limited by the target site";
+  }
+
+  return {
+    message: `${reason}${status ? ` (${status}${statusText ? ` ${statusText}` : ""})` : ""}`,
+    summary: {
+      url,
+      status: status || null,
+      statusText: statusText || null,
+      server,
+      reason,
+    },
+  };
+}
+
 function detectBlock(html, status, title, bodyText) {
   const content = `${html}\n${title}\n${bodyText}`.toLowerCase();
   const patterns = [
@@ -117,10 +148,122 @@ async function safeMeta(page, selector) {
   }
 }
 
+async function fetchPageWithBrowser(url) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+
+  try {
+    const context = await browser.newContext({
+      userAgent: "Mozilla/5.0",
+      viewport: {
+        width: 1366,
+        height: 768,
+      },
+      locale: "en-US",
+      javaScriptEnabled: true,
+      ignoreHTTPSErrors: true,
+    });
+
+    const page = await context.newPage();
+    page.setDefaultNavigationTimeout(MAX_TIMEOUT);
+    await page.route("**/*.{woff,woff2,ttf,otf}", (route) => route.abort());
+
+    const response = await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: MAX_TIMEOUT,
+    });
+
+    await page.waitForTimeout(3000);
+
+    const html = await page.content();
+    const finalUrl = page.url();
+    const title = await page.title().catch(() => "");
+
+    const headers = response ? await response.allHeaders() : {};
+    const status = response ? response.status() : 200;
+
+    await context.close();
+
+    return {
+      html,
+      headers,
+      status,
+      finalUrl,
+      title,
+      fetchedWithBrowser: true,
+    };
+  } finally {
+    await browser.close();
+  }
+}
+
+async function fetchTextResourceWithBrowser(url) {
+  const browser = await chromium.launch({
+    headless: true,
+  });
+
+  try {
+    const context = await browser.newContext({
+      userAgent: "Mozilla/5.0",
+      viewport: {
+        width: 1366,
+        height: 768,
+      },
+      locale: "en-US",
+      javaScriptEnabled: true,
+      ignoreHTTPSErrors: true,
+    });
+
+    const page = await context.newPage();
+    page.setDefaultNavigationTimeout(MAX_TIMEOUT);
+
+    const response = await page.goto(url, {
+      waitUntil: "domcontentloaded",
+      timeout: MAX_TIMEOUT,
+    });
+
+    await page.waitForTimeout(1000);
+
+    const text = await page.evaluate(() => {
+      const pre = document.querySelector("pre");
+      if (pre?.textContent?.trim()) {
+        return pre.textContent;
+      }
+
+      return document.body?.innerText || document.documentElement?.innerText || "";
+    });
+
+    const headers = response ? await response.allHeaders() : {};
+    const status = response ? response.status() : 200;
+    const finalUrl = page.url();
+
+    await context.close();
+
+    return {
+      text,
+      headers,
+      status,
+      finalUrl,
+    };
+  } finally {
+    await browser.close();
+  }
+}
+
 async function runSeoSecurityAudit(url) {
   const result = {
     url,
     baseUrl: new URL(url).origin,
+    fetch: {
+      success: false,
+      method: "http",
+      status: null,
+      finalUrl: url,
+      title: null,
+      error: null,
+      fetchedWithBrowser: false,
+    },
     robots: {
       found: false,
       blockedBots: [],
@@ -222,11 +365,31 @@ async function runSeoSecurityAudit(url) {
 
   try {
     const robotsUrl = `${result.baseUrl}/robots.txt`;
-    const robotsRes = await axios.get(robotsUrl, {
-      timeout: 10000,
-      proxy: false,
-    });
-    const robotsText = robotsRes.data;
+    let robotsText = "";
+
+    try {
+      const robotsRes = await axios.get(robotsUrl, {
+        timeout: 10000,
+        proxy: false,
+      });
+      robotsText = robotsRes.data;
+    } catch (error) {
+      const formatted = formatHttpError(error, robotsUrl);
+      console.log(`Direct robots.txt fetch failed: ${formatted.message}`);
+      console.log("Falling back to browser-visible robots.txt");
+
+      const browserRobots = await fetchTextResourceWithBrowser(robotsUrl);
+      if (browserRobots.status >= 400 || !browserRobots.text.trim()) {
+        throw new Error(
+          browserRobots.status >= 400
+            ? `robots.txt blocked in browser (${browserRobots.status})`
+            : "robots.txt returned no visible content"
+        );
+      }
+
+      robotsText = browserRobots.text;
+    }
+
     const robots = robotsParser(robotsUrl, robotsText);
 
     result.robots.found = true;
@@ -266,18 +429,53 @@ async function runSeoSecurityAudit(url) {
   console.log("FETCHING PAGE");
   console.log("============================\n");
 
-  const response = await axios.get(url, {
-    timeout: 15000,
-    proxy: false,
-    headers: {
-      "User-Agent": "Mozilla/5.0",
-    },
-    maxRedirects: 10,
-  });
+  let html;
+  let headers;
+  let finalUrl = url;
 
-  const html = response.data;
-  const headers = response.headers;
+  try {
+    const browserFetch = await fetchPageWithBrowser(url);
+    html = browserFetch.html;
+    headers = browserFetch.headers;
+    finalUrl = browserFetch.finalUrl;
+
+    result.fetch = {
+      success: browserFetch.status >= 200 && browserFetch.status < 400,
+      method: "browser",
+      status: browserFetch.status,
+      finalUrl: browserFetch.finalUrl,
+      title: browserFetch.title || null,
+      error:
+        browserFetch.status >= 400
+          ? `Browser-visible page returned ${browserFetch.status}`
+          : null,
+      fetchedWithBrowser: true,
+    };
+
+    console.log(
+      `Browser-visible page loaded (${browserFetch.status}${browserFetch.title ? `, ${browserFetch.title}` : ""})`
+    );
+  } catch (error) {
+    const formatted = formatHttpError(error, url);
+    console.log(`Page fetch failed: ${formatted.message}`);
+    if (formatted.summary.server) {
+      console.log(`Blocking layer: ${formatted.summary.server}`);
+    }
+    result.fetch = {
+      success: false,
+      method: "browser",
+      status: error?.response?.status || null,
+      finalUrl: url,
+      title: null,
+      error: formatted.message,
+      fetchedWithBrowser: true,
+    };
+    throw new Error(formatted.message);
+  }
+
   const $ = cheerio.load(html);
+  result.url = finalUrl;
+  result.baseUrl = new URL(finalUrl).origin;
 
   console.log("CANONICAL CHECK\n");
 
@@ -476,11 +674,30 @@ async function runSeoSecurityAudit(url) {
 
   try {
     const llmsUrl = `${result.baseUrl}/llms.txt`;
-    const llmsRes = await axios.get(llmsUrl, {
-      timeout: 10000,
-      proxy: false,
-    });
-    const llmsText = llmsRes.data;
+    let llmsText = "";
+
+    try {
+      const llmsRes = await axios.get(llmsUrl, {
+        timeout: 10000,
+        proxy: false,
+      });
+      llmsText = llmsRes.data;
+    } catch (error) {
+      const formatted = formatHttpError(error, llmsUrl);
+      console.log(`Direct llms.txt fetch failed: ${formatted.message}`);
+      console.log("Falling back to browser-visible llms.txt");
+
+      const browserLlms = await fetchTextResourceWithBrowser(llmsUrl);
+      if (browserLlms.status >= 400 || !browserLlms.text.trim()) {
+        throw new Error(
+          browserLlms.status >= 400
+            ? `llms.txt blocked in browser (${browserLlms.status})`
+            : "llms.txt returned no visible content"
+        );
+      }
+
+      llmsText = browserLlms.text;
+    }
 
     result.llms.found = true;
     result.llms.hasTitle = /^#\s.+/m.test(llmsText);
@@ -1370,7 +1587,8 @@ if (require.main === module) {
   const targetUrl = cliUrl || TARGET_URL;
 
   runCombinedAudit(targetUrl).catch((error) => {
-    console.error(error);
+    const formatted = formatHttpError(error, targetUrl);
+    console.error("Audit failed:", formatted.message);
     process.exitCode = 1;
   });
 }

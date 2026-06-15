@@ -1,0 +1,476 @@
+Starting audit for https://www.godrejenterprises.com/home-appliances
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+robots.txt missing
+
+============================
+FETCHING PAGE
+============================
+
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+
+Error: Request failed with status code 403
+AxiosError: Request failed with status code 403
+    at settle (C:\Users\Sanath Shetty\Desktop\BotWhisper\node_modules\axios\lib\core\settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Sanath Shetty\Desktop\BotWhisper\node_modules\axios\lib\adapters\http.js:1139:13)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Sanath Shetty\Desktop\BotWhisper\node_modules\axios\lib\core\Axios.js:46:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async runSeoSecurityAudit (C:\Users\Sanath Shetty\Desktop\BotWhisper\robot-can.js:269:20)
+    at async Promise.all (index 0)
+    at async runCombinedAudit (C:\Users\Sanath Shetty\Desktop\BotWhisper\robot-can.js:1341:7) {
+  isAxiosError: true,
+  code: 'ERR_BAD_REQUEST',
+  config: [Object: null prototype] {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false,
+      legacyInterceptorReqResOrdering: true
+    },
+    adapter: [ 'xhr', 'http', 'fetch' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 15000,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': undefined,
+      'User-Agent': 'Mozilla/5.0',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    proxy: false,
+    maxRedirects: 10,
+    method: 'get',
+    url: 'https://www.godrejenterprises.com/home-appliances',
+    allowAbsoluteUrls: true,
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    _header: 'GET /home-appliances HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: Mozilla/5.0\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: www.godrejenterprises.com\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: false,
+    joinDuplicateHeaders: undefined,
+    path: '/home-appliances',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 403,
+      statusMessage: 'Forbidden',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'https://www.godrejenterprises.com/home-appliances',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 18,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'www.godrejenterprises.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _eventsCount: 4,
+      _onNativeResponse: [Function (anonymous)],
+      _headerFilter: /^(?:Authorization|Proxy-Authorization|Cookie)$/i,
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://www.godrejenterprises.com/home-appliances',
+      _timeout: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kChunkedBuffer)]: [],
+    [Symbol(kChunkedLength)]: 0,
+    [Symbol(kSocket)]: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'www.godrejenterprises.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'www.godrejenterprises.com',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      autoSelectFamilyAttemptedAddresses: [Array],
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 4789,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 446,
+        [Symbol(triggerId)]: 444,
+        [Symbol(kAsyncContextFrame)]: undefined,
+        [Symbol(kResourceStore)]: undefined
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(axios.http.socketListener)]: true,
+      [Symbol(axios.http.currentReq)]: [Writable]
+    },
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 403,
+    statusText: 'Forbidden',
+    headers: Object [AxiosHeaders] {
+      server: 'CloudFront',
+      date: 'Fri, 12 Jun 2026 06:39:58 GMT',
+      'content-type': 'text/html',
+      'content-length': '919',
+      connection: 'keep-alive',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 303e917d845d3965f206781fd60fa0d4.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'BLR50-P4',
+      'x-amz-cf-id': '5Hcj55ZZ0GoykPpdCbuDIteZ9h9eLvGX6hPLeQe5IOmQgQ5h0hlrlQ=='
+    },
+    config: [Object: null prototype] {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 15000,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      proxy: false,
+      maxRedirects: 10,
+      method: 'get',
+      url: 'https://www.godrejenterprises.com/home-appliances',
+      allowAbsoluteUrls: true,
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      _header: 'GET /home-appliances HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: Mozilla/5.0\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: www.godrejenterprises.com\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: false,
+      joinDuplicateHeaders: undefined,
+      path: '/home-appliances',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'www.godrejenterprises.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [TLSSocket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">\n' +
+      '<HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">\n' +
+      '<TITLE>ERROR: The request could not be satisfied</TITLE>\n' +
+      '</HEAD><BODY>\n' +
+      '<H1>403 ERROR</H1>\n' +
+      '<H2>The request could not be satisfied.</H2>\n' +
+      '<HR noshade size="1px">\n' +
+      'Request blocked.\n' +
+      "We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\n" +
+      '<BR clear="all">\n' +
+      'If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\n' +
+      '<BR clear="all">\n' +
+      '<HR noshade size="1px">\n' +
+      '<PRE>\n' +
+      'Generated by cloudfront (CloudFront)\n' +
+      'Request ID: 5Hcj55ZZ0GoykPpdCbuDIteZ9h9eLvGX6hPLeQe5IOmQgQ5h0hlrlQ==\n' +
+      '</PRE>\n' +
+      '<ADDRESS>\n' +
+      '</ADDRESS>\n' +
+      '</BODY></HTML>'
+  },
+  status: 403
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  title: 'Home Appliances – Refrigerators, Washing Machines & ACs | Godrej Enterprises',
+  blocked: false,
+  reason: null
+}
+Gemini ALLOWED
+{
+  status: 200,
+  title: 'Home Appliances – Refrigerators, Washing Machines & ACs | Godrej Enterprises',
+  blocked: false,
+  reason: null
+}
+Copilot ALLOWED
+{
+  status: 200,
+  title: 'Home Appliances – Refrigerators, Washing Machines & ACs | Godrej Enterprises',
+  blocked: false,
+  reason: null
+}
+OAI-SearchBot BLOCKED (request blocked)
+{
+  status: 403,
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'request blocked'
+}
+ChatGPT-User BLOCKED (request blocked)
+{
+  status: 403,
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'request blocked'
+}
+Google StoreBot Desktop BLOCKED (request blocked)
+{
+  status: 403,
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'request blocked'
+}
+Google StoreBot Mobile BLOCKED (request blocked)
+{
+  status: 403,
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'request blocked'
+}
+
+BOT AUDIT COMPLETE
+
+
+Audit process exited with code 1

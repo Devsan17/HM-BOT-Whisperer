@@ -1,0 +1,12 @@
+{
+  "id": "fc4da2eb-ce4f-488a-ad6a-cfab784aa54d",
+  "url": "https://www.godrejenterprises.com/home-appliances",
+  "status": "failed",
+  "progress": 100,
+  "step": "Audit failed",
+  "createdAt": "2026-06-12T06:35:19.727Z",
+  "updatedAt": "2026-06-12T06:37:27.725Z",
+  "error": "Audit process exited with code 1",
+  "reportPath": null,
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\fc4da2eb-ce4f-488a-ad6a-cfab784aa54d\\audit.log"
+}

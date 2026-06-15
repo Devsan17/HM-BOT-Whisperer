@@ -64,6 +64,37 @@ function writeJobStatus(jobId, status) {
   );
 }
 
+export async function GET() {
+  ensureDir(jobsDir);
+
+  const entries = fs
+    .readdirSync(jobsDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => {
+      const statusPath = path.join(jobsDir, entry.name, "status.json");
+      if (!fs.existsSync(statusPath)) {
+        return null;
+      }
+
+      return JSON.parse(fs.readFileSync(statusPath, "utf-8"));
+    })
+    .filter(Boolean)
+    .sort(
+      (a, b) =>
+        new Date(b.updatedAt || b.createdAt || 0).getTime() -
+        new Date(a.updatedAt || a.createdAt || 0).getTime()
+    );
+
+  const activeJob =
+    entries.find((entry) => entry.status === "queued" || entry.status === "running") || null;
+
+  return NextResponse.json({
+    ok: true,
+    activeJob,
+    latestJob: entries[0] || null,
+  });
+}
+
 export async function POST(request) {
   try {
     const body = await request.json();

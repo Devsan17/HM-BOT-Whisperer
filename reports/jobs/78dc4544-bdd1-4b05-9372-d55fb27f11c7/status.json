@@ -1,0 +1,12 @@
+{
+  "id": "78dc4544-bdd1-4b05-9372-d55fb27f11c7",
+  "url": "https://www.godrejenterprises.com/home-appliances/air-conditioners",
+  "status": "failed",
+  "progress": 100,
+  "step": "Audit failed",
+  "createdAt": "2026-06-12T06:53:40.109Z",
+  "updatedAt": "2026-06-12T06:55:45.650Z",
+  "error": "Audit process exited with code 1",
+  "reportPath": null,
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\78dc4544-bdd1-4b05-9372-d55fb27f11c7\\audit.log"
+}

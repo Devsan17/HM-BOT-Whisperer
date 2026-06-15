@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import {
   ArrowUpRight,
   Bot,
@@ -11,6 +12,14 @@ import {
   TerminalSquare,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
+import chatgptLogo from "../ailogo/chatgpt.png";
+import claudeLogo from "../ailogo/Claude.png";
+import copilotLogo from "../ailogo/Copilot.png";
+import deepseekLogo from "../ailogo/deepseek.png";
+import geminiLogo from "../ailogo/Gemini.png";
+import grokLogo from "../ailogo/grok.png";
+import metaAiLogo from "../ailogo/metaai.png";
+import perplexityLogo from "../ailogo/perplexity.png";
 
 const scanSteps = [
   "Starting audit worker...",
@@ -22,6 +31,74 @@ const scanSteps = [
   "Checking Core Web Vitals and performance",
   "Testing AI bot crawlability",
   "Finalizing report output",
+];
+
+const heroLogos = [
+  {
+    alt: "ChatGPT",
+    className: "left-[12%] top-[20%]",
+    delay: 0,
+    duration: 7,
+    size: 64,
+    src: chatgptLogo,
+  },
+  {
+    alt: "Claude",
+    className: "right-[14%] top-[20%]",
+    delay: 0.6,
+    duration: 8,
+    size: 62,
+    src: claudeLogo,
+  },
+  {
+    alt: "Copilot",
+    className: "left-[16%] bottom-[14%]",
+    delay: 1.1,
+    duration: 7.5,
+    size: 66,
+    src: copilotLogo,
+  },
+  {
+    alt: "Gemini",
+    className: "right-[12%] bottom-[14%]",
+    delay: 1.7,
+    duration: 8.5,
+    size: 60,
+    src: geminiLogo,
+  },
+  {
+    alt: "Grok",
+    className: "left-[18%] top-[40%]",
+    delay: 0.9,
+    duration: 9,
+    size: 72,
+    src: grokLogo,
+  },
+  {
+    alt: "Perplexity",
+    className: "right-[16%] top-[40%]",
+    delay: 1.4,
+    duration: 7.8,
+    imageClassName: "scale-125 saturate-150 contrast-150",
+    size: 72,
+    src: perplexityLogo,
+  },
+  {
+    alt: "Meta AI",
+    className: "left-[30%] top-[24%]",
+    delay: 2.1,
+    duration: 8.8,
+    size: 64,
+    src: metaAiLogo,
+  },
+  {
+    alt: "DeepSeek",
+    className: "right-[28%] top-[24%]",
+    delay: 2.5,
+    duration: 8.2,
+    size: 64,
+    src: deepseekLogo,
+  },
 ];
 
 function cn(...values) {
@@ -215,11 +292,14 @@ function ReadinessGauge({ score }) {
                   {safeScore}
                   <span className={cn("text-xl", tone.valueSubtone)}>/100</span>
                 </p>
-                <p className="mt-1 text-2xl font-semibold text-slate-900">{tone.label}</p>
               </div>
             </div>
 
-            <div className="mt-2 px-3">
+            <div className="mt-1 text-center">
+              <p className="text-2xl font-semibold text-slate-900">{tone.label}</p>
+            </div>
+
+            <div className="mt-3 px-3">
               <div
                 className={cn(
                   "rounded-[16px] border px-4 py-3 text-center text-sm leading-5 backdrop-blur-sm",
@@ -401,7 +481,7 @@ function RawJsonCard({ data }) {
   );
 }
 
-export default function DashboardShell({ initialReport }) {
+export default function DashboardShell({ initialReport, initialActiveJob }) {
   const [report, setReport] = useState(initialReport);
   const [url, setUrl] = useState(initialReport.targetUrl);
   const [isScanning, setIsScanning] = useState(false);
@@ -411,6 +491,30 @@ export default function DashboardShell({ initialReport }) {
   const [currentJobId, setCurrentJobId] = useState("");
   const [jobProgress, setJobProgress] = useState(0);
   const [jobLogs, setJobLogs] = useState("");
+  const [activeJob, setActiveJob] = useState(initialActiveJob);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadJobState() {
+      try {
+        const response = await fetch("/api/jobs", { cache: "no-store" });
+        const payload = await response.json();
+
+        if (!cancelled && payload.ok) {
+          setActiveJob(payload.activeJob || null);
+        }
+      } catch {
+        // Keep the initial server-rendered state if this refresh fails.
+      }
+    }
+
+    loadJobState();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     if (!isScanning || !currentJobId) {
@@ -437,6 +541,12 @@ export default function DashboardShell({ initialReport }) {
         if (payload.status) {
           setScanStatus(payload.status.step || "Running audit");
           setJobProgress(payload.status.progress || 0);
+          setActiveJob({
+            id: payload.status.id || currentJobId,
+            url: payload.status.url || url,
+            status: payload.status.status || "running",
+            step: payload.status.step || "Running audit",
+          });
           setScanIndex(
             Math.min(
               scanSteps.length - 1,
@@ -453,6 +563,7 @@ export default function DashboardShell({ initialReport }) {
           setUrl(payload.report.targetUrl);
           setScanStatus("Scan completed");
           setJobProgress(100);
+          setActiveJob(null);
           setIsScanning(false);
           setCurrentJobId("");
           return;
@@ -461,6 +572,7 @@ export default function DashboardShell({ initialReport }) {
         if (payload.status?.status === "failed") {
           setRunError(payload.status.error || "The audit job failed.");
           setScanStatus("Scan failed");
+          setActiveJob(null);
           setIsScanning(false);
           setCurrentJobId("");
           return;
@@ -471,6 +583,7 @@ export default function DashboardShell({ initialReport }) {
         if (!cancelled) {
           setRunError(error.message || "Unable to poll the audit job.");
           setScanStatus("Scan failed");
+          setActiveJob(null);
           setIsScanning(false);
           setCurrentJobId("");
         }
@@ -508,6 +621,12 @@ export default function DashboardShell({ initialReport }) {
       }
 
       setCurrentJobId(payload.jobId);
+      setActiveJob({
+        id: payload.jobId,
+        url: payload.url,
+        status: payload.status,
+        step: "Queued",
+      });
       setScanStatus("Queued for execution");
     } catch (error) {
       setRunError(error.message || "Unable to start the audit.");
@@ -581,33 +700,76 @@ export default function DashboardShell({ initialReport }) {
   );
 
   return (
-    <main className="min-h-screen bg-[linear-gradient(180deg,#f8fafc_0%,#eef2f7_100%)] text-slate-950">
-      <div className="mx-auto flex max-w-[1600px] flex-col gap-8 px-4 py-6 sm:px-6 lg:px-8">
-        <section className="rounded-[32px] border border-slate-200/80 bg-white/90 p-6 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.28)] sm:p-8">
-          <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200">
-                <ListTree className="size-3.5" />
-                Auditer
-              </div>
-              <div className="space-y-3">
-                <h1 className="text-4xl font-semibold tracking-[-0.04em] text-slate-950 sm:text-5xl">
-                  AI Tech Audit.
+    <main className="min-h-screen bg-[linear-gradient(180deg,#f5fcff_0%,#eef9ff_48%,#f9fbff_100%)] text-slate-950">
+      <div className="flex w-full flex-col gap-8 px-4 py-6 sm:px-6 lg:px-8">
+        <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden rounded-[32px] border border-white/70 bg-[linear-gradient(180deg,rgba(255,255,255,0.96)_0%,rgba(248,251,255,0.98)_100%)] p-6 shadow-[0_28px_90px_-42px_rgba(59,130,246,0.18)] sm:min-h-[760px] sm:p-8">
+          <div className="pointer-events-none absolute inset-0 opacity-60 [background-image:linear-gradient(rgba(148,163,184,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(148,163,184,0.08)_1px,transparent_1px)] [background-size:72px_72px]" />
+          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_16%_12%,rgba(125,211,252,0.26),transparent_24%),radial-gradient(circle_at_84%_8%,rgba(147,197,253,0.24),transparent_22%),radial-gradient(circle_at_50%_34%,rgba(96,165,250,0.18),transparent_20%),radial-gradient(circle_at_50%_86%,rgba(186,230,253,0.22),transparent_24%)]" />
+          <div className="pointer-events-none absolute inset-x-[18%] bottom-[-8%] h-[40%] rounded-full bg-[radial-gradient(circle,rgba(59,130,246,0.14)_0%,rgba(59,130,246,0.05)_42%,transparent_74%)] blur-3xl" />
+          {heroLogos.map((logo, index) => (
+            <motion.div
+              animate={{
+                x: [0, 14, -10, 6, 0],
+                rotate: [-4, 3, -3, 2, -4],
+                scale: [1, 1.06, 0.97, 1.03, 1],
+                y: [0, -14, 8, -6, 0],
+              }}
+              className={cn(
+                "pointer-events-none absolute z-10 rounded-[18px] border border-sky-100/95 bg-white/96 p-2.5 shadow-[0_20px_40px_-24px_rgba(59,130,246,0.3),0_0_0_1px_rgba(255,255,255,0.95)] backdrop-blur-md sm:rounded-[22px] sm:p-3",
+                logo.className
+              )}
+              initial={false}
+              key={logo.alt}
+              transition={{
+                delay: logo.delay,
+                duration: logo.duration,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatType: "mirror",
+              }}
+            >
+              <Image
+                alt={logo.alt}
+                className={cn(
+                  "select-none opacity-100 drop-shadow-[0_10px_18px_rgba(15,23,42,0.12)] saturate-125 contrast-125",
+                  logo.imageClassName
+                )}
+                draggable={false}
+                height={logo.size}
+                priority={index < 2}
+                src={logo.src}
+                width={logo.size}
+              />
+            </motion.div>
+          ))}
+          <div className="relative z-20 mx-auto flex w-full max-w-[1240px] flex-col items-center justify-center gap-6 py-6 sm:gap-7 sm:py-10">
+            <div className="w-full space-y-2 text-center">
+              <div className="relative mx-auto max-w-4xl space-y-2">
+                <p className="text-4xl font-semibold tracking-[-0.06em] text-slate-950 sm:text-6xl">
+                  <span>BOT Whisperer</span>
+                </p>
+                <h1 className="text-base font-medium tracking-[-0.02em] text-slate-500 sm:text-xl">
+                  AI Readiness Audit.
                 </h1>
                 {/* <p className="max-w-2xl text-base leading-7 text-slate-600">
                   This screen now removes predicted scores, narratives, and extra recommendations.
                   It renders the audit sections, worker logs, bot results, and raw report data.
                 </p> */}
               </div>
-              <div className="flex flex-col gap-3 rounded-[24px] border border-slate-200/80 bg-slate-50/70 p-4 sm:flex-row sm:items-center">
+            </div>
+            <div className="relative mx-auto w-full max-w-[860px] overflow-hidden rounded-[24px] bg-white p-[2px] shadow-[0_0_0_1px_rgba(96,165,250,0.42),0_18px_40px_-26px_rgba(59,130,246,0.22)]">
+              <motion.div
+                animate={{ rotate: 360 }}
+                className="absolute inset-[-35%] bg-[conic-gradient(from_0deg,rgba(255,255,255,0.06)_0deg,rgba(255,59,48,0.72)_72deg,rgba(255,204,0,0.58)_108deg,rgba(52,199,89,0.68)_144deg,rgba(10,132,255,0.82)_198deg,rgba(191,90,242,0.72)_252deg,rgba(255,45,85,0.64)_306deg,rgba(255,255,255,0.06)_360deg)]"
+                transition={{ duration: 5, ease: "linear", repeat: Infinity }}
+              />
+              <div className="relative flex flex-col gap-3 rounded-[23px] border border-sky-100 bg-white p-3 sm:flex-row sm:items-end">
                 <div className="flex-1">
-                  <label className="mb-2 block text-xs font-medium uppercase tracking-[0.22em] text-slate-400">
-                    Target URL
-                  </label>
-                  <div className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3">
-                    <Globe className="size-4 text-slate-400" />
+                 
+                  <div className="flex items-center gap-3 rounded-2xl border border-sky-200 bg-white px-4 py-2.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.8),0_10px_24px_-22px_rgba(59,130,246,0.18)]">
+                    <Globe className="size-4 text-sky-500" />
                     <input
-                      className="w-full bg-transparent text-sm text-slate-900 outline-none placeholder:text-slate-400"
+                      className="w-full bg-transparent text-sm font-medium text-slate-900 outline-none placeholder:text-slate-500"
                       onChange={(event) => setUrl(event.target.value)}
                       placeholder="https://example.com"
                       value={url}
@@ -615,7 +777,7 @@ export default function DashboardShell({ initialReport }) {
                   </div>
                 </div>
                 <button
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-3 text-sm font-medium text-white transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:bg-slate-400"
+                  className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-slate-950 px-5 py-2.5 text-sm font-medium text-white shadow-[0_14px_28px_-18px_rgba(15,23,42,0.35)] transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:bg-slate-300 sm:w-auto"
                   disabled={isScanning}
                   onClick={handleRunScan}
                   type="button"
@@ -624,42 +786,12 @@ export default function DashboardShell({ initialReport }) {
                   {isScanning ? "Running audit..." : "Run audit"}
                 </button>
               </div>
-              {runError ? (
-                <div className="rounded-[20px] border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
-                  {runError}
-                </div>
-              ) : null}
             </div>
-
-            <div className="rounded-[28px] border border-slate-200/80 bg-slate-50/80 p-5">
-              <p className="text-xs uppercase tracking-[0.2em] text-slate-400">Current report</p>
-              <div className="mt-4 space-y-3 text-sm text-slate-600">
-                <div className="flex items-center justify-between gap-3 rounded-[18px] bg-white px-4 py-3 ring-1 ring-slate-200">
-                  <span>Target URL</span>
-                  <span className="max-w-[65%] truncate font-medium text-slate-900">
-                    {report.targetUrl}
-                  </span>
-                </div>
-                <div className="flex items-center justify-between gap-3 rounded-[18px] bg-white px-4 py-3 ring-1 ring-slate-200">
-                  <span>Generated At</span>
-                  <span className="font-medium text-slate-900">
-                    {formatDate(report.generatedAt)}
-                  </span>
-                </div>
-                <div className="flex items-center justify-between gap-3 rounded-[18px] bg-white px-4 py-3 ring-1 ring-slate-200">
-                  <span>Job Status</span>
-                  <span className="font-medium text-slate-900">
-                    {isScanning ? scanStatus : "Idle"}
-                  </span>
-                </div>
-                <div className="flex items-center justify-between gap-3 rounded-[18px] bg-white px-4 py-3 ring-1 ring-slate-200">
-                  <span>Job ID</span>
-                  <span className="max-w-[65%] truncate font-medium text-slate-900">
-                    {currentJobId || "N/A"}
-                  </span>
-                </div>
+            {runError ? (
+              <div className="w-full max-w-[1120px] rounded-[20px] border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
+                {runError}
               </div>
-            </div>
+            ) : null}
           </div>
         </section>
 
@@ -779,6 +911,30 @@ export default function DashboardShell({ initialReport }) {
           {summaryCards.map((card) => (
             <SummaryCard key={card.label} {...card} />
           ))}
+        </section>
+
+        <section className="grid gap-4 xl:grid-cols-2">
+          <div className="rounded-[24px] border border-slate-200/80 bg-white/90 p-5 shadow-[0_10px_30px_-18px_rgba(15,23,42,0.18)]">
+            <p className="text-sm text-slate-500">Loaded Report</p>
+            <p className="mt-2 break-all text-lg font-semibold tracking-tight text-slate-950">
+              {report.targetUrl || "N/A"}
+            </p>
+            <div className="mt-3 space-y-1 text-sm text-slate-600">
+              <p>Generated: {formatDate(report.generatedAt)}</p>
+              <p>Source file: {report.reportPath || "N/A"}</p>
+            </div>
+          </div>
+          <div className="rounded-[24px] border border-slate-200/80 bg-white/90 p-5 shadow-[0_10px_30px_-18px_rgba(15,23,42,0.18)]">
+            <p className="text-sm text-slate-500">Current Audit Job</p>
+            <p className="mt-2 break-all text-lg font-semibold tracking-tight text-slate-950">
+              {activeJob?.url || "No active audit running"}
+            </p>
+            <div className="mt-3 space-y-1 text-sm text-slate-600">
+              <p>Status: {activeJob?.status || "idle"}</p>
+              <p>Step: {activeJob?.step || "N/A"}</p>
+              <p>Job ID: {activeJob?.id || "N/A"}</p>
+            </div>
+          </div>
         </section>
 
         <section className="space-y-6">

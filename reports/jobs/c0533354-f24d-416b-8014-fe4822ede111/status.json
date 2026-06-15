@@ -1,0 +1,12 @@
+{
+  "id": "c0533354-f24d-416b-8014-fe4822ede111",
+  "url": "https://www.godrejenterprises.com/home-appliances",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-06-12T08:35:07.797Z",
+  "updatedAt": "2026-06-12T08:37:18.406Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\c0533354-f24d-416b-8014-fe4822ede111\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\c0533354-f24d-416b-8014-fe4822ede111\\audit.log"
+}

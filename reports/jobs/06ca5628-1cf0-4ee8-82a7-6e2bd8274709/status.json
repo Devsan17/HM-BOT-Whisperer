@@ -1,0 +1,12 @@
+{
+  "id": "06ca5628-1cf0-4ee8-82a7-6e2bd8274709",
+  "url": "https://www.godrejenterprises.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-06-12T07:25:33.541Z",
+  "updatedAt": "2026-06-12T07:27:45.390Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\06ca5628-1cf0-4ee8-82a7-6e2bd8274709\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\06ca5628-1cf0-4ee8-82a7-6e2bd8274709\\audit.log"
+}
