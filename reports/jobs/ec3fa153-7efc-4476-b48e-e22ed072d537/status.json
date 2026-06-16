@@ -1,0 +1,12 @@
+{
+  "id": "ec3fa153-7efc-4476-b48e-e22ed072d537",
+  "url": "https://www.zenskar.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-06-16T07:26:28.251Z",
+  "updatedAt": "2026-06-16T07:29:51.313Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\ec3fa153-7efc-4476-b48e-e22ed072d537\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\ec3fa153-7efc-4476-b48e-e22ed072d537\\audit.log"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "db0af8aa-1ea7-4b14-b13b-43b2b67fd1fd",
+  "url": "https://interio.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-06-16T13:07:18.024Z",
+  "updatedAt": "2026-06-16T13:09:30.670Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\db0af8aa-1ea7-4b14-b13b-43b2b67fd1fd\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\db0af8aa-1ea7-4b14-b13b-43b2b67fd1fd\\audit.log"
+}

@@ -114,17 +114,17 @@ function formatDate(value) {
 }
 
 function getBotState(bot) {
-  if (bot.error) {
-    return {
-      label: "Failed",
-      tone: "bg-amber-100 text-amber-700 ring-amber-200",
-    };
-  }
-
   if (bot.blocked) {
     return {
       label: "Blocked",
       tone: "bg-rose-100 text-rose-700 ring-rose-200",
+    };
+  }
+
+  if (bot.error || bot.success === false) {
+    return {
+      label: "Failed",
+      tone: "bg-amber-100 text-amber-700 ring-amber-200",
     };
   }
 
@@ -664,9 +664,9 @@ export default function DashboardShell({ initialReport, initialActiveJob }) {
   ];
 
   const summaryCards = useMemo(() => {
-    const allowed = bots.filter((bot) => !bot.blocked && !bot.error).length;
+    const allowed = bots.filter((bot) => bot.success === true && !bot.blocked).length;
     const blocked = bots.filter((bot) => bot.blocked).length;
-    const failed = bots.filter((bot) => bot.error).length;
+    const failed = bots.filter((bot) => !bot.blocked && (bot.error || bot.success === false)).length;
     const labels =
       report.seoSecurityAudit?.accessibility?.missingAccessibleLabels ?? "N/A";
 

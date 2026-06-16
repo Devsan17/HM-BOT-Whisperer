@@ -1,0 +1,208 @@
+Starting audit for https://www.zenskar.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.zenskar.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+Copilot FAILED
+page.goto: net::ERR_NETWORK_CHANGED at https://www.zenskar.com/
+Call log:
+[2m  - navigating to "https://www.zenskar.com/", waiting until "domcontentloaded"[22m
+
+
+Retrying Copilot (attempt 2/2)
+
+Testing Copilot
+Browser-visible page loaded (200, AI-Native Revenue Automation | Zenskar)
+CANONICAL CHECK
+
+Canonical Found: https://www.zenskar.com/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema found
+Breadcrumb schema missing
+SoftwareApplication schema found
+Organization schema missing
+Article schema missing
+WebPage schema missing
+WebSite schema missing
+Software/Application schema found
+Detected schema types: Answer, Clip, FAQPage, PostalAddress, Question, SoftwareApplication, VideoObject
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP enabled
+X-Frame-Options enabled
+X-Content-Type-Options missing
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+No common admin URLs exposed
+
+============================
+LLMS.TXT CHECK
+============================
+
+llms.txt found
+Title found
+Description found
+86 links found
+
+============================
+META TAG CHECKS
+============================
+
+Missing OG tags: og:url
+Twitter cards found
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (nav, main, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+10 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+✅ Optimized title (38 chars)
+✅ Optimized meta description (149 chars)
+✅ Optimized H1
+✅ H2 Count: 8
+✅ H3 Count: 20
+✅ Proper heading hierarchy
+✅ Answer-style content found
+✅ Content length good (7462 words)
+❌ No definitions found
+✅ Comparisons found
+✅ Bullet points found (89)
+✅ Multimedia found (Images: 103, Videos: 5)
+❌ No summary section found
+❌ No freshness signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  title: 'AI-Native Revenue Automation | Zenskar',
+  blocked: false,
+  reason: null
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  title: 'AI-Native Revenue Automation | Zenskar',
+  blocked: false,
+  reason: null
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  title: 'AI-Native Revenue Automation | Zenskar',
+  blocked: false,
+  reason: null
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  title: 'AI-Native Revenue Automation | Zenskar',
+  blocked: false,
+  reason: null
+}
+✅ Fast server response (5ms)
+❌ LCP Failed (3.85s)
+✅ CLS Passed (0.052)
+❌ Heavy JS blocking (549ms)
+✅ Compression enabled (gzip)
+✅ Performance Score: 50
+
+============================
+CRUX REAL USER DATA
+============================
+
+✅ INP Passed (142ms)
+✅ Real User LCP: 1.96s
+✅ Real User CLS: 0.000
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  title: 'AI-Native Revenue Automation | Zenskar',
+  blocked: false,
+  reason: null
+}
+Gemini ALLOWED
+{
+  status: 200,
+  title: 'AI-Native Revenue Automation | Zenskar',
+  blocked: false,
+  reason: null
+}
+Copilot ALLOWED
+{
+  status: 200,
+  title: 'AI-Native Revenue Automation | Zenskar',
+  blocked: false,
+  reason: null
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

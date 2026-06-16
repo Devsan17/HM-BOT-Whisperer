@@ -92,51 +92,64 @@ function formatHttpError(error, fallbackUrl) {
 }
 
 function detectBlock(html, status, title, bodyText) {
-  const content = `${html}\n${title}\n${bodyText}`.toLowerCase();
-  const patterns = [
+  const visibleContent = `${title}\n${bodyText}`.toLowerCase();
+  const htmlContent = (html || "").toLowerCase();
+  const visiblePatterns = [
     "access denied",
     "forbidden",
     "temporarily unavailable",
     "request blocked",
     "attention required",
-    "cf-browser-verification",
-    "checking your browser",
     "please wait while your request is being verified",
     "verify you are human",
-    "sucuri",
-    "akamai",
-    "datadome",
-    "perimeterx",
     "bot protection",
     "security check",
     "bad bot access attempt",
+    "not allowed",
+  ];
+  const htmlChallengePatterns = [
+    "cf-browser-verification",
+    "challenge-platform",
+    "captcha",
+    "/cdn-cgi/challenge-platform/",
+    "window._cf_chl_opt",
+    "datadomecaptcha",
+    "geo.captcha-delivery.com",
+    "please enable javascript and cookies to continue",
+    "checking your browser",
     "challenge-platform",
   ];
 
-  const matchedPattern = patterns.find((pattern) =>
-    content.includes(pattern)
+  const matchedVisiblePattern = visiblePatterns.find((pattern) =>
+    visibleContent.includes(pattern)
+  );
+  const matchedHtmlChallengePattern = htmlChallengePatterns.find((pattern) =>
+    htmlContent.includes(pattern)
   );
 
   const normalizedTitle = (title || "").toLowerCase();
   const suspiciousTitle =
     normalizedTitle.includes("access denied") ||
     normalizedTitle.includes("forbidden") ||
-    normalizedTitle.includes("attention required");
+    normalizedTitle.includes("attention required") ||
+    normalizedTitle.includes("not allowed");
 
   const tinyPage = (bodyText || "").trim().length < 50;
+  const challengeOnlyPage = tinyPage && Boolean(matchedHtmlChallengePattern);
 
   return {
     blocked:
       status === 401 ||
       status === 403 ||
       status === 429 ||
-      Boolean(matchedPattern) ||
+      Boolean(matchedVisiblePattern) ||
       suspiciousTitle ||
-      tinyPage,
+      challengeOnlyPage,
     reason:
-      matchedPattern ||
+      matchedVisiblePattern ||
+      matchedHtmlChallengePattern ||
       (suspiciousTitle ? "suspicious-title" : null) ||
-      (tinyPage ? "tiny-page" : null),
+      (challengeOnlyPage ? "challenge-page" : null),
   };
 }
 
@@ -283,6 +296,17 @@ async function runSeoSecurityAudit(url) {
       productOrService: null,
       organization: false,
       article: null,
+      webPage: false,
+      webSite: false,
+      softwareApplication: false,
+      person: false,
+      localBusiness: false,
+      foundTypes: [],
+      detectionMethods: {
+        jsonLd: false,
+        microdata: false,
+        rdfa: false,
+      },
     },
     security: {
       https: url.startsWith("https://"),
@@ -518,49 +542,151 @@ async function runSeoSecurityAudit(url) {
   console.log("SCHEMA CHECK");
   console.log("============================\n");
 
-  const schemaScripts = [];
+  const schemaEntries = [];
+
+  const normalizeSchemaType = (value) => {
+    if (typeof value !== "string") {
+      return null;
+    }
+
+    const trimmed = value.trim();
+    if (!trimmed) {
+      return null;
+    }
+
+    const withoutFragment = trimmed.split("#").pop();
+    const withoutQuery = withoutFragment.split("?")[0];
+    const parts = withoutQuery.split("/");
+    return parts[parts.length - 1] || withoutQuery;
+  };
+
+  const normalizeTypeList = (value) => {
+    const values = Array.isArray(value) ? value : [value];
+    return values
+      .map((entry) => normalizeSchemaType(entry))
+      .filter(Boolean);
+  };
+
+  const addSchemaEntry = (types, method, source) => {
+    const normalizedTypes = normalizeTypeList(types);
+    if (normalizedTypes.length === 0) {
+      return;
+    }
+
+    schemaEntries.push({
+      types: normalizedTypes,
+      method,
+      source,
+    });
+
+    if (method && Object.hasOwn(result.schema.detectionMethods, method)) {
+      result.schema.detectionMethods[method] = true;
+    }
+  };
+
+  const collectJsonLdEntries = (node) => {
+    if (!node || typeof node !== "object") {
+      return;
+    }
+
+    if (Array.isArray(node)) {
+      node.forEach((item) => collectJsonLdEntries(item));
+      return;
+    }
+
+    if (node["@type"]) {
+      addSchemaEntry(node["@type"], "jsonLd", "application/ld+json");
+    }
+
+    for (const value of Object.values(node)) {
+      if (value && typeof value === "object") {
+        collectJsonLdEntries(value);
+      }
+    }
+  };
 
   $('script[type="application/ld+json"]').each((_, element) => {
     try {
-      const json = JSON.parse($(element).html());
-      if (Array.isArray(json)) {
-        schemaScripts.push(...json);
-      } else if (json["@graph"]) {
-        schemaScripts.push(...json["@graph"]);
-      } else {
-        schemaScripts.push(json);
+      const raw = $(element).html();
+      if (!raw) {
+        return;
       }
+
+      const json = JSON.parse(raw);
+      collectJsonLdEntries(json);
     } catch {}
   });
 
-  const findSchema = (types) =>
-    schemaScripts.find((item) => {
-      const type = item["@type"];
-      if (!type) {
-        return false;
-      }
+  $("[itemscope][itemtype]").each((_, element) => {
+    addSchemaEntry($(element).attr("itemtype"), "microdata", "itemtype");
+  });
 
-      if (Array.isArray(type)) {
-        return type.some((entry) => types.includes(entry));
-      }
+  $("[typeof]").each((_, element) => {
+    const rdfaTypes = ($(element).attr("typeof") || "")
+      .split(/\s+/)
+      .map((entry) => entry.trim())
+      .filter(Boolean);
+    addSchemaEntry(rdfaTypes, "rdfa", "typeof");
+  });
 
-      return types.includes(type);
-    });
+  result.schema.foundTypes = Array.from(
+    new Set(schemaEntries.flatMap((entry) => entry.types))
+  ).sort((a, b) => a.localeCompare(b));
 
-  result.schema.faq = Boolean(findSchema(["FAQPage"]));
-  result.schema.breadcrumb = Boolean(findSchema(["BreadcrumbList"]));
+  const findSchema = (types) => {
+    const normalizedTargets = normalizeTypeList(types);
+    return schemaEntries.find((entry) =>
+      entry.types.some((type) => normalizedTargets.includes(type))
+    );
+  };
 
-  const productSchema = findSchema(["Product", "Service"]);
+  result.schema.faq = Boolean(findSchema(["FAQPage", "Question", "Answer"]));
+  result.schema.breadcrumb = Boolean(findSchema(["BreadcrumbList", "ListItem"]));
+
+  const productSchema = findSchema([
+    "Product",
+    "Service",
+    "SoftwareApplication",
+    "SaaS",
+  ]);
   result.schema.productOrService = productSchema
-    ? productSchema["@type"]
+    ? productSchema.types.find((type) =>
+        ["Product", "Service", "SoftwareApplication", "SaaS"].includes(type)
+      ) || productSchema.types[0]
     : null;
 
   result.schema.organization = Boolean(
-    findSchema(["Organization", "Corporation", "LocalBusiness"])
+    findSchema([
+      "Organization",
+      "Corporation",
+      "LocalBusiness",
+      "ProfessionalService",
+      "Person",
+    ])
   );
+  result.schema.localBusiness = Boolean(
+    findSchema(["LocalBusiness", "ProfessionalService"])
+  );
+  result.schema.person = Boolean(findSchema(["Person"]));
 
-  const articleSchema = findSchema(["Article", "BlogPosting", "NewsArticle"]);
-  result.schema.article = articleSchema ? articleSchema["@type"] : null;
+  const articleSchema = findSchema([
+    "Article",
+    "BlogPosting",
+    "NewsArticle",
+    "TechArticle",
+    "Report",
+  ]);
+  result.schema.article = articleSchema
+    ? articleSchema.types.find((type) =>
+        ["Article", "BlogPosting", "NewsArticle", "TechArticle", "Report"].includes(type)
+      ) || articleSchema.types[0]
+    : null;
+
+  result.schema.webPage = Boolean(findSchema(["WebPage", "CollectionPage", "AboutPage"]));
+  result.schema.webSite = Boolean(findSchema(["WebSite"]));
+  result.schema.softwareApplication = Boolean(
+    findSchema(["SoftwareApplication", "MobileApplication", "WebApplication"])
+  );
 
   console.log(result.schema.faq ? "FAQ schema found" : "FAQ schema missing");
   console.log(
@@ -582,6 +708,26 @@ async function runSeoSecurityAudit(url) {
     result.schema.article
       ? `${result.schema.article} schema found`
       : "Article schema missing"
+  );
+  console.log(
+    result.schema.webPage
+      ? "WebPage schema found"
+      : "WebPage schema missing"
+  );
+  console.log(
+    result.schema.webSite
+      ? "WebSite schema found"
+      : "WebSite schema missing"
+  );
+  console.log(
+    result.schema.softwareApplication
+      ? "Software/Application schema found"
+      : "Software/Application schema missing"
+  );
+  console.log(
+    result.schema.foundTypes.length
+      ? `Detected schema types: ${result.schema.foundTypes.join(", ")}`
+      : "No schema types detected"
   );
 
   console.log("\n============================");
