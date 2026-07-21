@@ -1,0 +1,12 @@
+{
+  "id": "6b7a8401-f8d5-4fdb-a769-e2bde125d94d",
+  "url": "https://www.fabindia.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-07-21T07:44:22.569Z",
+  "updatedAt": "2026-07-21T07:46:46.628Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\6b7a8401-f8d5-4fdb-a769-e2bde125d94d\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\6b7a8401-f8d5-4fdb-a769-e2bde125d94d\\audit.log"
+}

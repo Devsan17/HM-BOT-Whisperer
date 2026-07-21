@@ -1,0 +1,200 @@
+Starting audit for https://blackberrys.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://blackberrys.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, Buy Premium Formal & Wedding Suits for Men Online - Blackberrys)
+CANONICAL CHECK
+
+Canonical Found: https://blackberrys.com/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema found
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema missing
+Article schema missing
+WebPage schema missing
+WebSite schema missing
+Software/Application schema missing
+Detected schema types: Answer, FAQPage, MerchantReturnPolicy, OnlineStore, PostalAddress, Question, VideoObject
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP enabled
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+Exposed admin URLs detected
+ - /login (200)
+
+============================
+LLMS.TXT CHECK
+============================
+
+llms.txt found
+Title found
+Description found
+16 links found
+
+============================
+META TAG CHECKS
+============================
+
+Missing OG tags: og:image
+Missing Twitter tags: twitter:image
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (header, nav, main, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+36 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+✅ Optimized title (63 chars)
+❌ Poor meta description (106 chars)
+✅ Optimized H1
+✅ H2 Count: 8
+✅ H3 Count: 22
+❌ Poor heading hierarchy
+✅ Answer-style content found
+✅ Content length good (20792 words)
+❌ No definitions found
+✅ Comparisons found
+✅ Bullet points found (122)
+✅ Multimedia found (Images: 121, Videos: 0)
+✅ Key takeaway/summary section found
+✅ Freshness/update signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+✅ Fast server response (24ms)
+✅ LCP Passed (1.58s)
+✅ CLS Passed (0.000)
+✅ Minimal JS blocking (0ms)
+✅ Compression enabled (br)
+✅ Performance Score: 94
+
+============================
+CRUX REAL USER DATA
+============================
+
+❌ INP Failed (201ms)
+✅ Real User LCP: 2.57s
+✅ Real User CLS: 0.000
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  title: 'Buy Premium Formal & Wedding Suits for Men Online - Blackberrys',
+  blocked: false,
+  reason: 'captcha'
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  title: 'Buy Premium Formal & Wedding Suits for Men Online - Blackberrys',
+  blocked: false,
+  reason: 'captcha'
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  title: 'Buy Premium Formal & Wedding Suits for Men Online - Blackberrys',
+  blocked: false,
+  reason: 'captcha'
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  title: 'Buy Premium Formal & Wedding Suits for Men Online - Blackberrys',
+  blocked: false,
+  reason: 'captcha'
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  title: 'Buy Premium Formal & Wedding Suits for Men Online - Blackberrys',
+  blocked: false,
+  reason: 'captcha'
+}
+Gemini ALLOWED
+{
+  status: 200,
+  title: 'Buy Premium Formal & Wedding Suits for Men Online - Blackberrys',
+  blocked: false,
+  reason: 'captcha'
+}
+Copilot ALLOWED
+{
+  status: 200,
+  title: 'Buy Premium Formal & Wedding Suits for Men Online - Blackberrys',
+  blocked: false,
+  reason: 'captcha'
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/dev-server.js",
     "build": "next build",
     "start": "next start"
   },

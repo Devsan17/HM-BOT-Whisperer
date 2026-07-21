@@ -60,6 +60,41 @@ function cleanFileName(name) {
   return name.replace(/[^a-z0-9]/gi, "_");
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function withRetry(task, options = {}) {
+  const {
+    retries = 1,
+    delayMs = 1500,
+    label = "Operation",
+    shouldRetry = () => true,
+  } = options;
+
+  let lastError = null;
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await task(attempt);
+    } catch (error) {
+      lastError = error;
+
+      if (attempt === retries || !shouldRetry(error, attempt)) {
+        break;
+      }
+
+      console.log(
+        `${label} failed (attempt ${attempt + 1}/${retries + 1}): ${error.message}`
+      );
+      console.log(`Retrying ${label.toLowerCase()}...`);
+      await sleep(delayMs);
+    }
+  }
+
+  throw lastError;
+}
+
 function formatHttpError(error, fallbackUrl) {
   const status = error?.response?.status;
   const statusText = error?.response?.statusText;
@@ -1284,9 +1319,22 @@ async function runSeoSecurityAudit(url) {
           url
         )}&key=${PAGE_SPEED_API_KEY}`;
 
-      const psiRes = await axios.get(psiUrl, {
-        timeout: 60000,
-      });
+      const psiRes = await withRetry(
+        () =>
+          axios.get(psiUrl, {
+            timeout: 120000,
+          }),
+        {
+          retries: 2,
+          delayMs: 3000,
+          label: "PageSpeed request",
+          shouldRetry: (error) =>
+            error?.code === "ECONNABORTED" ||
+            error?.message?.toLowerCase().includes("timeout") ||
+            (error?.response?.status >= 500 && error?.response?.status < 600) ||
+            error?.response?.status === 429,
+        }
+      );
 
       const lighthouse =
         psiRes.data.lighthouseResult;
@@ -1430,10 +1478,15 @@ async function runSeoSecurityAudit(url) {
     } catch (err) {
       result.performance.pageSpeed.success = false;
       result.performance.pageSpeed.error =
-        err.message;
+        err?.code === "ECONNABORTED" || err?.message?.toLowerCase().includes("timeout")
+          ? "PageSpeed API timed out after multiple attempts"
+          : err.message;
       console.log(
         "❌ Failed to fetch PageSpeed data"
       );
+      if (result.performance.pageSpeed.error) {
+        console.log(result.performance.pageSpeed.error);
+      }
     }
 
     // =====================================================

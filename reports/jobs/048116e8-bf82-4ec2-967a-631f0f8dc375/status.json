@@ -1,0 +1,12 @@
+{
+  "id": "048116e8-bf82-4ec2-967a-631f0f8dc375",
+  "url": "https://www.nivabupa.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-07-21T08:55:32.645Z",
+  "updatedAt": "2026-07-21T08:59:00.936Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\048116e8-bf82-4ec2-967a-631f0f8dc375\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\048116e8-bf82-4ec2-967a-631f0f8dc375\\audit.log"
+}

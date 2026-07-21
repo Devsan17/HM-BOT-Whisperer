@@ -1,0 +1,207 @@
+Starting audit for https://www.vijayadiagnostic.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.vijayadiagnostic.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics)
+CANONICAL CHECK
+
+Canonical Found: https://www.vijayadiagnostic.com
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema found
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema found
+Article schema missing
+WebPage schema missing
+WebSite schema missing
+Software/Application schema missing
+Detected schema types: Answer, ContactPoint, DiagnosticLab, FAQPage, MedicalOrganization, Organization, PostalAddress, Question
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP missing
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+Exposed admin URLs detected
+ - /wp-admin (200)
+ - /login (200)
+ - /dashboard (200)
+ - /phpmyadmin (200)
+
+============================
+LLMS.TXT CHECK
+============================
+
+llms.txt found
+Title missing
+Description found
+197 links found
+
+============================
+META TAG CHECKS
+============================
+
+Open Graph tags found
+Twitter cards found
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (nav, main, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+47 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (82 chars)
+✅ Optimized meta description (158 chars)
+❌ Invalid H1 count (2)
+✅ H2 Count: 15
+✅ H3 Count: 5
+❌ Poor heading hierarchy
+✅ Answer-style content found
+✅ Content length good (52954 words)
+✅ Definitions found
+✅ Comparisons found
+✅ Bullet points found (156)
+✅ Multimedia found (Images: 138, Videos: 0)
+✅ Key takeaway/summary section found
+❌ No freshness signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+Google StoreBot Mobile FAILED
+page.goto: Timeout 45000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.vijayadiagnostic.com/", waiting until "domcontentloaded"[22m
+
+
+Retrying Google StoreBot Mobile (attempt 2/2)
+
+Testing Google StoreBot Mobile
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  title: 'Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics',
+  blocked: false,
+  reason: null
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  title: 'Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics',
+  blocked: false,
+  reason: null
+}
+❌ Failed to fetch PageSpeed data
+
+============================
+CRUX REAL USER DATA
+============================
+
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  title: 'Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics',
+  blocked: false,
+  reason: null
+}
+✅ INP Passed (162ms)
+✅ Real User LCP: 3.38s
+✅ Real User CLS: 0.000
+Copilot ALLOWED
+{
+  status: 200,
+  title: 'Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics',
+  blocked: false,
+  reason: null
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  title: 'Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics',
+  blocked: false,
+  reason: null
+}
+Gemini ALLOWED
+{
+  status: 200,
+  title: 'Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics',
+  blocked: false,
+  reason: null
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  title: 'Book Advanced Radiology Scans & Lab Tests Online at Vijaya Diagnostics',
+  blocked: false,
+  reason: null
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

@@ -1,0 +1,12 @@
+{
+  "id": "ae189038-856f-4fd1-a33f-dc7de09dfedf",
+  "url": "https://www.vijayadiagnostic.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-07-06T12:37:17.314Z",
+  "updatedAt": "2026-07-06T12:41:12.383Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\ae189038-856f-4fd1-a33f-dc7de09dfedf\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\ae189038-856f-4fd1-a33f-dc7de09dfedf\\audit.log"
+}
