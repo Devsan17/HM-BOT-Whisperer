@@ -392,13 +392,22 @@ function BotTable({ bots }) {
 
 function BotEvidenceCard({ bot, assetVersion }) {
   const state = getBotState(bot);
+  const displayUrl = bot.displayUrl || bot.initialUrl || bot.testedUrl || bot.finalUrl || "N/A";
+  const laterUrl =
+    bot.navigatedAfterLoad && bot.finalUrl && bot.finalUrl !== displayUrl
+      ? bot.finalUrl
+      : null;
+  const displayTitle = bot.displayTitle || bot.title || bot.error || "N/A";
 
   return (
     <div className="rounded-[22px] border border-slate-200/80 bg-white/90 p-4 shadow-[0_10px_30px_-18px_rgba(15,23,42,0.18)]">
       <div className="mb-3 flex items-start justify-between gap-3">
         <div>
           <p className="text-sm font-semibold text-slate-900">{bot.bot}</p>
-          <p className="text-xs text-slate-500">{bot.finalUrl || bot.testedUrl || "N/A"}</p>
+          <p className="text-xs text-slate-500">{displayUrl}</p>
+          {laterUrl ? (
+            <p className="mt-1 text-[11px] text-amber-600">Later navigated to {laterUrl}</p>
+          ) : null}
         </div>
         <span
           className={cn(
@@ -450,7 +459,7 @@ function BotEvidenceCard({ bot, assetVersion }) {
       </div>
 
       <div className="mt-3 flex items-center justify-between text-sm">
-        <span className="truncate text-slate-500">{bot.title || "N/A"}</span>
+        <span className="truncate text-slate-500">{displayTitle}</span>
         {bot.htmlSnapshotFile ? (
           <a
             className="inline-flex items-center gap-1 font-medium text-sky-700 transition hover:text-sky-900"

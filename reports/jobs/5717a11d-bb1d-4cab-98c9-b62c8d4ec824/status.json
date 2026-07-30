@@ -1,0 +1,12 @@
+{
+  "id": "5717a11d-bb1d-4cab-98c9-b62c8d4ec824",
+  "url": "https://myraymond.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-07-28T06:19:30.470Z",
+  "updatedAt": "2026-07-28T06:22:36.542Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\5717a11d-bb1d-4cab-98c9-b62c8d4ec824\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\5717a11d-bb1d-4cab-98c9-b62c8d4ec824\\audit.log"
+}

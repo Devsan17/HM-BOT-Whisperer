@@ -1,0 +1,280 @@
+Starting audit for https://www.finnable.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+Direct robots.txt fetch failed: Request blocked by site protection (403 Forbidden)
+Falling back to browser-visible robots.txt
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.finnable.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.finnable.com/',
+  initialUrl: 'https://www.finnable.com/',
+  finalUrl: 'https://www.finnable.com/',
+  title: 'Finnable: Instant Loans, Free Credit Score & Financial Calculators',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.finnable.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Finnable: Instant Loans, Free Credit Score &amp; Financial Calculators'
+  }
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.finnable.com/',
+  initialUrl: 'https://www.finnable.com/',
+  finalUrl: 'https://www.finnable.com/',
+  title: 'Finnable: Instant Loans, Free Credit Score & Financial Calculators',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.finnable.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Finnable: Instant Loans, Free Credit Score &amp; Financial Calculators'
+  }
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.finnable.com/',
+  initialUrl: 'https://www.finnable.com/',
+  finalUrl: 'https://www.finnable.com/',
+  title: 'Finnable: Instant Loans, Free Credit Score & Financial Calculators',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.finnable.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Finnable: Instant Loans, Free Credit Score &amp; Financial Calculators'
+  }
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.finnable.com/',
+  initialUrl: 'https://www.finnable.com/',
+  finalUrl: 'https://www.finnable.com/',
+  title: 'Finnable: Instant Loans, Free Credit Score & Financial Calculators',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.finnable.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Finnable: Instant Loans, Free Credit Score &amp; Financial Calculators'
+  }
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.finnable.com/',
+  initialUrl: 'https://www.finnable.com/',
+  finalUrl: 'https://www.finnable.com/',
+  title: 'Finnable: Instant Loans, Free Credit Score & Financial Calculators',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.finnable.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Finnable: Instant Loans, Free Credit Score &amp; Financial Calculators'
+  }
+}
+Gemini ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.finnable.com/',
+  initialUrl: 'https://www.finnable.com/',
+  finalUrl: 'https://www.finnable.com/',
+  title: 'Finnable: Instant Loans, Free Credit Score & Financial Calculators',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.finnable.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Finnable: Instant Loans, Free Credit Score &amp; Financial Calculators'
+  }
+}
+Browser-visible page loaded (200, Finnable: Instant Loans, Free Credit Score & Financial Calculators)
+CANONICAL CHECK
+
+Canonical Found: https://www.finnable.com/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema found
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema found
+Article schema missing
+WebPage schema found
+WebSite schema found
+Software/Application schema found
+Detected schema types: AggregateRating, Answer, ContactPoint, FAQPage, ImageObject, Offer, Organization, PostalAddress, Question, WebApplication, WebPage, WebSite
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP missing
+X-Frame-Options missing
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+No common admin URLs exposed
+
+============================
+LLMS.TXT CHECK
+============================
+
+Direct llms.txt fetch failed: Request blocked by site protection (403 Forbidden)
+Falling back to browser-visible llms.txt
+Copilot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.finnable.com/',
+  initialUrl: 'https://www.finnable.com/',
+  finalUrl: 'https://www.finnable.com/',
+  title: 'Finnable: Instant Loans, Free Credit Score & Financial Calculators',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.finnable.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Finnable: Instant Loans, Free Credit Score &amp; Financial Calculators'
+  }
+}
+
+BOT AUDIT COMPLETE
+
+llms.txt found
+Title missing
+Description found
+1615 links found
+
+============================
+META TAG CHECKS
+============================
+
+Open Graph tags found
+Twitter cards found
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (main, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+7 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (66 chars)
+✅ Optimized meta description (157 chars)
+✅ Optimized H1
+✅ H2 Count: 4
+✅ H3 Count: 3
+✅ Proper heading hierarchy
+✅ Answer-style content found
+✅ Content length good (12404 words)
+✅ Definitions found
+✅ Comparisons found
+✅ Bullet points found (5)
+✅ Multimedia found (Images: 37, Videos: 4)
+❌ No summary section found
+✅ Freshness/update signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+✅ Fast server response (370ms)
+✅ LCP Passed (1.52s)
+✅ CLS Passed (0.035)
+✅ Minimal JS blocking (28ms)
+✅ Compression enabled (gzip)
+✅ Performance Score: 92
+
+============================
+CRUX REAL USER DATA
+============================
+
+❌ INP Failed (544ms)
+✅ Real User LCP: 2.02s
+✅ Real User CLS: 0.000
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

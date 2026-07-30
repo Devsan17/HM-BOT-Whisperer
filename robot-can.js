@@ -126,6 +126,47 @@ function formatHttpError(error, fallbackUrl) {
   };
 }
 
+function getHttpStatus(error) {
+  return error?.response?.status || null;
+}
+
+function isMissingTextResource(message, fileName) {
+  return message === `${fileName} not found`;
+}
+
+function isSameOriginUrl(referenceUrl, candidateUrl) {
+  try {
+    return new URL(referenceUrl).origin === new URL(candidateUrl).origin;
+  } catch {
+    return false;
+  }
+}
+
+function isRedirectStatus(status) {
+  return [301, 302, 303, 307, 308].includes(status);
+}
+
+function resolveRedirectUrl(baseUrl, location) {
+  if (!location) {
+    return null;
+  }
+
+  try {
+    return new URL(location, baseUrl).toString();
+  } catch {
+    return location;
+  }
+}
+
+function extractTitleFromHtml(html) {
+  if (typeof html !== "string") {
+    return null;
+  }
+
+  const match = html.match(/<title[^>]*>([^<]*)<\/title>/i);
+  return match?.[1]?.replace(/\s+/g, " ").trim() || null;
+}
+
 function detectBlock(html, status, title, bodyText) {
   const visibleContent = `${title}\n${bodyText}`.toLowerCase();
   const htmlContent = (html || "").toLowerCase();
@@ -202,6 +243,37 @@ async function fetchPageWithBrowser(url) {
   });
 
   try {
+    const preflightResponse = await axios.get(url, {
+      timeout: 10000,
+      proxy: false,
+      maxRedirects: 0,
+      validateStatus: () => true,
+      headers: {
+        "User-Agent": "Mozilla/5.0",
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      },
+    });
+    const preflightFinalUrl = resolveRedirectUrl(
+      url,
+      preflightResponse.headers?.location || null
+    );
+
+    if (
+      isRedirectStatus(preflightResponse.status) &&
+      preflightFinalUrl &&
+      !isSameOriginUrl(url, preflightFinalUrl)
+    ) {
+      return {
+        html: "",
+        headers: preflightResponse.headers || {},
+        status: preflightResponse.status,
+        finalUrl: preflightFinalUrl,
+        title: "",
+        fetchedWithBrowser: false,
+        redirectedOffOrigin: true,
+      };
+    }
+
     const context = await browser.newContext({
       userAgent: "Mozilla/5.0",
       viewport: {
@@ -215,12 +287,49 @@ async function fetchPageWithBrowser(url) {
 
     const page = await context.newPage();
     page.setDefaultNavigationTimeout(MAX_TIMEOUT);
+    let blockedNavigationUrl = null;
+
+    await page.route("**/*", async (route) => {
+      const request = route.request();
+      const isMainFrameDocument =
+        request.isNavigationRequest() &&
+        request.resourceType() === "document" &&
+        request.frame() === page.mainFrame();
+
+      if (isMainFrameDocument && !isSameOriginUrl(url, request.url())) {
+        blockedNavigationUrl = request.url();
+        await route.abort();
+        return;
+      }
+
+      await route.continue();
+    });
+
     await page.route("**/*.{woff,woff2,ttf,otf}", (route) => route.abort());
 
-    const response = await page.goto(url, {
-      waitUntil: "domcontentloaded",
-      timeout: MAX_TIMEOUT,
-    });
+    let response = null;
+
+    try {
+      response = await page.goto(url, {
+        waitUntil: "domcontentloaded",
+        timeout: MAX_TIMEOUT,
+      });
+    } catch (error) {
+      if (blockedNavigationUrl) {
+        await context.close();
+        return {
+          html: "",
+          headers: preflightResponse.headers || {},
+          status: preflightResponse.status,
+          finalUrl: blockedNavigationUrl,
+          title: "",
+          fetchedWithBrowser: false,
+          redirectedOffOrigin: true,
+        };
+      }
+
+      throw error;
+    }
 
     await page.waitForTimeout(3000);
 
@@ -240,6 +349,7 @@ async function fetchPageWithBrowser(url) {
       finalUrl,
       title,
       fetchedWithBrowser: true,
+      redirectedOffOrigin: false,
     };
   } finally {
     await browser.close();
@@ -433,6 +543,11 @@ async function runSeoSecurityAudit(url) {
       });
       robotsText = robotsRes.data;
     } catch (error) {
+      if (getHttpStatus(error) === 404) {
+        console.log("robots.txt not found");
+        throw new Error("robots.txt not found");
+      }
+
       const formatted = formatHttpError(error, robotsUrl);
       console.log(`Direct robots.txt fetch failed: ${formatted.message}`);
       console.log("Falling back to browser-visible robots.txt");
@@ -480,7 +595,9 @@ async function runSeoSecurityAudit(url) {
       console.log("No sitemap found");
     }
   } catch (error) {
-    result.robots.error = error.message;
+    if (!isMissingTextResource(error.message, "robots.txt")) {
+      result.robots.error = error.message;
+    }
     console.log("robots.txt missing");
   }
 
@@ -491,25 +608,38 @@ async function runSeoSecurityAudit(url) {
   let html;
   let headers;
   let finalUrl = url;
+  result.url = url;
+  result.baseUrl = new URL(url).origin;
 
   try {
     const browserFetch = await fetchPageWithBrowser(url);
-    html = browserFetch.html;
-    headers = browserFetch.headers;
-    finalUrl = browserFetch.finalUrl;
 
     result.fetch = {
-      success: browserFetch.status >= 200 && browserFetch.status < 400,
+      success:
+        browserFetch.status >= 200 &&
+        browserFetch.status < 400 &&
+        !browserFetch.redirectedOffOrigin,
       method: "browser",
       status: browserFetch.status,
       finalUrl: browserFetch.finalUrl,
       title: browserFetch.title || null,
       error:
-        browserFetch.status >= 400
+        browserFetch.redirectedOffOrigin
+          ? `Redirected off origin to ${browserFetch.finalUrl}`
+          : browserFetch.status >= 400
           ? `Browser-visible page returned ${browserFetch.status}`
           : null,
-      fetchedWithBrowser: true,
+      fetchedWithBrowser: browserFetch.fetchedWithBrowser,
     };
+
+    if (browserFetch.redirectedOffOrigin) {
+      console.log(`Browser-visible page redirected off origin to ${browserFetch.finalUrl}`);
+      throw new Error(`Redirected off origin to ${browserFetch.finalUrl}`);
+    }
+
+    html = browserFetch.html;
+    headers = browserFetch.headers;
+    finalUrl = browserFetch.finalUrl;
 
     console.log(
       `Browser-visible page loaded (${browserFetch.status}${browserFetch.title ? `, ${browserFetch.title}` : ""})`
@@ -864,6 +994,11 @@ async function runSeoSecurityAudit(url) {
       });
       llmsText = llmsRes.data;
     } catch (error) {
+      if (getHttpStatus(error) === 404) {
+        console.log("llms.txt not found");
+        throw new Error("llms.txt not found");
+      }
+
       const formatted = formatHttpError(error, llmsUrl);
       console.log(`Direct llms.txt fetch failed: ${formatted.message}`);
       console.log("Falling back to browser-visible llms.txt");
@@ -902,7 +1037,9 @@ async function runSeoSecurityAudit(url) {
       console.log("llms.txt appears too small");
     }
   } catch (error) {
-    result.llms.error = error.message;
+    if (!isMissingTextResource(error.message, "llms.txt")) {
+      result.llms.error = error.message;
+    }
     console.log("llms.txt missing");
   }
 
@@ -1597,6 +1734,15 @@ async function auditBot(browser, bot, url) {
   page.setDefaultNavigationTimeout(MAX_TIMEOUT);
 
   const networkLogs = [];
+  const documentNavigations = [];
+  let blockedNavigationUrl = null;
+
+  let preflight = {
+    status: null,
+    location: null,
+    finalUrl: null,
+    title: null,
+  };
 
   page.on("response", async (response) => {
     try {
@@ -1604,30 +1750,220 @@ async function auditBot(browser, bot, url) {
         url: response.url(),
         status: response.status(),
       });
+
+      if (response.request().resourceType() === "document") {
+        documentNavigations.push({
+          url: response.url(),
+          status: response.status(),
+        });
+      }
     } catch {}
   });
 
   try {
+    const preflightResponse = await axios.get(url, {
+      timeout: 10000,
+      proxy: false,
+      maxRedirects: 0,
+      validateStatus: () => true,
+      headers: {
+        "User-Agent": bot.userAgent,
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      },
+    });
+
+    preflight = {
+      status: preflightResponse.status,
+      location: preflightResponse.headers?.location || null,
+      finalUrl: resolveRedirectUrl(url, preflightResponse.headers?.location || null),
+      title: extractTitleFromHtml(preflightResponse.data),
+    };
+
+    if (preflight.status >= 400) {
+      const result = {
+        bot: bot.name,
+        testedUrl: url,
+        initialUrl: url,
+        finalUrl: url,
+        success: false,
+        status: preflight.status,
+        blocked: true,
+        blockReason: preflight.status === 429 ? "rate-limited" : `http-${preflight.status}`,
+        navigatedAfterLoad: false,
+        title: preflight.title,
+        h1: null,
+        canonical: null,
+        robotsMeta: null,
+        googlebotMeta: null,
+        loadTime: "0 ms",
+        totalRequests: 0,
+        server: preflightResponse.headers?.server || null,
+        xRobotsTag: preflightResponse.headers?.["x-robots-tag"] || null,
+        contentType: preflightResponse.headers?.["content-type"] || null,
+        cfRay: preflightResponse.headers?.["cf-ray"] || null,
+        documentNavigations: [{ url, status: preflight.status }],
+        renderedTextPreview:
+          typeof preflightResponse.data === "string"
+            ? preflightResponse.data.replace(/\s+/g, " ").trim().slice(0, 1500)
+            : "",
+        screenshot: null,
+        htmlSnapshot: null,
+        preflight,
+      };
+
+      console.log(`${bot.name} BLOCKED (${result.blockReason})`);
+      console.log({
+        status: result.status,
+        testedUrl: result.testedUrl,
+        initialUrl: result.initialUrl,
+        finalUrl: result.finalUrl,
+        title: result.title,
+        blocked: result.blocked,
+        reason: result.blockReason,
+        navigatedAfterLoad: result.navigatedAfterLoad,
+        documentNavigations: result.documentNavigations,
+        preflight: result.preflight,
+      });
+
+      await context.close();
+      return result;
+    }
+
+    if (
+      isRedirectStatus(preflight.status) &&
+      preflight.finalUrl &&
+      !isSameOriginUrl(url, preflight.finalUrl)
+    ) {
+      const result = {
+        bot: bot.name,
+        testedUrl: url,
+        initialUrl: url,
+        finalUrl: preflight.finalUrl,
+        success: false,
+        status: preflight.status,
+        blocked: true,
+        blockReason: "redirected-off-origin",
+        navigatedAfterLoad: false,
+        title: null,
+        h1: null,
+        canonical: null,
+        robotsMeta: null,
+        googlebotMeta: null,
+        loadTime: "0 ms",
+        totalRequests: 0,
+        server: preflightResponse.headers?.server || null,
+        xRobotsTag: preflightResponse.headers?.["x-robots-tag"] || null,
+        contentType: preflightResponse.headers?.["content-type"] || null,
+        cfRay: preflightResponse.headers?.["cf-ray"] || null,
+        documentNavigations: [{ url, status: preflight.status }],
+        renderedTextPreview: "",
+        screenshot: null,
+        htmlSnapshot: null,
+        preflight,
+      };
+
+      console.log(`${bot.name} BLOCKED (redirected-off-origin)`);
+      console.log({
+        status: result.status,
+        testedUrl: result.testedUrl,
+        initialUrl: result.initialUrl,
+        finalUrl: result.finalUrl,
+        title: result.title,
+        blocked: result.blocked,
+        reason: result.blockReason,
+        navigatedAfterLoad: result.navigatedAfterLoad,
+        documentNavigations: result.documentNavigations,
+        preflight: result.preflight,
+      });
+
+      await context.close();
+      return result;
+    }
+
+    await page.route("**/*", async (route) => {
+      const request = route.request();
+      const isMainFrameDocument =
+        request.isNavigationRequest() &&
+        request.resourceType() === "document" &&
+        request.frame() === page.mainFrame();
+
+      if (isMainFrameDocument && !isSameOriginUrl(url, request.url())) {
+        blockedNavigationUrl = request.url();
+        await route.abort();
+        return;
+      }
+
+      await route.continue();
+    });
+
     await page.route('**/*.{woff,woff2,ttf,otf}', (route) => route.abort());
 
     const start = Date.now();
-    const response = await page.goto(url, {
-      waitUntil: "domcontentloaded",
-      timeout: MAX_TIMEOUT,
-    });
+    let response = null;
 
-    await page.waitForTimeout(5000);
-    await page.evaluate(() => {
-      window.scrollTo(0, document.body.scrollHeight);
-    });
-    await page.waitForTimeout(2000);
+    try {
+      response = await page.goto(url, {
+        waitUntil: "domcontentloaded",
+        timeout: MAX_TIMEOUT,
+      });
+    } catch (error) {
+      if (blockedNavigationUrl) {
+        const result = {
+          bot: bot.name,
+          testedUrl: url,
+          initialUrl: url,
+          finalUrl: url,
+          success: true,
+          status: preflight.status,
+          blocked: false,
+          blockReason: null,
+          navigatedAfterLoad: false,
+          title: preflight.title,
+          h1: null,
+          canonical: null,
+          robotsMeta: null,
+          googlebotMeta: null,
+          loadTime: `${Date.now() - start} ms`,
+          totalRequests: networkLogs.length,
+          server: preflightResponse.headers?.server || null,
+          xRobotsTag: preflightResponse.headers?.["x-robots-tag"] || null,
+          contentType: preflightResponse.headers?.["content-type"] || null,
+          cfRay: preflightResponse.headers?.["cf-ray"] || null,
+          documentNavigations,
+          renderedTextPreview: "",
+          screenshot: null,
+          htmlSnapshot: null,
+          browserAttemptedOffOriginUrl: blockedNavigationUrl,
+          preflight,
+        };
+
+        console.log(`${bot.name} ALLOWED (validated on requested URL; browser tried off-origin navigation)`);
+        console.log({
+          status: result.status,
+          testedUrl: result.testedUrl,
+          initialUrl: result.initialUrl,
+          finalUrl: result.finalUrl,
+          title: result.title,
+          blocked: result.blocked,
+          reason: result.blockReason,
+          navigatedAfterLoad: result.navigatedAfterLoad,
+          documentNavigations: result.documentNavigations,
+          preflight: result.preflight,
+        });
+
+        await context.close();
+        return result;
+      }
+
+      throw error;
+    }
 
     const loadTime = Date.now() - start;
+    const initialUrl = page.url();
     const html = await page.content();
     const title = await page.title();
     const headers = response.headers();
     const status = response.status();
-    const finalUrl = page.url();
     const robotsMeta = await safeMeta(page, 'meta[name="robots"]');
     const googlebotMeta = await safeMeta(page, 'meta[name="googlebot"]');
     const canonical = await page
@@ -1640,6 +1976,18 @@ async function auditBot(browser, bot, url) {
     );
     const bodyText = await page.evaluate(() => document.body.innerText || "");
     const block = detectBlock(html, status, title, bodyText);
+    const redirectedOffOrigin = !isSameOriginUrl(url, initialUrl);
+    const blocked = block.blocked;
+    const blockReason = block.reason;
+
+    await page.waitForTimeout(5000);
+    await page.evaluate(() => {
+      window.scrollTo(0, document.body.scrollHeight);
+    });
+    await page.waitForTimeout(2000);
+
+    const postInteractionUrl = page.url();
+    const navigatedAfterLoad = postInteractionUrl !== initialUrl;
 
     const safeName = cleanFileName(bot.name);
     const screenshotPath = path.join(screenshotsDir, `${safeName}.png`);
@@ -1656,12 +2004,14 @@ async function auditBot(browser, bot, url) {
     const result = {
       bot: bot.name,
       testedUrl: url,
-      finalUrl,
-      success: status >= 200 && status < 400 && !block.blocked,
+      initialUrl: redirectedOffOrigin ? url : initialUrl,
+      finalUrl: redirectedOffOrigin ? url : initialUrl,
+      success: status >= 200 && status < 400 && !blocked,
       status,
-      blocked: block.blocked,
-      blockReason: block.reason,
-      title,
+      blocked,
+      blockReason,
+      navigatedAfterLoad: redirectedOffOrigin ? false : navigatedAfterLoad,
+      title: redirectedOffOrigin ? preflight.title : title,
       h1,
       canonical,
       robotsMeta,
@@ -1672,9 +2022,12 @@ async function auditBot(browser, bot, url) {
       xRobotsTag: headers["x-robots-tag"] || null,
       contentType: headers["content-type"] || null,
       cfRay: headers["cf-ray"] || null,
+      documentNavigations,
       renderedTextPreview: renderedText,
-      screenshot: screenshotPath,
-      htmlSnapshot: htmlPath,
+      screenshot: redirectedOffOrigin ? null : screenshotPath,
+      htmlSnapshot: redirectedOffOrigin ? null : htmlPath,
+      browserAttemptedOffOriginUrl: redirectedOffOrigin ? initialUrl : null,
+      preflight,
     };
 
     console.log(
@@ -1684,9 +2037,15 @@ async function auditBot(browser, bot, url) {
     );
     console.log({
       status: result.status,
+      testedUrl: result.testedUrl,
+      initialUrl: result.initialUrl,
+      finalUrl: result.finalUrl,
       title: result.title,
       blocked: result.blocked,
       reason: result.blockReason,
+      navigatedAfterLoad: result.navigatedAfterLoad,
+      documentNavigations: result.documentNavigations,
+      preflight: result.preflight,
     });
 
     await context.close();

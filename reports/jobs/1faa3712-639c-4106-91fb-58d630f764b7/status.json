@@ -1,0 +1,12 @@
+{
+  "id": "1faa3712-639c-4106-91fb-58d630f764b7",
+  "url": "https://www.charleskeith.in/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-07-28T05:00:49.364Z",
+  "updatedAt": "2026-07-28T05:02:58.595Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\1faa3712-639c-4106-91fb-58d630f764b7\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\1faa3712-639c-4106-91fb-58d630f764b7\\audit.log"
+}

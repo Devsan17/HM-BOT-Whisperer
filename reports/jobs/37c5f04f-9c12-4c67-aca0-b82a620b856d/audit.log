@@ -1,0 +1,224 @@
+Starting audit for https://myraymond.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://myraymond.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+Browser-visible page loaded (200, Google)
+CANONICAL CHECK
+
+No canonical tag found
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema missing
+Article schema missing
+WebPage schema found
+WebSite schema missing
+Software/Application schema missing
+Detected schema types: WebPage
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP enabled
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+Exposed admin URLs detected
+ - /dashboard (200)
+
+============================
+LLMS.TXT CHECK
+============================
+
+llms.txt not found
+llms.txt missing
+
+============================
+META TAG CHECKS
+============================
+
+Missing OG tags: og:title, og:description, og:image, og:url
+Missing Twitter tags: twitter:card, twitter:title, twitter:description, twitter:image
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+No semantic HTML tags found
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+11 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (6 chars)
+❌ Poor meta description (0 chars)
+❌ Invalid H1 count (0)
+✅ H2 Count: 0
+✅ H3 Count: 0
+✅ Proper heading hierarchy
+❌ No answer-style content
+✅ Content length good (361 words)
+❌ No definitions found
+✅ Comparisons found
+❌ Few/no bullet points
+✅ Multimedia found (Images: 1, Videos: 0)
+❌ No summary section found
+❌ No freshness signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://myraymond.com/',
+  initialUrl: 'https://myraymond.com/',
+  finalUrl: 'https://myraymond.com/',
+  title: 'Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false
+}
+✅ Fast server response (56ms)
+✅ LCP Passed (1.41s)
+✅ CLS Passed (0.001)
+❌ Heavy JS blocking (916ms)
+✅ Compression enabled (br)
+✅ Performance Score: 57.99999999999999
+
+============================
+CRUX REAL USER DATA
+============================
+
+❌ INP Failed (303ms)
+✅ Real User LCP: 2.49s
+✅ Real User CLS: 0.000
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://myraymond.com/',
+  initialUrl: 'https://myraymond.com/',
+  finalUrl: 'https://myraymond.com/',
+  title: 'Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false
+}
+Gemini ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://myraymond.com/',
+  initialUrl: 'https://myraymond.com/',
+  finalUrl: 'https://myraymond.com/',
+  title: 'Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false
+}
+OAI-SearchBot BLOCKED (redirected-off-origin)
+{
+  status: 200,
+  testedUrl: 'https://myraymond.com/',
+  initialUrl: 'https://www.google.com/',
+  finalUrl: 'https://www.google.com/',
+  title: 'Google',
+  blocked: true,
+  reason: 'redirected-off-origin',
+  navigatedAfterLoad: false
+}
+GPTBot BLOCKED (redirected-off-origin)
+{
+  status: 200,
+  testedUrl: 'https://myraymond.com/',
+  initialUrl: 'https://www.google.com/',
+  finalUrl: 'https://www.google.com/',
+  title: 'Google',
+  blocked: true,
+  reason: 'redirected-off-origin',
+  navigatedAfterLoad: false
+}
+ChatGPT-User BLOCKED (redirected-off-origin)
+{
+  status: 200,
+  testedUrl: 'https://myraymond.com/',
+  initialUrl: 'https://www.google.com/',
+  finalUrl: 'https://www.google.com/',
+  title: 'Google',
+  blocked: true,
+  reason: 'redirected-off-origin',
+  navigatedAfterLoad: false
+}
+Copilot BLOCKED (redirected-off-origin)
+{
+  status: 200,
+  testedUrl: 'https://myraymond.com/',
+  initialUrl: 'https://www.google.com/',
+  finalUrl: 'https://www.google.com/',
+  title: 'Google',
+  blocked: true,
+  reason: 'redirected-off-origin',
+  navigatedAfterLoad: false
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

@@ -1,0 +1,12 @@
+{
+  "id": "0db60392-9bc0-4c44-a0da-b23349970bac",
+  "url": "https://bandhan.bank.in/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-07-21T11:18:13.472Z",
+  "updatedAt": "2026-07-21T11:21:00.008Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\0db60392-9bc0-4c44-a0da-b23349970bac\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\0db60392-9bc0-4c44-a0da-b23349970bac\\audit.log"
+}

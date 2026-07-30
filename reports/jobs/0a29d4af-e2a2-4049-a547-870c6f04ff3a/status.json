@@ -1,0 +1,12 @@
+{
+  "id": "0a29d4af-e2a2-4049-a547-870c6f04ff3a",
+  "url": "https://www.finnable.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-07-28T10:02:25.017Z",
+  "updatedAt": "2026-07-28T10:05:13.046Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\0a29d4af-e2a2-4049-a547-870c6f04ff3a\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\0a29d4af-e2a2-4049-a547-870c6f04ff3a\\audit.log"
+}

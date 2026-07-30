@@ -1,0 +1,301 @@
+{
+  "targetUrl": "https://myraymond.com/",
+  "generatedAt": "2026-07-28T05:57:22.869Z",
+  "seoSecurityAudit": {
+    "url": "https://www.google.com/",
+    "baseUrl": "https://www.google.com",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://www.google.com/",
+      "title": "Google",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://myraymond.com/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": false,
+      "count": 0,
+      "value": null,
+      "isAbsolute": null,
+      "isSelfReferencing": null
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": false,
+      "article": null,
+      "webPage": true,
+      "webSite": false,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [
+        "WebPage"
+      ],
+      "detectionMethods": {
+        "jsonLd": false,
+        "microdata": true,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": true,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [
+      {
+        "path": "/dashboard",
+        "status": 200
+      }
+    ],
+    "llms": {
+      "found": false,
+      "hasTitle": false,
+      "hasDescription": false,
+      "links": [],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url"
+      ],
+      "missingTwitter": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [],
+    "accessibility": {
+      "missingAccessibleLabels": 11
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 57,
+        "ttfbMs": 31,
+        "lcpMs": 1415,
+        "cls": 0.001,
+        "totalBlockingTimeMs": 1155,
+        "compressionEnabled": true,
+        "compressionEncoding": "br",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 303,
+        "lcpMs": 2487,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": false,
+      "titleLength": 6,
+      "metaDescriptionOptimized": false,
+      "metaDescriptionLength": 0,
+      "h1Optimized": false,
+      "h1Count": 0,
+      "h2Count": 0,
+      "h3Count": 0,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": false,
+      "thinContent": false,
+      "wordCount": 358,
+      "hasDefinitions": false,
+      "hasComparisons": true,
+      "hasBulletPoints": false,
+      "bulletCount": 0,
+      "hasMultimedia": true,
+      "imageCount": 1,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://myraymond.com/",
+        "finalUrl": "https://www.google.com/",
+        "success": false,
+        "status": 200,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "title": "Google",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "14359 ms",
+        "totalRequests": 118,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a221a0c689fa0989-BLR",
+        "renderedTextPreview": "About Store GmailImages Sign in AI Mode Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ India Advertising Business How Search works Privacy Terms Settings",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html"
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://myraymond.com/",
+        "finalUrl": "https://www.google.com/",
+        "success": false,
+        "status": 200,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "title": "Google",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "10112 ms",
+        "totalRequests": 90,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a221a0cf6c8bd817-BLR",
+        "renderedTextPreview": "All Images Sign in Privacy Terms Settings Feedback Help Advertising Business About",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html"
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://myraymond.com/",
+        "finalUrl": "https://www.google.com/",
+        "success": false,
+        "status": 200,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "title": "Google",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "8470 ms",
+        "totalRequests": 77,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a221a0e55bf55917-BLR",
+        "renderedTextPreview": "All Images Sign in Privacy Terms Settings Feedback Help Advertising Business About",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html"
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://myraymond.com/",
+        "finalUrl": "https://myraymond.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "title": "Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond",
+        "h1": "\n      \n        \n              \n              \n            \n      \n        ",
+        "canonical": "https://myraymond.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "13964 ms",
+        "totalRequests": 418,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a221a0fd19cc7ec7-MAA",
+        "renderedTextPreview": "Skip to content FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up to ₹750* OFF at checkout – Shop more, save more! Brands Fresh Arrivals New Categories SALE Log in Cart EXPLORE BRANDS Shop Now Shop Now Shop Now Shop Now BESTSELLERS Shirts Chinos & Trousers T-Shirts & Polos Jeans Sleepwear 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Maroon Slim Fit Dobby Formal Shirt Maroon Variant sold out or unavailable Sale price ₹902 MRP ₹ 2,099 57% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Solid Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,091 MRP ₹ 2,099 48% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Yellow Contemporary Fit Print Formal Shirt Yellow Variant sold out or unavailable Sale price ₹979 MRP ₹ 1,999 51% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Red Slim Fit Structure Formal Shirt Red Variant sold out or unavailable Sale price ₹1,057 MRP ₹ 2,299 54% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Structure Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,271 MRP ₹ 2,399 47% OFF 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Fawn Slim Fit Printed Formal Shirt Petrol Variant sold out or unavailable Fawn Variant sold out or unavailable Sale price ₹944 MRP ₹ 2,099 55% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Green Contemporary Fit Checks Formal Shirt Green Variant sold out or unavailab",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html"
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://myraymond.com/",
+        "finalUrl": "https://myraymond.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "title": "Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond",
+        "h1": "\n      \n        \n              \n              \n            \n      \n        ",
+        "canonical": "https://myraymond.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "14010 ms",
+        "totalRequests": 434,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a221a116cbbdc179-BLR",
+        "renderedTextPreview": "Skip to content FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up to ₹750* OFF at checkout – Shop more, save more! Brands Fresh Arrivals New Categories SALE Log in Cart EXPLORE BRANDS Shop Now Shop Now Shop Now Shop Now BESTSELLERS Shirts Chinos & Trousers T-Shirts & Polos Jeans Sleepwear 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Maroon Slim Fit Dobby Formal Shirt Maroon Variant sold out or unavailable Sale price ₹902 MRP ₹ 2,099 57% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Solid Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,091 MRP ₹ 2,099 48% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Yellow Contemporary Fit Print Formal Shirt Yellow Variant sold out or unavailable Sale price ₹979 MRP ₹ 1,999 51% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Red Slim Fit Structure Formal Shirt Red Variant sold out or unavailable Sale price ₹1,057 MRP ₹ 2,299 54% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Structure Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,271 MRP ₹ 2,399 47% OFF 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Fawn Slim Fit Printed Formal Shirt Petrol Variant sold out or unavailable Fawn Variant sold out or unavailable Sale price ₹944 MRP ₹ 2,099 55% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Green Contemporary Fit Checks Formal Shirt Green Variant sold out or unavailab",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html"
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://myraymond.com/",
+        "finalUrl": "https://myraymond.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "title": "Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond",
+        "h1": "\n      \n        \n              \n              \n            \n      \n        ",
+        "canonical": "https://myraymond.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "30954 ms",
+        "totalRequests": 408,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a221a1385dde913e-MAA",
+        "renderedTextPreview": "Skip to content FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up to ₹750* OFF at checkout – Shop more, save more! Brands Fresh Arrivals New Categories SALE Log in Cart EXPLORE BRANDS Shop Now Shop Now Shop Now Shop Now BESTSELLERS Shirts Chinos & Trousers T-Shirts & Polos Jeans Sleepwear 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Maroon Slim Fit Dobby Formal Shirt Maroon Variant sold out or unavailable Sale price ₹902 MRP ₹ 2,099 57% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Solid Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,091 MRP ₹ 2,099 48% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Yellow Contemporary Fit Print Formal Shirt Yellow Variant sold out or unavailable Sale price ₹979 MRP ₹ 1,999 51% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Red Slim Fit Structure Formal Shirt Red Variant sold out or unavailable Sale price ₹1,057 MRP ₹ 2,299 54% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Structure Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,271 MRP ₹ 2,399 47% OFF 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Fawn Slim Fit Printed Formal Shirt Petrol Variant sold out or unavailable Fawn Variant sold out or unavailable Sale price ₹944 MRP ₹ 2,099 55% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Green Contemporary Fit Checks Formal Shirt Green Variant sold out or unavailab",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html"
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://myraymond.com/",
+        "finalUrl": "https://www.google.com/",
+        "success": false,
+        "status": 200,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "title": "Google",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "44523 ms",
+        "totalRequests": 99,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a221a14eae94c537-BLR",
+        "renderedTextPreview": "GmailImages Sign in Advanced search Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ AdvertisingBusiness SolutionsAbout GoogleGoogle.co.in © 2026 - Privacy - Terms",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html"
+      }
+    ],
+    "error": null
+  }
+}

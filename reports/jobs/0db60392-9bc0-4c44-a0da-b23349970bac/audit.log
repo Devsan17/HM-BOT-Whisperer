@@ -1,0 +1,198 @@
+Starting audit for https://bandhan.bank.in/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+No sitemap found
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, Bandhan Bank | Home Page)
+CANONICAL CHECK
+
+Canonical Found: https://bandhan.bank.in/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema missing
+Article schema missing
+WebPage schema missing
+WebSite schema missing
+Software/Application schema missing
+No schema types detected
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP enabled
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+No common admin URLs exposed
+
+============================
+LLMS.TXT CHECK
+============================
+
+Direct llms.txt fetch failed: Request failed with status code 404 (404 Not Found)
+Falling back to browser-visible llms.txt
+llms.txt missing
+
+============================
+META TAG CHECKS
+============================
+
+Missing OG tags: og:title, og:description, og:image, og:url
+Missing Twitter tags: twitter:card, twitter:title, twitter:description, twitter:image
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (nav, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+126 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (24 chars)
+❌ Poor meta description (24 chars)
+❌ Invalid H1 count (0)
+✅ H2 Count: 31
+✅ H3 Count: 27
+❌ Poor heading hierarchy
+✅ Answer-style content found
+✅ Content length good (2214 words)
+❌ No definitions found
+❌ No comparisons found
+✅ Bullet points found (115)
+✅ Multimedia found (Images: 102, Videos: 0)
+❌ No summary section found
+❌ No freshness signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  title: 'Bandhan Bank | Home Page',
+  blocked: false,
+  reason: 'captcha'
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  title: 'Bandhan Bank | Home Page',
+  blocked: false,
+  reason: 'captcha'
+}
+✅ Fast server response (119ms)
+❌ LCP Failed (4.23s)
+✅ CLS Passed (0.031)
+❌ Heavy JS blocking (531ms)
+✅ Compression enabled (gzip)
+✅ Performance Score: 45
+
+============================
+CRUX REAL USER DATA
+============================
+
+❌ INP Failed (223ms)
+✅ Real User LCP: 3.36s
+✅ Real User CLS: 0.001
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  title: 'Bandhan Bank | Home Page',
+  blocked: false,
+  reason: 'captcha'
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  title: 'Bandhan Bank | Home Page',
+  blocked: false,
+  reason: 'captcha'
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  title: 'Bandhan Bank | Home Page',
+  blocked: false,
+  reason: 'captcha'
+}
+Gemini ALLOWED
+{
+  status: 200,
+  title: 'Bandhan Bank | Home Page',
+  blocked: false,
+  reason: 'captcha'
+}
+Copilot ALLOWED
+{
+  status: 200,
+  title: 'Bandhan Bank | Home Page',
+  blocked: false,
+  reason: 'captcha'
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

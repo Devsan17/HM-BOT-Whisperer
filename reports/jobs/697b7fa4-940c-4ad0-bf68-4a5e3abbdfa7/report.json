@@ -1,0 +1,457 @@
+{
+  "targetUrl": "https://myraymond.com/",
+  "generatedAt": "2026-07-28T07:06:18.729Z",
+  "seoSecurityAudit": {
+    "url": "chrome-error://chromewebdata/",
+    "baseUrl": "null",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "chrome-error://chromewebdata/",
+      "title": null,
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://myraymond.com/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": false,
+      "count": 0,
+      "value": null,
+      "isAbsolute": null,
+      "isSelfReferencing": null
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": false,
+      "article": null,
+      "webPage": false,
+      "webSite": false,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [],
+      "detectionMethods": {
+        "jsonLd": false,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": true,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [],
+    "llms": {
+      "found": false,
+      "hasTitle": false,
+      "hasDescription": false,
+      "links": [],
+      "tooSmall": false,
+      "error": "page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n\u001b[2m  - navigating to \"null/llms.txt\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url"
+      ],
+      "missingTwitter": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [],
+    "accessibility": {
+      "missingAccessibleLabels": 0
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 56,
+        "ttfbMs": 59,
+        "lcpMs": 1400,
+        "cls": 0.001,
+        "totalBlockingTimeMs": 2011,
+        "compressionEnabled": true,
+        "compressionEncoding": "br",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 303,
+        "lcpMs": 2487,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": false,
+      "titleLength": 0,
+      "metaDescriptionOptimized": false,
+      "metaDescriptionLength": 0,
+      "h1Optimized": false,
+      "h1Count": 0,
+      "h2Count": 0,
+      "h3Count": 0,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": false,
+      "thinContent": true,
+      "wordCount": 1,
+      "hasDefinitions": false,
+      "hasComparisons": false,
+      "hasBulletPoints": false,
+      "bulletCount": 0,
+      "hasMultimedia": false,
+      "imageCount": 0,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://myraymond.com/",
+        "initialUrl": "chrome-error://chromewebdata/",
+        "finalUrl": "chrome-error://chromewebdata/",
+        "success": false,
+        "status": 200,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "navigatedAfterLoad": false,
+        "title": "",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "44602 ms",
+        "totalRequests": 69,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a22205e28cec7ab9-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://myraymond.com/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-137593199@14/sandbox/modern/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-shopify-custom-pixel@0501/sandbox/modern/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-148472175@1/sandbox/modern/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://myraymond.com/",
+        "initialUrl": "https://myraymond.com/",
+        "finalUrl": "https://www.google.com/",
+        "success": false,
+        "status": 429,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "navigatedAfterLoad": false,
+        "title": null,
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "45017 ms",
+        "totalRequests": 24,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/plain",
+        "cfRay": "a22205e6eef27f76-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://myraymond.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 429,
+          "location": null,
+          "finalUrl": null
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://myraymond.com/",
+        "initialUrl": "chrome-error://chromewebdata/",
+        "finalUrl": "chrome-error://chromewebdata/",
+        "success": false,
+        "status": 200,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "navigatedAfterLoad": false,
+        "title": "",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "43045 ms",
+        "totalRequests": 16,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a22206166db7c537-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://myraymond.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "preflight": {
+          "status": 429,
+          "location": null,
+          "finalUrl": null
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://myraymond.com/",
+        "initialUrl": "https://myraymond.com/",
+        "finalUrl": "https://myraymond.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond",
+        "h1": "\n      \n        \n              \n              \n            \n      \n        ",
+        "canonical": "https://myraymond.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "7708 ms",
+        "totalRequests": 439,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2220631bc567f09-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://myraymond.com/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-137593199@14/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-148472175@1/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-shopify-custom-pixel@0501/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://shop.app/pay/hop?analytics_trace_id=550e1ac3-6072-46bb-b301-26b051380055&target_origin=https%3A%2F%2Fmyraymond.com&client_handle=raymond-india.myshopify.com",
+            "status": 403
+          },
+          {
+            "url": "https://myraymond.com/a/s/widget.html",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to content FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up to ₹750* OFF at checkout – Shop more, save more! Brands Fresh Arrivals New Categories SALE Log in Cart EXPLORE BRANDS Shop Now Shop Now Shop Now Shop Now BESTSELLERS Shirts Chinos & Trousers T-Shirts & Polos Jeans Sleepwear 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Maroon Slim Fit Dobby Formal Shirt Maroon Variant sold out or unavailable Sale price ₹902 MRP ₹ 2,099 57% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Solid Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,091 MRP ₹ 2,099 48% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Yellow Contemporary Fit Print Formal Shirt Yellow Variant sold out or unavailable Sale price ₹979 MRP ₹ 1,999 51% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Red Slim Fit Structure Formal Shirt Red Variant sold out or unavailable Sale price ₹1,057 MRP ₹ 2,299 54% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Structure Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,271 MRP ₹ 2,399 47% OFF 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Fawn Slim Fit Printed Formal Shirt Petrol Variant sold out or unavailable Fawn Variant sold out or unavailable Sale price ₹944 MRP ₹ 2,099 55% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Green Contemporary Fit Checks Formal Shirt Green Variant sold out or unavailab",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://myraymond.com/",
+        "initialUrl": "https://myraymond.com/",
+        "finalUrl": "https://myraymond.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond",
+        "h1": "\n      \n        \n              \n              \n            \n      \n        ",
+        "canonical": "https://myraymond.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "6199 ms",
+        "totalRequests": 446,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a22206508adaa92f-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://myraymond.com/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-137593199@14/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-shopify-custom-pixel@0501/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-148472175@1/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://shop.app/pay/hop?analytics_trace_id=1a22c5c0-cd48-477a-ba9e-9d4a374e9cb1&target_origin=https%3A%2F%2Fmyraymond.com&client_handle=raymond-india.myshopify.com",
+            "status": 403
+          },
+          {
+            "url": "https://myraymond.com/a/s/widget.html",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to content FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up to ₹750* OFF at checkout – Shop more, save more! Brands Fresh Arrivals New Categories SALE Log in Cart EXPLORE BRANDS Shop Now Shop Now Shop Now Shop Now BESTSELLERS Shirts Chinos & Trousers T-Shirts & Polos Jeans Sleepwear 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Maroon Slim Fit Dobby Formal Shirt Maroon Variant sold out or unavailable Sale price ₹902 MRP ₹ 2,099 57% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Solid Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,091 MRP ₹ 2,099 48% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Yellow Contemporary Fit Print Formal Shirt Yellow Variant sold out or unavailable Sale price ₹979 MRP ₹ 1,999 51% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Red Slim Fit Structure Formal Shirt Red Variant sold out or unavailable Sale price ₹1,057 MRP ₹ 2,299 54% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Structure Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,271 MRP ₹ 2,399 47% OFF 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Fawn Slim Fit Printed Formal Shirt Petrol Variant sold out or unavailable Fawn Variant sold out or unavailable Sale price ₹944 MRP ₹ 2,099 55% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Green Contemporary Fit Checks Formal Shirt Green Variant sold out or unavailab",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "preflight": {
+          "status": 429,
+          "location": null,
+          "finalUrl": null
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://myraymond.com/",
+        "initialUrl": "https://myraymond.com/",
+        "finalUrl": "https://myraymond.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Shop for Raymond, Park Avenue, ColorPlus, Parx online – MyRaymond",
+        "h1": "\n      \n        \n              \n              \n            \n      \n        ",
+        "canonical": "https://myraymond.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "5410 ms",
+        "totalRequests": 461,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a22206841f137f6a-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://myraymond.com/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-shopify-custom-pixel@0501/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-137593199@14/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://myraymond.com/web-pixels@0b92dcedw658847c9p94194e39m8bc44e9f/custom/web-pixel-148472175@1/sandbox/legacy/",
+            "status": 200
+          },
+          {
+            "url": "https://shop.app/pay/hop?analytics_trace_id=d0924c5e-0066-499d-8a5d-c1267c25f0c8&target_origin=https%3A%2F%2Fmyraymond.com&client_handle=raymond-india.myshopify.com",
+            "status": 403
+          },
+          {
+            "url": "https://myraymond.com/a/s/widget.html",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to content FLAT ₹100 OFF on your first order | Use code: MRFIRST. *T&C Apply. Get up to ₹750* OFF at checkout – Shop more, save more! Brands Fresh Arrivals New Categories SALE Log in Cart EXPLORE BRANDS Shop Now Shop Now Shop Now Shop Now BESTSELLERS Shirts Chinos & Trousers T-Shirts & Polos Jeans Sleepwear 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Maroon Slim Fit Dobby Formal Shirt Maroon Variant sold out or unavailable Sale price ₹902 MRP ₹ 2,099 57% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Solid Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,091 MRP ₹ 2,099 48% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Yellow Contemporary Fit Print Formal Shirt Yellow Variant sold out or unavailable Sale price ₹979 MRP ₹ 1,999 51% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Red Slim Fit Structure Formal Shirt Red Variant sold out or unavailable Sale price ₹1,057 MRP ₹ 2,299 54% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Blue Slim Fit Structure Formal Shirt Blue Variant sold out or unavailable Sale price ₹1,271 MRP ₹ 2,399 47% OFF 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Fawn Slim Fit Printed Formal Shirt Petrol Variant sold out or unavailable Fawn Variant sold out or unavailable Sale price ₹944 MRP ₹ 2,099 55% OFF 38 39 40 42 44 46 Add To Cart Vendor: RAYMOND Raymond Men Green Contemporary Fit Checks Formal Shirt Green Variant sold out or unavailab",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "preflight": {
+          "status": 429,
+          "location": null,
+          "finalUrl": null
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://myraymond.com/",
+        "initialUrl": "chrome-error://chromewebdata/",
+        "finalUrl": "chrome-error://chromewebdata/",
+        "success": false,
+        "status": 200,
+        "blocked": true,
+        "blockReason": "redirected-off-origin",
+        "navigatedAfterLoad": false,
+        "title": "",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "19804 ms",
+        "totalRequests": 16,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a22206be0c69a9b7-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://myraymond.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null
+        }
+      }
+    ],
+    "error": null
+  }
+}

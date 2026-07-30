@@ -1,0 +1,197 @@
+Starting audit for https://www.charleskeith.in/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.charleskeith.in/in/sitemap_index.xml
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, CHARLES & KEITH India - Shop the official site)
+CANONICAL CHECK
+
+Canonical Found: https://www.charleskeith.in/in
+Canonical is absolute URL
+Canonical points to different URL
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema found
+Article schema missing
+WebPage schema missing
+WebSite schema found
+Software/Application schema missing
+Detected schema types: ContactPoint, Organization, WebSite
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS missing
+CSP enabled
+X-Frame-Options missing
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+Exposed admin URLs detected
+ - /login (200)
+
+============================
+LLMS.TXT CHECK
+============================
+
+Direct llms.txt fetch failed: Request failed with status code 404 (404 Not Found)
+Falling back to browser-visible llms.txt
+llms.txt missing
+
+============================
+META TAG CHECKS
+============================
+
+Open Graph tags found
+Missing Twitter tags: twitter:card, twitter:title, twitter:description, twitter:image
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (header, nav, main, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+42 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+✅ Optimized title (46 chars)
+✅ Optimized meta description (159 chars)
+❌ Invalid H1 count (4)
+✅ H2 Count: 4
+✅ H3 Count: 0
+✅ Proper heading hierarchy
+✅ Answer-style content found
+✅ Content length good (3881 words)
+❌ No definitions found
+❌ No comparisons found
+✅ Bullet points found (136)
+✅ Multimedia found (Images: 18, Videos: 0)
+❌ No summary section found
+✅ Freshness/update signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+✅ Fast server response (22ms)
+✅ LCP Passed (1.45s)
+❌ CLS Failed (0.433)
+❌ Heavy JS blocking (295ms)
+✅ Compression enabled (br)
+✅ Performance Score: 61
+
+============================
+CRUX REAL USER DATA
+============================
+
+❌ Failed to fetch CrUX data
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  title: 'CHARLES & KEITH India - Shop the official site',
+  blocked: false,
+  reason: 'captcha'
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  title: 'CHARLES & KEITH India - Shop the official site',
+  blocked: false,
+  reason: 'captcha'
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  title: 'CHARLES & KEITH India - Shop the official site',
+  blocked: false,
+  reason: 'captcha'
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  title: 'CHARLES & KEITH India - Shop the official site',
+  blocked: false,
+  reason: 'captcha'
+}
+Gemini ALLOWED
+{
+  status: 200,
+  title: 'CHARLES & KEITH India - Shop the official site',
+  blocked: false,
+  reason: 'captcha'
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  title: 'CHARLES & KEITH India - Shop the official site',
+  blocked: false,
+  reason: 'captcha'
+}
+Copilot ALLOWED
+{
+  status: 200,
+  title: 'CHARLES & KEITH India - Shop the official site',
+  blocked: false,
+  reason: 'captcha'
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================
