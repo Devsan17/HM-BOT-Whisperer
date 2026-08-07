@@ -1,0 +1,295 @@
+Starting audit for https://www.herbalife.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.herbalife.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, Herbalife India | Global Leader in Nutrition)
+CANONICAL CHECK
+
+Canonical Found: https://www.herbalife.com/en-in
+Canonical is absolute URL
+Canonical points to different URL
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema found
+Article schema missing
+WebPage schema missing
+WebSite schema found
+Software/Application schema missing
+Detected schema types: Country, Organization, PostalAddress, SearchAction, WebSite
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP missing
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+Exposed admin URLs detected
+ - /wp-admin (200)
+
+============================
+LLMS.TXT CHECK
+============================
+
+Direct llms.txt fetch failed: Request failed with status code 503 (503 Service Unavailable)
+Falling back to browser-visible llms.txt
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.herbalife.com/',
+  initialUrl: 'https://www.herbalife.com/en-in',
+  finalUrl: 'https://www.herbalife.com/en-in',
+  title: 'Herbalife India | Global Leader in Nutrition',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.herbalife.com/', status: 302 },
+    { url: 'https://www.herbalife.com/en-in', status: 200 }
+  ],
+  preflight: {
+    status: 302,
+    location: '/en-in',
+    finalUrl: 'https://www.herbalife.com/en-in',
+    title: null
+  }
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.herbalife.com/',
+  initialUrl: 'https://www.herbalife.com/en-in',
+  finalUrl: 'https://www.herbalife.com/en-in',
+  title: 'Herbalife India | Global Leader in Nutrition',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.herbalife.com/', status: 302 },
+    { url: 'https://www.herbalife.com/en-in', status: 200 }
+  ],
+  preflight: {
+    status: 302,
+    location: '/en-in',
+    finalUrl: 'https://www.herbalife.com/en-in',
+    title: null
+  }
+}
+llms.txt missing
+
+============================
+META TAG CHECKS
+============================
+
+Open Graph tags found
+Missing Twitter tags: twitter:card, twitter:title, twitter:description, twitter:image
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (header, nav, main, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+27 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (77 chars)
+✅ Optimized meta description (143 chars)
+❌ Invalid H1 count (4)
+✅ H2 Count: 4
+✅ H3 Count: 2
+✅ Proper heading hierarchy
+✅ Answer-style content found
+✅ Content length good (7155 words)
+❌ No definitions found
+❌ No comparisons found
+✅ Bullet points found (279)
+✅ Multimedia found (Images: 46, Videos: 0)
+❌ No summary section found
+✅ Freshness/update signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.herbalife.com/',
+  initialUrl: 'https://www.herbalife.com/en-in',
+  finalUrl: 'https://www.herbalife.com/en-in',
+  title: 'Herbalife India | Global Leader in Nutrition',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.herbalife.com/', status: 302 },
+    { url: 'https://www.herbalife.com/en-in', status: 200 }
+  ],
+  preflight: {
+    status: 302,
+    location: '/en-in',
+    finalUrl: 'https://www.herbalife.com/en-in',
+    title: null
+  }
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.herbalife.com/',
+  initialUrl: 'https://www.herbalife.com/en-in',
+  finalUrl: 'https://www.herbalife.com/en-in',
+  title: 'Herbalife India | Global Leader in Nutrition',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.herbalife.com/', status: 302 },
+    { url: 'https://www.herbalife.com/en-in', status: 200 }
+  ],
+  preflight: {
+    status: 302,
+    location: '/en-in',
+    finalUrl: 'https://www.herbalife.com/en-in',
+    title: null
+  }
+}
+Gemini ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.herbalife.com/',
+  initialUrl: 'https://www.herbalife.com/en-in',
+  finalUrl: 'https://www.herbalife.com/en-in',
+  title: 'Herbalife India | Global Leader in Nutrition',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.herbalife.com/', status: 302 },
+    { url: 'https://www.herbalife.com/en-in', status: 200 }
+  ],
+  preflight: {
+    status: 302,
+    location: '/en-in',
+    finalUrl: 'https://www.herbalife.com/en-in',
+    title: null
+  }
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.herbalife.com/',
+  initialUrl: 'https://www.herbalife.com/en-in',
+  finalUrl: 'https://www.herbalife.com/en-in',
+  title: 'Herbalife India | Global Leader in Nutrition',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.herbalife.com/', status: 302 },
+    { url: 'https://www.herbalife.com/en-in', status: 200 }
+  ],
+  preflight: {
+    status: 302,
+    location: '/en-in',
+    finalUrl: 'https://www.herbalife.com/en-in',
+    title: null
+  }
+}
+Copilot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.herbalife.com/',
+  initialUrl: 'https://www.herbalife.com/en-in',
+  finalUrl: 'https://www.herbalife.com/en-in',
+  title: 'Herbalife India | Global Leader in Nutrition',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.herbalife.com/', status: 302 },
+    { url: 'https://www.herbalife.com/en-in', status: 200 }
+  ],
+  preflight: {
+    status: 302,
+    location: '/en-in',
+    finalUrl: 'https://www.herbalife.com/en-in',
+    title: null
+  }
+}
+
+BOT AUDIT COMPLETE
+
+✅ Fast server response (260ms)
+❌ LCP Failed (3.21s)
+✅ CLS Passed (0.000)
+❌ Heavy JS blocking (5097ms)
+✅ Compression enabled (br)
+✅ Performance Score: 37
+
+============================
+CRUX REAL USER DATA
+============================
+
+❌ Failed to fetch CrUX data
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

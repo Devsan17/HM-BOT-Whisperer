@@ -1,0 +1,12 @@
+{
+  "id": "349d7ee4-fa16-4362-a5b7-ca02fa65c5a5",
+  "url": "https://www.roff.in/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-06T06:40:26.327Z",
+  "updatedAt": "2026-08-06T06:42:07.406Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\349d7ee4-fa16-4362-a5b7-ca02fa65c5a5\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\349d7ee4-fa16-4362-a5b7-ca02fa65c5a5\\audit.log"
+}

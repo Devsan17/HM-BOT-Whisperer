@@ -36,7 +36,7 @@ const scanSteps = [
 const heroLogos = [
   {
     alt: "ChatGPT",
-    className: "left-[12%] top-[20%]",
+    className: "left-6 top-6 md:block lg:left-[7%] lg:top-[12%] xl:left-[12%] xl:top-[20%]",
     delay: 0,
     duration: 7,
     size: 64,
@@ -44,7 +44,7 @@ const heroLogos = [
   },
   {
     alt: "Claude",
-    className: "right-[14%] top-[20%]",
+    className: "right-6 top-6 md:block lg:right-[7%] lg:top-[12%] xl:right-[14%] xl:top-[20%]",
     delay: 0.6,
     duration: 8,
     size: 62,
@@ -52,7 +52,7 @@ const heroLogos = [
   },
   {
     alt: "Copilot",
-    className: "left-[16%] bottom-[14%]",
+    className: "bottom-6 left-6 md:block lg:bottom-[10%] lg:left-[7%] xl:bottom-[14%] xl:left-[16%]",
     delay: 1.1,
     duration: 7.5,
     size: 66,
@@ -60,7 +60,7 @@ const heroLogos = [
   },
   {
     alt: "Gemini",
-    className: "right-[12%] bottom-[14%]",
+    className: "bottom-6 right-6 md:block lg:bottom-[10%] lg:right-[7%] xl:bottom-[14%] xl:right-[12%]",
     delay: 1.7,
     duration: 8.5,
     size: 60,
@@ -68,7 +68,7 @@ const heroLogos = [
   },
   {
     alt: "Grok",
-    className: "left-[18%] top-[40%]",
+    className: "left-[18%] top-[40%] hidden xl:block",
     delay: 0.9,
     duration: 9,
     size: 72,
@@ -76,7 +76,7 @@ const heroLogos = [
   },
   {
     alt: "Perplexity",
-    className: "right-[16%] top-[40%]",
+    className: "right-[16%] top-[40%] hidden xl:block",
     delay: 1.4,
     duration: 7.8,
     imageClassName: "scale-125 saturate-150 contrast-150",
@@ -85,7 +85,7 @@ const heroLogos = [
   },
   {
     alt: "Meta AI",
-    className: "left-[30%] top-[24%]",
+    className: "left-[30%] top-[24%] hidden xl:block",
     delay: 2.1,
     duration: 8.8,
     size: 64,
@@ -93,7 +93,7 @@ const heroLogos = [
   },
   {
     alt: "DeepSeek",
-    className: "right-[28%] top-[24%]",
+    className: "right-[28%] top-[24%] hidden xl:block",
     delay: 2.5,
     duration: 8.2,
     size: 64,
@@ -724,7 +724,7 @@ export default function DashboardShell({ initialReport, initialActiveJob }) {
                 y: [0, -14, 8, -6, 0],
               }}
               className={cn(
-                "pointer-events-none absolute z-10 rounded-[18px] border border-sky-100/95 bg-white/96 p-2.5 shadow-[0_20px_40px_-24px_rgba(59,130,246,0.3),0_0_0_1px_rgba(255,255,255,0.95)] backdrop-blur-md sm:rounded-[22px] sm:p-3",
+                "pointer-events-none absolute z-10 hidden rounded-[18px] border border-sky-100/95 bg-white/96 p-2.5 shadow-[0_20px_40px_-24px_rgba(59,130,246,0.3),0_0_0_1px_rgba(255,255,255,0.95)] backdrop-blur-md md:rounded-[22px] md:p-3",
                 logo.className
               )}
               initial={false}
@@ -751,6 +751,30 @@ export default function DashboardShell({ initialReport, initialActiveJob }) {
               />
             </motion.div>
           ))}
+            <div
+              aria-label="Supported AI platforms"
+              className="grid grid-cols-4 gap-2 md:hidden"
+            >
+              {heroLogos.map((logo) => (
+                <div
+                  className="flex size-11 items-center justify-center rounded-xl border border-sky-100/95 bg-white/95 p-2 shadow-[0_10px_24px_-16px_rgba(59,130,246,0.45)]"
+                  key={`mobile-${logo.alt}`}
+                  title={logo.alt}
+                >
+                  <Image
+                    alt={logo.alt}
+                    className={cn(
+                      "size-full select-none object-contain saturate-125 contrast-125",
+                      logo.imageClassName
+                    )}
+                    draggable={false}
+                    height={32}
+                    src={logo.src}
+                    width={32}
+                  />
+                </div>
+              ))}
+            </div>
           <div className="relative z-20 mx-auto flex w-full max-w-[1240px] flex-col items-center justify-center gap-6 py-6 sm:gap-7 sm:py-10">
             <div className="w-full space-y-2 text-center">
               <div className="relative mx-auto max-w-4xl space-y-2">

@@ -1,0 +1,12 @@
+{
+  "id": "c58f2cde-a8f2-4c3b-a00b-9b5d1eea33b1",
+  "url": "https://www.herbalife.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-07T04:55:48.625Z",
+  "updatedAt": "2026-08-07T04:58:24.055Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\c58f2cde-a8f2-4c3b-a00b-9b5d1eea33b1\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\c58f2cde-a8f2-4c3b-a00b-9b5d1eea33b1\\audit.log"
+}

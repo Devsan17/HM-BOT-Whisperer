@@ -1,0 +1,535 @@
+{
+  "targetUrl": "https://www.roff.in/",
+  "generatedAt": "2026-08-06T06:42:07.377Z",
+  "seoSecurityAudit": {
+    "url": "https://www.roff.in/",
+    "baseUrl": "https://www.roff.in",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://www.roff.in/",
+      "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.roff.in/sitemap_index.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.roff.in/",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": true,
+      "productOrService": null,
+      "organization": true,
+      "article": null,
+      "webPage": true,
+      "webSite": true,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [
+        "BreadcrumbList",
+        "EntryPoint",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "PropertyValueSpecification",
+        "ReadAction",
+        "SearchAction",
+        "WebPage",
+        "WebSite"
+      ],
+      "detectionMethods": {
+        "jsonLd": true,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": false,
+      "csp": false,
+      "xFrameOptions": false,
+      "xContentTypeOptions": false
+    },
+    "mixedContent": [],
+    "adminUrls": [
+      {
+        "path": "/admin",
+        "status": 200
+      },
+      {
+        "path": "/wp-admin",
+        "status": 200
+      },
+      {
+        "path": "/login",
+        "status": 200
+      },
+      {
+        "path": "/phpmyadmin",
+        "status": 200
+      }
+    ],
+    "llms": {
+      "found": true,
+      "hasTitle": true,
+      "hasDescription": true,
+      "links": [
+        "https://en.wikipedia.org/wiki/Pidilite_Industries),",
+        "https://www.roff.in/):",
+        "https://www.roff.in/about-roff/):",
+        "https://www.roff.in/product-category/):",
+        "https://www.roff.in/discover-solutions/):",
+        "https://www.roff.in/roff-tiling-services/):",
+        "https://www.roff.in/technical-information/):",
+        "https://www.roff.in/landmark-projects/):",
+        "https://www.roff.in/find-a-dealer/):",
+        "https://www.roff.in/contact/):",
+        "https://www.roff.in/product-category/tile-stone-adhesives/):",
+        "https://www.roff.in/product-category/tile-joint-fillers/):",
+        "https://www.roff.in/product-category/under-tile-waterproofing/):",
+        "https://www.roff.in/product-category/stone-care-range/):",
+        "https://www.roff.in/product-category/tile-stone-cleaners/):",
+        "https://www.roff.in/product-category/application-tools/):",
+        "https://www.roff.in/products/roff-new-construction-adhesive-nca/):",
+        "https://www.roff.in/products/roff-non-skid-adhesive-nsa/):",
+        "https://www.roff.in/products/roff-vitrofix-adhesive/):",
+        "https://www.roff.in/products/roff-vitrofix-ultra-adhesive/):",
+        "https://www.roff.in/products/roff-extrofix-adhesive/):",
+        "https://www.roff.in/products/roff-extrofix-ultra-adhesive/):",
+        "https://www.roff.in/products/roff-master-fix-adhesive/):",
+        "https://www.roff.in/products/roff-vertifix/):",
+        "https://www.roff.in/products/roff-tile-bonder/):",
+        "https://www.roff.in/products/roff-yogafix-adhesive/):",
+        "https://www.roff.in/products/roff-tile-mate-wide-additive/):",
+        "https://www.roff.in/products/roff-sparkles/):",
+        "https://www.roff.in/products/roff-starlike-epoxy-grout/):",
+        "https://www.roff.in/products/roff-rainbow-tile-mate-rtm/):",
+        "https://www.roff.in/products/roff-rainbow-tile-mate-epoxy-grout/):",
+        "https://www.roff.in/products/roff-hyguard-ex/):",
+        "https://www.roff.in/products/roff-bond-repair/):",
+        "https://www.roff.in/products/roff-cera-clean/):",
+        "https://www.roff.in/products/tenax-brio-top/):",
+        "https://www.roff.in/products/tenax-stonefill-epoxy-resin-system/):",
+        "https://www.roff.in/products/tenax-marvel-shine-pro/):",
+        "https://www.roff.in/products/tenax-durastone/):",
+        "https://www.roff.in/products/tenax-cera-fluida/):",
+        "https://www.roff.in/products/tenax-proseal/):",
+        "https://www.roff.in/products/tenax-ager/):",
+        "https://www.roff.in/products/tenax-eliox-a-b/):",
+        "https://www.roff.in/products/tenax-resina-t8/):",
+        "https://www.roff.in/products/tenax-anti-efflorescence/):",
+        "https://www.roff.in/products/tenax-mastic-3g-coloured-solid-liquid/):",
+        "https://www.roff.in/products/tenax-thassos-tropical/):",
+        "https://www.roff.in/products/tenax-epoxy-coating-system/):",
+        "https://www.roff.in/products/roff-grout-floater/):",
+        "https://www.roff.in/products/roff-grout-cutter/):",
+        "https://www.roff.in/products/roff-spacers/):",
+        "https://www.roff.in/products/notch-trowel/):",
+        "https://www.roff.in/products/rubber-mallet/):",
+        "https://www.roff.in/adhesive-selector/):",
+        "https://www.roff.in/adhesive-coverage/):",
+        "https://www.roff.in/joint-filler-coverage-calculator/):",
+        "https://www.roff.in/tile-joint-filler-visualizer/):",
+        "https://www.roff.in/contractor-app/):",
+        "https://www.roff.in/discover-solutions/breaking-old-tiles/):",
+        "https://www.roff.in/discover-solutions/new-floor-but-old-method/):",
+        "https://www.roff.in/discover-solutions/leaking-bathroom/):",
+        "https://www.roff.in/discover-solutions/big-tile-stone-fixing/):",
+        "https://www.roff.in/discover-solutions/external-elevation-tiles-stone-fixing/):",
+        "https://www.roff.in/discover-solutions/fixing-on-metal-ply-boards/):",
+        "https://www.roff.in/discover-solutions/chipped-spoiled-swimming-pools/):",
+        "https://www.roff.in/discover-solutions/stone-losing-its-beauty/):",
+        "https://www.roff.in/discover-solutions/dirty-cracked-tile-joints/):",
+        "https://www.roff.in/discover-solutions/fixing-engineered-and-composite-stones/):",
+        "https://www.roff.in/discover-solutions/fixing-in-vibration-areas/):",
+        "https://www.roff.in/tenax/):",
+        "https://www.roff.in/litokol/):",
+        "https://www.roff.in/grupo-puma/):",
+        "https://www.roff.in/why-roff-tile-adhesives-are-better-than-cement-for-fixing-tiles/):",
+        "https://www.roff.in/fix-tiles-with-roff-not-cement/):",
+        "https://www.roff.in/enhance-the-beauty-of-your-tiling-with-tile-joint-fillers/):",
+        "https://www.roff.in/blogs/):",
+        "https://www.roff.in/customer-stories/):",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-mumbai/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-delhi/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-bangalore/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-hyderabad/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-chennai/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-kolkata/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-pune/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-ahmedabad/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-surat/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-jaipur/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-lucknow/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-kanpur/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-nagpur/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-indore/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-bhopal/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-patna/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-ghaziabad/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-coimbatore/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-kochi/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-kozhikode/)",
+        "https://www.roff.in/find-a-dealer/roff-dealers-in-saharanpur/)",
+        "https://www.roff.in/roff-tools-qrcode/):",
+        "https://www.roff.in/tile-joint-filler-visualizer/touchscreen-tool/):",
+        "https://www.roff.in/trending-in-roff/pidilite-unveils-roff-sparkles/)",
+        "https://www.roff.in/trending-in-roff/roff-launches-next-gen-adhesive-for-trending-drywall-applications/)",
+        "https://www.roff.in/trending-in-roff/dr-safe-hygiene-range-launched-by-pidilite-roff/)",
+        "https://www.roff.in/trending-in-roff/roffs-first-ever-tv-commercial-in-karnataka/)",
+        "https://www.roff.in/sitemap/):",
+        "https://www.roff.in/privacy-policy/)",
+        "https://www.roff.in/terms-of-use/)"
+      ],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:url"
+      ],
+      "missingTwitter": [
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [
+      "header",
+      "nav",
+      "section",
+      "article",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 17
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 94,
+        "ttfbMs": 160,
+        "lcpMs": 1403,
+        "cls": 0.001,
+        "totalBlockingTimeMs": 47,
+        "compressionEnabled": true,
+        "compressionEncoding": "gzip",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 169,
+        "lcpMs": 2912,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": true,
+      "titleLength": 51,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 150,
+      "h1Optimized": true,
+      "h1Count": 1,
+      "h2Count": 4,
+      "h3Count": 11,
+      "properHeadingHierarchy": false,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 3832,
+      "hasDefinitions": false,
+      "hasComparisons": true,
+      "hasBulletPoints": true,
+      "bulletCount": 91,
+      "hasMultimedia": true,
+      "imageCount": 108,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.roff.in/",
+        "initialUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "http-403",
+        "navigatedAfterLoad": false,
+        "title": "Sucuri WebSite Firewall - Access Denied",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "0 ms",
+        "totalRequests": 0,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.roff.in/",
+            "status": 403
+          }
+        ],
+        "renderedTextPreview": "<!DOCTYPE html> <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <link rel=\"stylesheet\" href=\"https://cdn.sucuri.net/sucuri-firewall-block.css\" /> <section class=\"center clearfix\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>Sucuri WebSite Firewall - Access Denied</title> <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700\" rel=\"stylesheet\" type=\"text/css\"> </head> <body> <div id=\"main-container\"> <header class=\"app-header clearfix\"> <div class=\"wrap\"> <a href=\"https://www.sucuri.net/?utm_source=firewall_block\" class=\"logo\"></a> <span class=\"logo-neartext\">Website Firewall</span> <a href=\"https://sucuri.net/?utm_source=firewall_block\" class=\"site-link\">Back to sucuri.net</a> </div> </header> <section class=\"app-content access-denied clearfix\"><div class=\"box center width-max-940\"><h1 class=\"brand-font font-size-xtra no-margin\"><i class=\"icon-circle-red\"></i>Access Denied - Sucuri Website Firewall</h1> <p class=\"medium-text code-snippet\">If you are the site owner (or you manage this site), please whitelist your IP or if you think this block is an error please <a href=\"https://support.sucuri.net/?utm_source=firewall_block\" class=\"color-green underline\">open a support ticket</a> and make sure to include the block details (displayed in the box below), so we can assist you in troubleshooting the issue. </p><h2>Block details:</h1> <table class=\"property-table overflow-break-all line-height-16\"> <tr> <td>Your ",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 403,
+          "location": null,
+          "finalUrl": null,
+          "title": "Sucuri WebSite Firewall - Access Denied"
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.roff.in/",
+        "initialUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "5506 ms",
+        "totalRequests": 77,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.roff.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. HOW TO FIX MARBLE CRACKS WITHOUT COMPROMISING THE STONE’S FINISH 7 TRIED AND TESTED WAYS TO PROTECT MARBLE FLOORING FROM CRACKS HOW TO FIX CRACKS IN MARBLE SURFACES? REASONS & SOLUTIONS WHAT ARE THE REASONS FOR CRACKS IN MARBLE & HOW TO AVOID THEM? TILE GAP FILLING FOR SWIMMING POOLS: WHY THE RIGHT GROUT MATTERS 4 TILE GAP FILLING MISTAKES THAT CAN RUIN LARGE-FORMAT TILE INSTALLATIONS Italy Italy Spain Roff, from the house of Pidilite Industries Ltd., India’s leading adhesives company, provides cutting-edge tile and stone fixing solutions. It has developed a vast portfolio of technologically advanced products with global expertise merged with local intelligence; making them tile and stone fixing experts. With a complete range right from waterproof floor tile adhesive to wall tiles fixing chemical, Roff has it all. In fact, numerous yea",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Roff - Best Tile Fixing &amp; Stone Care Solutions"
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.roff.in/",
+        "initialUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "1795 ms",
+        "totalRequests": 78,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.roff.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. HOW TO FIX MARBLE CRACKS WITHOUT COMPROMISING THE STONE’S FINISH 7 TRIED AND TESTED WAYS TO PROTECT MARBLE FLOORING FROM CRACKS HOW TO FIX CRACKS IN MARBLE SURFACES? REASONS & SOLUTIONS WHAT ARE THE REASONS FOR CRACKS IN MARBLE & HOW TO AVOID THEM? TILE GAP FILLING FOR SWIMMING POOLS: WHY THE RIGHT GROUT MATTERS 4 TILE GAP FILLING MISTAKES THAT CAN RUIN LARGE-FORMAT TILE INSTALLATIONS Italy Italy Spain Roff, from the house of Pidilite Industries Ltd., India’s leading adhesives company, provides cutting-edge tile and stone fixing solutions. It has developed a vast portfolio of technologically advanced products with global expertise merged with local intelligence; making them tile and stone fixing experts. With a complete range right from waterproof floor tile adhesive to wall tiles fixing chemical, Roff has it all. In fact, numerous yea",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Roff - Best Tile Fixing &amp; Stone Care Solutions"
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.roff.in/",
+        "initialUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "1676 ms",
+        "totalRequests": 77,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.roff.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. HOW TO FIX MARBLE CRACKS WITHOUT COMPROMISING THE STONE’S FINISH 7 TRIED AND TESTED WAYS TO PROTECT MARBLE FLOORING FROM CRACKS HOW TO FIX CRACKS IN MARBLE SURFACES? REASONS & SOLUTIONS WHAT ARE THE REASONS FOR CRACKS IN MARBLE & HOW TO AVOID THEM? TILE GAP FILLING FOR SWIMMING POOLS: WHY THE RIGHT GROUT MATTERS 4 TILE GAP FILLING MISTAKES THAT CAN RUIN LARGE-FORMAT TILE INSTALLATIONS Italy Italy Spain Roff, from the house of Pidilite Industries Ltd., India’s leading adhesives company, provides cutting-edge tile and stone fixing solutions. It has developed a vast portfolio of technologically advanced products with global expertise merged with local intelligence; making them tile and stone fixing experts. With a complete range right from waterproof floor tile adhesive to wall tiles fixing chemical, Roff has it all. In fact, numerous yea",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Roff - Best Tile Fixing &amp; Stone Care Solutions"
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.roff.in/",
+        "initialUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "1124 ms",
+        "totalRequests": 73,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.roff.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. HOW TO FIX MARBLE CRACKS WITHOUT COMPROMISING THE STONE’S FINISH 7 TRIED AND TESTED WAYS TO PROTECT MARBLE FLOORING FROM CRACKS HOW TO FIX CRACKS IN MARBLE SURFACES? REASONS & SOLUTIONS WHAT ARE THE REASONS FOR CRACKS IN MARBLE & HOW TO AVOID THEM? TILE GAP FILLING FOR SWIMMING POOLS: WHY THE RIGHT GROUT MATTERS 4 TILE GAP FILLING MISTAKES THAT CAN RUIN LARGE-FORMAT TILE INSTALLATIONS Italy Italy Spain Roff, from the house of Pidilite Industries Ltd., India’s leading adhesives company, provides cutting-edge tile and stone fixing solutions. It has developed a vast portfolio of technologically advanced products with global expertise merged with local intelligence; making them tile and stone fixing experts. With a complete range right from waterproof floor tile adhesive to wall tiles fixing chemical, Roff has it all. In fact, numerous yea",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Roff - Best Tile Fixing &amp; Stone Care Solutions"
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.roff.in/",
+        "initialUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "9494 ms",
+        "totalRequests": 76,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.roff.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. HOW TO FIX MARBLE CRACKS WITHOUT COMPROMISING THE STONE’S FINISH 7 TRIED AND TESTED WAYS TO PROTECT MARBLE FLOORING FROM CRACKS HOW TO FIX CRACKS IN MARBLE SURFACES? REASONS & SOLUTIONS WHAT ARE THE REASONS FOR CRACKS IN MARBLE & HOW TO AVOID THEM? TILE GAP FILLING FOR SWIMMING POOLS: WHY THE RIGHT GROUT MATTERS 4 TILE GAP FILLING MISTAKES THAT CAN RUIN LARGE-FORMAT TILE INSTALLATIONS Italy Italy Spain Roff, from the house of Pidilite Industries Ltd., India’s leading adhesives company, provides cutting-edge tile and stone fixing solutions. It has developed a vast portfolio of technologically advanced products with global expertise merged with local intelligence; making them tile and stone fixing experts. With a complete range right from waterproof floor tile adhesive to wall tiles fixing chemical, Roff has it all. In fact, numerous yea",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Roff - Best Tile Fixing &amp; Stone Care Solutions"
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.roff.in/",
+        "initialUrl": "https://www.roff.in/",
+        "finalUrl": "https://www.roff.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Roff - Best Tile Fixing & Stone Care Solutions",
+        "h1": "Roff's Premium Tile Fixing & Stone Care Solutions",
+        "canonical": "https://www.roff.in/",
+        "robotsMeta": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "12102 ms",
+        "totalRequests": 81,
+        "server": "Sucuri/Cloudproxy",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.roff.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "PRODUCTS DISCOVER SOLUTIONS TOOLS CONTRACTOR APP CONTACT US 1800 2255 02 FIND A DEALER Search The beauty of tiles must last a lifetime. Say NO to cement and yes to ROFF! LEARN MORE Roff's Premium Tile Fixing & Stone Care Solutions Roff, from the house of Pidilite, brings to you a comprehensive range of tile fixing solution products across categories. Explore our diverse line-up of best-quality tile adhesives, tile joint fillers, under tile waterproofing products, stone care range, specialized tile & stone floor cleaners, and application tools. Roff, from the Makers of Fevicol is committed to providing a world-class solution for your dream home. HOW TO FIX MARBLE CRACKS WITHOUT COMPROMISING THE STONE’S FINISH 7 TRIED AND TESTED WAYS TO PROTECT MARBLE FLOORING FROM CRACKS HOW TO FIX CRACKS IN MARBLE SURFACES? REASONS & SOLUTIONS WHAT ARE THE REASONS FOR CRACKS IN MARBLE & HOW TO AVOID THEM? TILE GAP FILLING FOR SWIMMING POOLS: WHY THE RIGHT GROUT MATTERS 4 TILE GAP FILLING MISTAKES THAT CAN RUIN LARGE-FORMAT TILE INSTALLATIONS Italy Italy Spain Roff, from the house of Pidilite Industries Ltd., India’s leading adhesives company, provides cutting-edge tile and stone fixing solutions. It has developed a vast portfolio of technologically advanced products with global expertise merged with local intelligence; making them tile and stone fixing experts. With a complete range right from waterproof floor tile adhesive to wall tiles fixing chemical, Roff has it all. In fact, numerous yea",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Roff - Best Tile Fixing &amp; Stone Care Solutions"
+        }
+      }
+    ],
+    "error": null
+  }
+}

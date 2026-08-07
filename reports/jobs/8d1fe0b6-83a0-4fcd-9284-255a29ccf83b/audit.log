@@ -1,0 +1,414 @@
+Starting audit for https://www.tataaia.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.tataaia.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+Browser-visible page loaded (200, Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026)
+CANONICAL CHECK
+
+Canonical Found: https://www.tataaia.com/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema missing
+Article schema missing
+WebPage schema missing
+WebSite schema missing
+Software/Application schema missing
+Detected schema types: ImageObject, InsuranceAgency, ItemList, PostalAddress, SiteNavigationElement
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP enabled
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+No common admin URLs exposed
+
+============================
+LLMS.TXT CHECK
+============================
+
+llms.txt found
+Title found
+Description found
+13 links found
+
+============================
+META TAG CHECKS
+============================
+
+Open Graph tags found
+Twitter cards found
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (nav, section, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+681 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (90 chars)
+❌ Poor meta description (191 chars)
+✅ Optimized H1
+✅ H2 Count: 41
+✅ H3 Count: 157
+❌ Poor heading hierarchy
+✅ Answer-style content found
+✅ Content length good (18943 words)
+✅ Definitions found
+✅ Comparisons found
+✅ Bullet points found (2246)
+✅ Multimedia found (Images: 659, Videos: 0)
+✅ Key takeaway/summary section found
+✅ Freshness/update signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.tataaia.com/',
+  initialUrl: 'https://www.tataaia.com/',
+  finalUrl: 'https://www.tataaia.com/',
+  title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.tataaia.com/', status: 200 },
+    {
+      url: 'https://talic.demdex.net/dest5.html?d_nsid=0',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=19;ord=1;num=8996206061274;npa=0;auiddc=1375101664.1785998925;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118395333~118897920~118897930~119527019~119896803~120213116;epver=2;dc_random=1785998925_HHPWeX6kDu33zBIiKpTKSG_yKgaXfh4eVw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 302
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;dc_pre=COToqry0i5YDFfzFOAYdyxoAKA;src=11435308;type=overa0;cat=tataa002;rcb=19;ord=1;num=8996206061274;npa=0;auiddc=1375101664.1785998925;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118395333~118897920~118897930~119527019~119896803~120213116;epver=2;dc_random=1785998925_HHPWeX6kDu33zBIiKpTKSG_yKgaXfh4eVw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=17;ord=9724484124001;npa=0;auiddc=1375101664.1785998925;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785998925_CczVmUwhyGyBYWjwBwVEPEGuSEF1pxRzmg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 302
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;dc_pre=CLmrury0i5YDFWLlhAAdF0c8lA;src=13492939;type=hp;cat=hp;rcb=17;ord=9724484124001;npa=0;auiddc=1375101664.1785998925;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785998925_CczVmUwhyGyBYWjwBwVEPEGuSEF1pxRzmg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=19;ord=1;num=3297601418494;npa=0;auiddc=1375101664.1785998925;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118395333~118897920~118897930~119527019~119896803~120213116;epver=2;dc_random=1785998926_d1_UlUjL-p4Qm7AFgGbbLZobRE13d16BWQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 302
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;dc_pre=CNqE7ry0i5YDFef5OAYdS1IVYQ;src=11435308;type=tataa0;cat=tata_00b;rcb=19;ord=1;num=3297601418494;npa=0;auiddc=1375101664.1785998925;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118395333~118897920~118897930~119527019~119896803~120213116;epver=2;dc_random=1785998926_d1_UlUjL-p4Qm7AFgGbbLZobRE13d16BWQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    }
+  ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026'
+  }
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.tataaia.com/',
+  initialUrl: 'https://www.tataaia.com/',
+  finalUrl: 'https://www.tataaia.com/',
+  title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.tataaia.com/', status: 200 },
+    {
+      url: 'https://talic.demdex.net/dest5.html?d_nsid=0',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=4;ord=1;num=2707193901556;npa=0;auiddc=1924559798.1785998930;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938469~118897920~118897930~119527020~119793973~119896803~120213116;epver=2;dc_random=1785998930_xvm-DayehqOyAP6W8u8PSxK0Kmmt7DB5SQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=10;ord=3918092673100;npa=0;auiddc=1924559798.1785998930;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938468~118897920~118897930~119527019~119896803~120125305~120213116;epver=2;dc_random=1785998931_B8VvgMv2Pn3WZabahTSStIARGklVcUNBXw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=4;ord=1;num=2131090658825;npa=0;auiddc=1924559798.1785998930;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938469~118897920~118897930~119527020~119793973~119896803~120213116;epver=2;dc_random=1785998932_ItDtpNSB7AQF36s_6e59Vyp-B6sDqrBXwQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    }
+  ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026'
+  }
+}
+✅ Fast server response (341ms)
+✅ LCP Passed (1.88s)
+✅ CLS Passed (0.003)
+❌ Heavy JS blocking (1717ms)
+✅ Compression enabled (gzip)
+✅ Performance Score: 57.99999999999999
+
+============================
+CRUX REAL USER DATA
+============================
+
+❌ INP Failed (220ms)
+✅ Real User LCP: 2.64s
+✅ Real User CLS: 0.000
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.tataaia.com/',
+  initialUrl: 'https://www.tataaia.com/',
+  finalUrl: 'https://www.tataaia.com/',
+  title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.tataaia.com/', status: 200 },
+    {
+      url: 'https://talic.demdex.net/dest5.html?d_nsid=0',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=5;ord=1;num=5486141682403;npa=0;auiddc=737006694.1785998934;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527019~119793974~119896802~120213116;epver=2;dc_random=1785998935_Ex41x1X-xlMUyW0hcpNtAXWTP056Sy3Ncg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=1;ord=5168114918564;npa=0;auiddc=737006694.1785998934;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118395334~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785998937_Gfd6tslxOHM130IXQh_iV87vLZIM0klk0g;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=5;ord=1;num=8350065747503;npa=0;auiddc=737006694.1785998934;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527019~119793974~119896802~120213116;epver=2;dc_random=1785998938_i72EUCPFJhQ8JINExSGw5ltMCIlJRQsg5g;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    }
+  ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026'
+  }
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.tataaia.com/',
+  initialUrl: 'https://www.tataaia.com/',
+  finalUrl: 'https://www.tataaia.com/',
+  title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.tataaia.com/', status: 200 },
+    {
+      url: 'https://talic.demdex.net/dest5.html?d_nsid=0',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=0;ord=1;num=5117052324178;npa=0;auiddc=1179761205.1785998943;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=8.0;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785998943_w575JwtfCyWOtKvzhe7slPkxqoW27HZz4Q;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=18;ord=5472264766373;npa=0;auiddc=1179761205.1785998943;u1=%5BPage%20URL%5D;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=8.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~119337768~119527020~119896803~120213116;epver=2;dc_random=1785998943_cKx4JG8TCe0VAJKH_LTb2AO3LeHT4WARjA;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=0;ord=1;num=1432682077487;npa=0;auiddc=1179761205.1785998943;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=8.0;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785998944_MEFf1LhhtGDtu2Hbv-nIY6qHyUYA4RqW-w;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    }
+  ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026'
+  }
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.tataaia.com/',
+  initialUrl: 'https://www.tataaia.com/',
+  finalUrl: 'https://www.tataaia.com/',
+  title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.tataaia.com/', status: 200 },
+    {
+      url: 'https://talic.demdex.net/dest5.html?d_nsid=0',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=14;ord=1;num=1015721838839;npa=0;auiddc=2050155101.1785998941;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616986~115938466~115938469~118395334~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785998940_o0HnQ5Ec1N7WFRWbM2M4TaRBIEl8yICncQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=15;ord=9691064368118;npa=0;auiddc=2050155101.1785998941;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118395334~118897920~118897930~119527019~119896802~120213116;epver=2;dc_random=1785998942_2xam2AF-KnADzhYFYrrJKg5S4b3mi1yoGQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=14;ord=1;num=1382997048424;npa=0;auiddc=2050155101.1785998941;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616986~115938466~115938469~118395334~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785998942_lFNayryWMTdJE_v_594N1JgqpYJ5Y1jk-A;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    }
+  ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026'
+  }
+}
+Copilot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.tataaia.com/',
+  initialUrl: 'https://www.tataaia.com/',
+  finalUrl: 'https://www.tataaia.com/',
+  title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.tataaia.com/', status: 200 },
+    {
+      url: 'https://talic.demdex.net/dest5.html?d_nsid=0',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=0;ord=1;num=4988516850920;npa=0;auiddc=1044940259.1785998953;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~118012009~118897920~118897930~119527019~119896802~120213116;epver=2;dc_random=1785998953_JmnkQA0EJijr_T03s7-s7uk9Xupe917RaA;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=3;ord=5670129917254;npa=0;auiddc=1044940259.1785998953;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785998954_ZV8XU04qtxTGayDjaVBTbww0A7nSG6zybw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=0;ord=1;num=9121684403802;npa=0;auiddc=1044940259.1785998953;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~118012009~118897920~118897930~119527019~119896802~120213116;epver=2;dc_random=1785998954_GgND7BiRlJ6ikp0yR2NYI80-tiOb1HR8Cw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    }
+  ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026'
+  }
+}
+Gemini ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.tataaia.com/',
+  initialUrl: 'https://www.tataaia.com/',
+  finalUrl: 'https://www.tataaia.com/',
+  title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026',
+  blocked: false,
+  reason: 'captcha',
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.tataaia.com/', status: 200 },
+    {
+      url: 'https://talic.demdex.net/dest5.html?d_nsid=0',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=18;ord=1;num=3284828254684;npa=0;auiddc=1240779280.1785998949;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=6.0.1;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~119381663~119527019~119896803~120213116;epver=2;dc_random=1785998949_quXcpLOygKH5fjtQhe0vLt5NTu59a0KrRg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=6;ord=6674685397227;npa=0;auiddc=1240779280.1785998949;u1=%5BPage%20URL%5D;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=6.0.1;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616986~115938466~115938469~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785998950_1SfLw0JI2m3wSeSKtdd-qHeHIYPhbmVXtw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    },
+    {
+      url: 'https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=18;ord=1;num=2447199539532;npa=0;auiddc=1240779280.1785998949;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=6.0.1;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~119381663~119527019~119896803~120213116;epver=2;dc_random=1785998951_JSKSmr1nGslhFAJnJzruyu9KECiF3IzmlA;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?',
+      status: 200
+    }
+  ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026'
+  }
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

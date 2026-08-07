@@ -1,0 +1,533 @@
+{
+  "targetUrl": "https://www.tataaia.com/",
+  "generatedAt": "2026-08-06T06:34:06.284Z",
+  "seoSecurityAudit": {
+    "url": "https://www.tataaia.com/",
+    "baseUrl": "https://www.tataaia.com",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://www.tataaia.com/",
+      "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.tataaia.com/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.tataaia.com/",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": false,
+      "article": null,
+      "webPage": false,
+      "webSite": false,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [
+        "ImageObject",
+        "InsuranceAgency",
+        "ItemList",
+        "PostalAddress",
+        "SiteNavigationElement"
+      ],
+      "detectionMethods": {
+        "jsonLd": true,
+        "microdata": true,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": true,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [],
+    "llms": {
+      "found": true,
+      "hasTitle": true,
+      "hasDescription": true,
+      "links": [
+        "https://www.tataaia.com/",
+        "https://www.tataaia.com/life-insurance-plans/term-insurance.html):",
+        "https://www.tataaia.com/life-insurance-plans/savings-solutions.html):",
+        "https://www.tataaia.com/life-insurance-plans/wealth-solutions.html):",
+        "https://www.tataaia.com/life-insurance-plans/investment-plans.html):30",
+        "https://www.tataaia.com/life-insurance-plans/retirement-and-pension-solutions.html):",
+        "https://www.tataaia.com/health-insurance-plans.html):",
+        "https://www.tataaia.com/life-insurance-plans/claim-settlement-ratio.html):",
+        "https://www.tataaia.com/customer-service.html):",
+        "https://www.tataaia.com/blogs.html):",
+        "https://www.tataaia.com/contact-us.html):",
+        "https://www.tataaia.com/terms-and-conditions.html)",
+        "https://www.tataaia.com/sitemap.xml)"
+      ],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [],
+      "missingTwitter": []
+    },
+    "semanticHtml": [
+      "nav",
+      "section",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 681
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 55,
+        "ttfbMs": 353,
+        "lcpMs": 1640,
+        "cls": 0.002,
+        "totalBlockingTimeMs": 3177,
+        "compressionEnabled": true,
+        "compressionEncoding": "gzip",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 220,
+        "lcpMs": 2638,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": false,
+      "titleLength": 90,
+      "metaDescriptionOptimized": false,
+      "metaDescriptionLength": 191,
+      "h1Optimized": true,
+      "h1Count": 1,
+      "h2Count": 41,
+      "h3Count": 157,
+      "properHeadingHierarchy": false,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 18931,
+      "hasDefinitions": true,
+      "hasComparisons": true,
+      "hasBulletPoints": true,
+      "bulletCount": 2246,
+      "hasMultimedia": true,
+      "imageCount": 659,
+      "videoCount": 0,
+      "iframeCount": 4,
+      "hasKeyTakeaways": true,
+      "freshnessSignals": true
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.tataaia.com/",
+        "initialUrl": "https://www.tataaia.com/",
+        "finalUrl": "https://www.tataaia.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+        "h1": "Life Insurance",
+        "canonical": "https://www.tataaia.com/",
+        "robotsMeta": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "googlebotMeta": null,
+        "loadTime": "4044 ms",
+        "totalRequests": 278,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.tataaia.com/",
+            "status": 200
+          },
+          {
+            "url": "https://talic.demdex.net/dest5.html?d_nsid=0",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=15;ord=1;num=1263394495423;npa=0;auiddc=1637929318.1785997949;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527019~119793972~119896803~120213116;epver=2;dc_random=1785997949_1ezlKmT-Pho5mdEtKzQoyJ_Q5frhqAVtxg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 302
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;dc_pre=CKmCh-uwi5YDFUTChAAdrmgkRA;src=11435308;type=overa0;cat=tataa002;rcb=15;ord=1;num=1263394495423;npa=0;auiddc=1637929318.1785997949;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527019~119793972~119896803~120213116;epver=2;dc_random=1785997949_1ezlKmT-Pho5mdEtKzQoyJ_Q5frhqAVtxg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=5;ord=3962792809769;npa=0;auiddc=1637929318.1785997949;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785997950_Odd__5GMjA3vtl1nh4bX8MNcaeuLqA-KOQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 302
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;dc_pre=CPvtweuwi5YDFbHzhAAdNcIjkA;src=13492939;type=hp;cat=hp;rcb=5;ord=3962792809769;npa=0;auiddc=1637929318.1785997949;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785997950_Odd__5GMjA3vtl1nh4bX8MNcaeuLqA-KOQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=15;ord=1;num=3442271615903;npa=0;auiddc=1637929318.1785997949;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527019~119793972~119896803~120213116;epver=2;dc_random=1785997951__duF3spOhqVjyCYTWKW66NkOMrjfDtfd4g;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 302
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;dc_pre=CNHp_euwi5YDFdzfoAIdGBQn9w;src=11435308;type=tataa0;cat=tata_00b;rcb=15;ord=1;num=3442271615903;npa=0;auiddc=1637929318.1785997949;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131810~118897920~118897930~119527019~119793972~119896803~120213116;epver=2;dc_random=1785997951__duF3spOhqVjyCYTWKW66NkOMrjfDtfd4g;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Term Insurance Investment Plans Calculators All Plans Customer Service Pay Premium Resume Application Popular searches Calculate Term Premium Pay Premium Register a claim Bonus & Dividend Download Policy Document Download Premium Certificate Submit a Complaint Continue from where you left of Resume Application Track Application Status In this policy, the investment risk in the investment portfolio will be borne by the policyholder. New Launch Don’t let Cancer Cancel your Income Flow Premium rate fixed for 30 yrs Upfront payout on diagnosis Know more T&C apply. Read More 0% GST1a on premium ₹1.5 Cr Life Cover starts at ₹678/month1b Buy one, Gift one: Both save 5%1c 99.45% Claim Settlement Ratio1d Know more 1b20 year old female (Standard Life, Non-Smoker), regular pay, 20 year policy term. 1dIndividual Death Claim Settlement Ratio for FY25-26. T&C apply. UIN: 110N176V12 In this policy, the investment risk in the investment portfolio will be borne by the policyholder. Funds rated 4 or 5 Stars1e 17.65% 5-year Tax-free1a returns1f Wealth Creation + Life cover Free fund switches Know more 1f5 year returns of Tata AIA Multi Cap Fund as of Apr’26. Benchmark: 12.01%. Past performance is not indicative of future performance. Available with Tata AIA ULIPs. T&C apply. Read More ✕ Top Selling Plans by Tata AIA Life Insurance BESTSELLER Term Plans ₹1.5 Cr Life Cover starts @678/month1b 17.65% RETURNS Term + Wealth Plans ₹1 Cr Life Cover + 17.65% 5 yr Returns1f of Multi Cap Fund ₹46 LAKH+ R",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026"
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.tataaia.com/",
+        "initialUrl": "https://www.tataaia.com/",
+        "finalUrl": "https://www.tataaia.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+        "h1": "Life Insurance",
+        "canonical": "https://www.tataaia.com/",
+        "robotsMeta": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "googlebotMeta": null,
+        "loadTime": "1580 ms",
+        "totalRequests": 239,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.tataaia.com/",
+            "status": 200
+          },
+          {
+            "url": "https://talic.demdex.net/dest5.html?d_nsid=0",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=9;ord=1;num=2975564829519;npa=0;auiddc=2041578542.1785997952;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785997951_dUah9kowEOmWlvTJi-_5nOPc8-BFUN3xgA;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=16;ord=4419329136138;npa=0;auiddc=2041578542.1785997952;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616986~115938465~115938469~118897920~118897930~119527019~119896803~120213116;epver=2;dc_random=1785997952_SRPvxpGybCJAbQ1jsGWQXKwMKEh3HzWQlw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=9;ord=1;num=1982899818158;npa=0;auiddc=2041578542.1785997952;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938465~115938469~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785997953_B7UhVtkUWIn3Axj7QZ_zoSVNCEEKc3ZDfg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Term Insurance Investment Plans Calculators All Plans Customer Service Pay Premium Resume Application Popular searches Calculate Term Premium Pay Premium Register a claim Bonus & Dividend Download Policy Document Download Premium Certificate Submit a Complaint Continue from where you left of Resume Application Track Application Status In this policy, the investment risk in the investment portfolio will be borne by the policyholder. New Launch Don’t let Cancer Cancel your Income Flow Premium rate fixed for 30 yrs Upfront payout on diagnosis Know more T&C apply. Read More 0% GST1a on premium ₹1.5 Cr Life Cover starts at ₹678/month1b Buy one, Gift one: Both save 5%1c 99.45% Claim Settlement Ratio1d Know more 1b20 year old female (Standard Life, Non-Smoker), regular pay, 20 year policy term. 1dIndividual Death Claim Settlement Ratio for FY25-26. T&C apply. UIN: 110N176V12 In this policy, the investment risk in the investment portfolio will be borne by the policyholder. Funds rated 4 or 5 Stars1e 17.65% 5-year Tax-free1a returns1f Wealth Creation + Life cover Free fund switches Know more 1f5 year returns of Tata AIA Multi Cap Fund as of Apr’26. Benchmark: 12.01%. Past performance is not indicative of future performance. Available with Tata AIA ULIPs. T&C apply. Read More ✕ Top Selling Plans by Tata AIA Life Insurance BESTSELLER Term Plans ₹1.5 Cr Life Cover starts @678/month1b 17.65% RETURNS Term + Wealth Plans ₹1 Cr Life Cover + 17.65% 5 yr Returns1f of Multi Cap Fund ₹46 LAKH+ R",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026"
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.tataaia.com/",
+        "initialUrl": "https://www.tataaia.com/",
+        "finalUrl": "https://www.tataaia.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+        "h1": "Life Insurance",
+        "canonical": "https://www.tataaia.com/",
+        "robotsMeta": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "googlebotMeta": null,
+        "loadTime": "1292 ms",
+        "totalRequests": 240,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.tataaia.com/",
+            "status": 200
+          },
+          {
+            "url": "https://talic.demdex.net/dest5.html?d_nsid=0",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=8;ord=1;num=727644681545;npa=0;auiddc=768910760.1785997959;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118131810~118395333~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785997960_2yp4orYyDQ4BcYR4ZbUj6Sp26pv5H0FjNw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=18;ord=6937008259403;npa=0;auiddc=768910760.1785997959;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938469~118131810~118897920~118897930~119527020~119896803~120213116~120315471;epver=2;dc_random=1785997960_wdYgWtVoXGDt6txtTWkgBXTBz9qxidW0sw;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=8;ord=1;num=6616655401584;npa=0;auiddc=768910760.1785997959;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118131810~118395333~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785997963_9Qn8Ktepz9FdXaHqBqclGe_knqqClmO6cg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Term Insurance Investment Plans Calculators All Plans Customer Service Pay Premium Resume Application Popular searches Calculate Term Premium Pay Premium Register a claim Bonus & Dividend Download Policy Document Download Premium Certificate Submit a Complaint Continue from where you left of Resume Application Track Application Status In this policy, the investment risk in the investment portfolio will be borne by the policyholder. Funds rated 4 or 5 Stars1e 17.65% 5-year Tax-free1a returns1f Wealth Creation + Life cover Free fund switches Know more 1f5 year returns of Tata AIA Multi Cap Fund as of Apr’26. Benchmark: 12.01%. Past performance is not indicative of future performance. Available with Tata AIA ULIPs. T&C apply. Read More In this policy, the investment risk in the investment portfolio will be borne by the policyholder. New Launch Don’t let Cancer Cancel your Income Flow Premium rate fixed for 30 yrs Upfront payout on diagnosis Know more T&C apply. Read More 0% GST1a on premium ₹1.5 Cr Life Cover starts at ₹678/month1b Buy one, Gift one: Both save 5%1c 99.45% Claim Settlement Ratio1d Know more 1b20 year old female (Standard Life, Non-Smoker), regular pay, 20 year policy term. 1dIndividual Death Claim Settlement Ratio for FY25-26. T&C apply. UIN: 110N176V12 ✕ Top Selling Plans by Tata AIA Life Insurance BESTSELLER Term Plans ₹1.5 Cr Life Cover starts @678/month1b 17.65% RETURNS Term + Wealth Plans ₹1 Cr Life Cover + 17.65% 5 yr Returns1f of Multi Cap Fund ₹46 LAKH+ R",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026"
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.tataaia.com/",
+        "initialUrl": "https://www.tataaia.com/",
+        "finalUrl": "https://www.tataaia.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+        "h1": "Life Insurance",
+        "canonical": "https://www.tataaia.com/",
+        "robotsMeta": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "googlebotMeta": null,
+        "loadTime": "3795 ms",
+        "totalRequests": 277,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.tataaia.com/",
+            "status": 200
+          },
+          {
+            "url": "https://talic.demdex.net/dest5.html?d_nsid=0",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=19;ord=1;num=4113547660534;npa=0;auiddc=1056496364.1785997965;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118395335~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785997967_wSeCt9bOKimoWdHKNSTAb9r6ZALSAO59FA;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=6;ord=2324460894758;npa=0;auiddc=1056496364.1785997965;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118897920~118897930~119527019~119896802~120213116;epver=2;dc_random=1785997969_9Td6yBYy9nl2InzOn74-Bkpo2qq1NeV9ig;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=19;ord=1;num=6606766664763;npa=0;auiddc=1056496364.1785997965;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118395335~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785997970_mkpZN29qpv5fC1IJ_REX-h5FWglIPfggbQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Term Insurance Investment Plans Calculators All Plans Customer Service Pay Premium Resume Application Popular searches Calculate Term Premium Pay Premium Register a claim Bonus & Dividend Download Policy Document Download Premium Certificate Submit a Complaint Continue from where you left of Resume Application Track Application Status In this policy, the investment risk in the investment portfolio will be borne by the policyholder. New Launch Don’t let Cancer Cancel your Income Flow Premium rate fixed for 30 yrs Upfront payout on diagnosis Know more T&C apply. Read More 0% GST1a on premium ₹1.5 Cr Life Cover starts at ₹678/month1b Buy one, Gift one: Both save 5%1c 99.45% Claim Settlement Ratio1d Know more 1b20 year old female (Standard Life, Non-Smoker), regular pay, 20 year policy term. 1dIndividual Death Claim Settlement Ratio for FY25-26. T&C apply. UIN: 110N176V12 In this policy, the investment risk in the investment portfolio will be borne by the policyholder. Funds rated 4 or 5 Stars1e 17.65% 5-year Tax-free1a returns1f Wealth Creation + Life cover Free fund switches Know more 1f5 year returns of Tata AIA Multi Cap Fund as of Apr’26. Benchmark: 12.01%. Past performance is not indicative of future performance. Available with Tata AIA ULIPs. T&C apply. Read More ✕ Top Selling Plans by Tata AIA Life Insurance BESTSELLER Term Plans ₹1.5 Cr Life Cover starts @678/month1b 17.65% RETURNS Term + Wealth Plans ₹1 Cr Life Cover + 17.65% 5 yr Returns1f of Multi Cap Fund ₹46 LAKH+ R",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026"
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.tataaia.com/",
+        "initialUrl": "https://www.tataaia.com/",
+        "finalUrl": "https://www.tataaia.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+        "h1": "Life Insurance",
+        "canonical": "https://www.tataaia.com/",
+        "robotsMeta": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "googlebotMeta": null,
+        "loadTime": "3645 ms",
+        "totalRequests": 294,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.tataaia.com/",
+            "status": 200
+          },
+          {
+            "url": "https://talic.demdex.net/dest5.html?d_nsid=0",
+            "status": 200
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=15;ord=7766234881033;npa=0;auiddc=1660483802.1785997969;u1=%5BPage%20URL%5D;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=8.0;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~117776796~118897920~118897930~119527019~119896803~120213116;epver=2;dc_random=1785997970_u6IASk88cMqDd6Eikx0O10GXHr1DHiNPgg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=10;ord=1;num=3479206298576;npa=0;auiddc=1660483802.1785997969;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=8.0;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841h1v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~117776796~118395335~118897920~118897930~119527019~119896802~120213116;epver=2;dc_random=1785997971_-SQ7Lm4pS8HzHAyFGH66p6VBuY75FtG56g;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Term Insurance Investment Plans Calculators All Plans Customer Service Pay Premium Resume Application Popular searches Calculate Term Premium Pay Premium Register a claim Bonus & Dividend Download Policy Document Download Premium Certificate Submit a Complaint Continue from where you left of Resume Application Track Application Status In this policy, the investment risk in the investment portfolio will be borne by the policyholder. New Launch Don’t let Cancer Cancel your Income Flow Premium rate fixed for 30 yrs Upfront payout on diagnosis Know more T&C apply. Read More 0% GST1a on premium ₹1.5 Cr Life Cover starts at ₹678/month1b Buy one, Gift one: Both save 5%1c 99.45% Claim Settlement Ratio1d Know more 1b20 year old female (Standard Life, Non-Smoker), regular pay, 20 year policy term. 1dIndividual Death Claim Settlement Ratio for FY25-26. T&C apply. UIN: 110N176V12 In this policy, the investment risk in the investment portfolio will be borne by the policyholder. Funds rated 4 or 5 Stars1e 17.65% 5-year Tax-free1a returns1f Wealth Creation + Life cover Free fund switches Know more 1f5 year returns of Tata AIA Multi Cap Fund as of Apr’26. Benchmark: 12.01%. Past performance is not indicative of future performance. Available with Tata AIA ULIPs. T&C apply. Read More ✕ Top Selling Plans by Tata AIA Life Insurance BESTSELLER Term Plans ₹1.5 Cr Life Cover starts @678/month1b 17.65% RETURNS Term + Wealth Plans ₹1 Cr Life Cover + 17.65% 5 yr Returns1f of Multi Cap Fund ₹46 LAKH+ R",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026"
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.tataaia.com/",
+        "initialUrl": "https://www.tataaia.com/",
+        "finalUrl": "https://www.tataaia.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+        "h1": "Life Insurance",
+        "canonical": "https://www.tataaia.com/",
+        "robotsMeta": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "googlebotMeta": null,
+        "loadTime": "3246 ms",
+        "totalRequests": 297,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.tataaia.com/",
+            "status": 200
+          },
+          {
+            "url": "https://talic.demdex.net/dest5.html?d_nsid=0",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=5;ord=1;num=4750286874526;npa=0;auiddc=1101718589.1785997976;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=6.0.1;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938469~118395334~118897920~118897930~119337770~119404700~119527020~119896803~120213116;epver=2;dc_random=1785997976_70Al6kZR_mQPFlq7qJKv-NNaJO1mNM6sPg;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=10;ord=2587852132161;npa=0;auiddc=1101718589.1785997976;u1=%5BPage%20URL%5D;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=6.0.1;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118395335~118897920~118897930~119527020~119896803~120213116;epver=2;dc_random=1785997977_w3-e9soL23raqZjb8cCO68W3CMbhPezOwQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=5;ord=1;num=196879162446;npa=0;auiddc=1101718589.1785997976;uaa=arm;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Android;uapv=6.0.1;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115616985~115938466~115938469~118395334~118897920~118897930~119337770~119404700~119527020~119896803~120213116;epver=2;dc_random=1785997978_0AsoDLO8dhGNgGJtRiTcFMXQ0-LdNW9l_g;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Term Insurance Investment Plans Calculators All Plans Customer Service Pay Premium Resume Application Popular searches Calculate Term Premium Pay Premium Register a claim Bonus & Dividend Download Policy Document Download Premium Certificate Submit a Complaint Continue from where you left of Resume Application Track Application Status 0% GST1a on premium ₹1.5 Cr Life Cover starts at ₹678/month1b Buy one, Gift one: Both save 5%1c 99.45% Claim Settlement Ratio1d Know more 1b20 year old female (Standard Life, Non-Smoker), regular pay, 20 year policy term. 1dIndividual Death Claim Settlement Ratio for FY25-26. T&C apply. UIN: 110N176V12 In this policy, the investment risk in the investment portfolio will be borne by the policyholder. Funds rated 4 or 5 Stars1e 17.65% 5-year Tax-free1a returns1f Wealth Creation + Life cover Free fund switches Know more 1f5 year returns of Tata AIA Multi Cap Fund as of Apr’26. Benchmark: 12.01%. Past performance is not indicative of future performance. Available with Tata AIA ULIPs. T&C apply. Read More In this policy, the investment risk in the investment portfolio will be borne by the policyholder. New Launch Don’t let Cancer Cancel your Income Flow Premium rate fixed for 30 yrs Upfront payout on diagnosis Know more T&C apply. Read More ✕ Top Selling Plans by Tata AIA Life Insurance BESTSELLER Term Plans ₹1.5 Cr Life Cover starts @678/month1b 17.65% RETURNS Term + Wealth Plans ₹1 Cr Life Cover + 17.65% 5 yr Returns1f of Multi Cap Fund ₹46 LAKH+ R",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026"
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.tataaia.com/",
+        "initialUrl": "https://www.tataaia.com/",
+        "finalUrl": "https://www.tataaia.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026",
+        "h1": "Life Insurance",
+        "canonical": "https://www.tataaia.com/",
+        "robotsMeta": "index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1",
+        "googlebotMeta": null,
+        "loadTime": "2328 ms",
+        "totalRequests": 284,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.tataaia.com/",
+            "status": 200
+          },
+          {
+            "url": "https://talic.demdex.net/dest5.html?d_nsid=0",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=overa0;cat=tataa002;rcb=10;ord=1;num=7299603626647;npa=0;auiddc=957949416.1785997983;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118131808~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785997984_80BCFBVGI9FHkYdRhZLQuxVmPo44vYJp9Q;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://13492939.fls.doubleclick.net/activityi;src=13492939;type=hp;cat=hp;rcb=2;ord=1203789753185;npa=0;auiddc=957949416.1785997983;u1=%5BPage%20URL%5D;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe6841v9190561237za200zd9190561237xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938469~118131808~118897920~118897930~119527019~119896802~120213116;epver=2;dc_random=1785997985_9qMwKoU8s3IoSedV0a5q8S8TJRRLnr-2xQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          },
+          {
+            "url": "https://11435308.fls.doubleclick.net/activityi;src=11435308;type=tataa0;cat=tata_00b;rcb=10;ord=1;num=4306232535682;npa=0;auiddc=957949416.1785997983;uaa=x86;uab=64;uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6841v9190575166za200zd9190575166xec;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tag_exp=115938466~115938468~118131808~118897920~118897930~119527020~119896802~120213116;epver=2;dc_random=1785997986_HjJoftSyQWhm7REdIds3-Hxtwy-kFXBkPQ;_dc_test=1;~oref=https%3A%2F%2Fwww.tataaia.com%2F?",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Term Insurance Investment Plans Calculators All Plans Customer Service Pay Premium Resume Application Popular searches Calculate Term Premium Pay Premium Register a claim Bonus & Dividend Download Policy Document Download Premium Certificate Submit a Complaint Continue from where you left of Resume Application Track Application Status In this policy, the investment risk in the investment portfolio will be borne by the policyholder. New Launch Don’t let Cancer Cancel your Income Flow Premium rate fixed for 30 yrs Upfront payout on diagnosis Know more T&C apply. Read More 0% GST1a on premium ₹1.5 Cr Life Cover starts at ₹678/month1b Buy one, Gift one: Both save 5%1c 99.45% Claim Settlement Ratio1d Know more 1b20 year old female (Standard Life, Non-Smoker), regular pay, 20 year policy term. 1dIndividual Death Claim Settlement Ratio for FY25-26. T&C apply. UIN: 110N176V12 In this policy, the investment risk in the investment portfolio will be borne by the policyholder. Funds rated 4 or 5 Stars1e 17.65% 5-year Tax-free1a returns1f Wealth Creation + Life cover Free fund switches Know more 1f5 year returns of Tata AIA Multi Cap Fund as of Apr’26. Benchmark: 12.01%. Past performance is not indicative of future performance. Available with Tata AIA ULIPs. T&C apply. Read More ✕ Top Selling Plans by Tata AIA Life Insurance BESTSELLER Term Plans ₹1.5 Cr Life Cover starts @678/month1b 17.65% RETURNS Term + Wealth Plans ₹1 Cr Life Cover + 17.65% 5 yr Returns1f of Multi Cap Fund ₹46 LAKH+ R",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Life Insurance - Buy Best Life Insurance from Tata AIA Life Insurance Online in India 2026"
+        }
+      }
+    ],
+    "error": null
+  }
+}

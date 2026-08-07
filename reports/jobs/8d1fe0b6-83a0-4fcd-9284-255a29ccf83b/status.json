@@ -1,0 +1,12 @@
+{
+  "id": "8d1fe0b6-83a0-4fcd-9284-255a29ccf83b",
+  "url": "https://www.tataaia.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-06T06:48:21.765Z",
+  "updatedAt": "2026-08-06T06:50:24.827Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\8d1fe0b6-83a0-4fcd-9284-255a29ccf83b\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\8d1fe0b6-83a0-4fcd-9284-255a29ccf83b\\audit.log"
+}

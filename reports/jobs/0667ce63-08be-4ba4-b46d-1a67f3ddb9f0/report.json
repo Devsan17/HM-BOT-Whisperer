@@ -1,0 +1,433 @@
+{
+  "targetUrl": "https://www.herbalife.com/",
+  "generatedAt": "2026-08-07T05:03:21.320Z",
+  "seoSecurityAudit": {
+    "url": "https://www.herbalife.com/en-in",
+    "baseUrl": "https://www.herbalife.com",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://www.herbalife.com/en-in",
+      "title": "Herbalife India | Global Leader in Nutrition",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.herbalife.com/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.herbalife.com/en-in",
+      "isAbsolute": true,
+      "isSelfReferencing": false
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": true,
+      "article": null,
+      "webPage": false,
+      "webSite": true,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [
+        "Country",
+        "Organization",
+        "PostalAddress",
+        "SearchAction",
+        "WebSite"
+      ],
+      "detectionMethods": {
+        "jsonLd": true,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": false,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [],
+    "llms": {
+      "found": false,
+      "hasTitle": false,
+      "hasDescription": false,
+      "links": [],
+      "tooSmall": false,
+      "error": "llms.txt blocked in browser (503)"
+    },
+    "metaTags": {
+      "missingOpenGraph": [],
+      "missingTwitter": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [
+      "header",
+      "nav",
+      "main",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 23
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 41,
+        "ttfbMs": 52,
+        "lcpMs": 2717,
+        "cls": 0,
+        "totalBlockingTimeMs": 2800,
+        "compressionEnabled": true,
+        "compressionEncoding": "br",
+        "error": null
+      },
+      "crux": {
+        "success": false,
+        "inpMs": null,
+        "lcpMs": null,
+        "cls": null,
+        "error": "Request failed with status code 404"
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": true,
+      "titleLength": 44,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 143,
+      "h1Optimized": false,
+      "h1Count": 4,
+      "h2Count": 3,
+      "h3Count": 0,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 6823,
+      "hasDefinitions": false,
+      "hasComparisons": false,
+      "hasBulletPoints": true,
+      "bulletCount": 279,
+      "hasMultimedia": true,
+      "imageCount": 44,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": true
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.herbalife.com/",
+        "initialUrl": "https://www.herbalife.com/en-in",
+        "finalUrl": "https://www.herbalife.com/en-in",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Herbalife India | Global Leader in Nutrition",
+        "h1": "Fuel Like Ronaldo",
+        "canonical": "https://www.herbalife.com/en-in",
+        "robotsMeta": "index,follow",
+        "googlebotMeta": null,
+        "loadTime": "2791 ms",
+        "totalRequests": 156,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.herbalife.com/",
+            "status": 302
+          },
+          {
+            "url": "https://www.herbalife.com/en-in",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Achieve Your Goals Products Wellness Resources Business Opportunity CR7 & Pro2col About Herbalife Fuel Like Ronaldo Learn More Protein and nutrients that power you Learn More Power of community Learn More Celebrating female grit and passion for 20 years Learn More 1234 Healthy Weight Fitness & Performance Daily Nutrition & Health Skin & Body Care Achieve your nutrition goals No matter your wellness goals, we have the nutritional products and support to help you succeed and build healthy habits. Learn More ​​Science & quality​ As a global leader ​in health and nutrition for more than 40 years, we rigorously test to ensure the quality and safety of our full line of products. Every Herbalife ingredient is held to high-quality standards, from Seed to Feed. We scientifically verify and test each ingredient with a multi-level quality control system to guarantee you receive the best nutrition possible. Wellness approach When you care for all aspects of your life – body, mind and future – you're on your way to living your best life. At Herbalife, we want to help you get there. Our science-backed products help you nourish a healthy active life. Our Herbalife Independent Associates support and motivate you to realise your full potential. Our business model provides you with the opportunity to earn extra income or build a business of your own.* Are you ready to start living your best life? *The Herbalife Rules of Conduct and all other rules, policies and advisories that Herbalife issues",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 302,
+          "location": "/en-in",
+          "finalUrl": "https://www.herbalife.com/en-in",
+          "title": null
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.herbalife.com/",
+        "initialUrl": "https://www.herbalife.com/en-in",
+        "finalUrl": "https://www.herbalife.com/en-in",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Herbalife India | Global Leader in Nutrition",
+        "h1": "Fuel Like Ronaldo",
+        "canonical": "https://www.herbalife.com/en-in",
+        "robotsMeta": "index,follow",
+        "googlebotMeta": null,
+        "loadTime": "1575 ms",
+        "totalRequests": 149,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.herbalife.com/",
+            "status": 302
+          },
+          {
+            "url": "https://www.herbalife.com/en-in",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Achieve Your Goals Products Wellness Resources Business Opportunity CR7 & Pro2col About Herbalife Fuel Like Ronaldo Learn More Protein and nutrients that power you Learn More Power of community Learn More Celebrating female grit and passion for 20 years Learn More 1234 Healthy Weight Fitness & Performance Daily Nutrition & Health Skin & Body Care Achieve your nutrition goals No matter your wellness goals, we have the nutritional products and support to help you succeed and build healthy habits. Learn More ​​Science & quality​ As a global leader ​in health and nutrition for more than 40 years, we rigorously test to ensure the quality and safety of our full line of products. Every Herbalife ingredient is held to high-quality standards, from Seed to Feed. We scientifically verify and test each ingredient with a multi-level quality control system to guarantee you receive the best nutrition possible. Wellness approach When you care for all aspects of your life – body, mind and future – you're on your way to living your best life. At Herbalife, we want to help you get there. Our science-backed products help you nourish a healthy active life. Our Herbalife Independent Associates support and motivate you to realise your full potential. Our business model provides you with the opportunity to earn extra income or build a business of your own.* Are you ready to start living your best life? *The Herbalife Rules of Conduct and all other rules, policies and advisories that Herbalife issues",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 302,
+          "location": "/en-in",
+          "finalUrl": "https://www.herbalife.com/en-in",
+          "title": null
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.herbalife.com/",
+        "initialUrl": "https://www.herbalife.com/en-in",
+        "finalUrl": "https://www.herbalife.com/en-in",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Herbalife India | Global Leader in Nutrition",
+        "h1": "Fuel Like Ronaldo",
+        "canonical": "https://www.herbalife.com/en-in",
+        "robotsMeta": "index,follow",
+        "googlebotMeta": null,
+        "loadTime": "5253 ms",
+        "totalRequests": 157,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.herbalife.com/",
+            "status": 302
+          },
+          {
+            "url": "https://www.herbalife.com/en-in",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Achieve Your Goals Products Wellness Resources Business Opportunity CR7 & Pro2col About Herbalife Fuel Like Ronaldo Learn More Protein and nutrients that power you Learn More Power of community Learn More Celebrating female grit and passion for 20 years Learn More 1234 Healthy Weight Fitness & Performance Daily Nutrition & Health Skin & Body Care Achieve your nutrition goals No matter your wellness goals, we have the nutritional products and support to help you succeed and build healthy habits. Learn More ​​Science & quality​ As a global leader ​in health and nutrition for more than 40 years, we rigorously test to ensure the quality and safety of our full line of products. Every Herbalife ingredient is held to high-quality standards, from Seed to Feed. We scientifically verify and test each ingredient with a multi-level quality control system to guarantee you receive the best nutrition possible. Wellness approach When you care for all aspects of your life – body, mind and future – you're on your way to living your best life. At Herbalife, we want to help you get there. Our science-backed products help you nourish a healthy active life. Our Herbalife Independent Associates support and motivate you to realise your full potential. Our business model provides you with the opportunity to earn extra income or build a business of your own.* Are you ready to start living your best life? *The Herbalife Rules of Conduct and all other rules, policies and advisories that Herbalife issues",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 302,
+          "location": "/en-in",
+          "finalUrl": "https://www.herbalife.com/en-in",
+          "title": null
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.herbalife.com/",
+        "initialUrl": "https://www.herbalife.com/en-in",
+        "finalUrl": "https://www.herbalife.com/en-in",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Herbalife India | Global Leader in Nutrition",
+        "h1": "Fuel Like Ronaldo",
+        "canonical": "https://www.herbalife.com/en-in",
+        "robotsMeta": "index,follow",
+        "googlebotMeta": null,
+        "loadTime": "4026 ms",
+        "totalRequests": 149,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.herbalife.com/",
+            "status": 302
+          },
+          {
+            "url": "https://www.herbalife.com/en-in",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Achieve Your Goals Products Wellness Resources Business Opportunity CR7 & Pro2col About Herbalife Fuel Like Ronaldo Learn More Protein and nutrients that power you Learn More Power of community Learn More Celebrating female grit and passion for 20 years Learn More 1234 Healthy Weight Fitness & Performance Daily Nutrition & Health Skin & Body Care Achieve your nutrition goals No matter your wellness goals, we have the nutritional products and support to help you succeed and build healthy habits. Learn More ​​Science & quality​ As a global leader ​in health and nutrition for more than 40 years, we rigorously test to ensure the quality and safety of our full line of products. Every Herbalife ingredient is held to high-quality standards, from Seed to Feed. We scientifically verify and test each ingredient with a multi-level quality control system to guarantee you receive the best nutrition possible. Wellness approach When you care for all aspects of your life – body, mind and future – you're on your way to living your best life. At Herbalife, we want to help you get there. Our science-backed products help you nourish a healthy active life. Our Herbalife Independent Associates support and motivate you to realise your full potential. Our business model provides you with the opportunity to earn extra income or build a business of your own.* Are you ready to start living your best life? *The Herbalife Rules of Conduct and all other rules, policies and advisories that Herbalife issues",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 302,
+          "location": "/en-in",
+          "finalUrl": "https://www.herbalife.com/en-in",
+          "title": null
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.herbalife.com/",
+        "initialUrl": "https://www.herbalife.com/en-in",
+        "finalUrl": "https://www.herbalife.com/en-in",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Herbalife India | Global Leader in Nutrition",
+        "h1": "Fuel Like Ronaldo",
+        "canonical": "https://www.herbalife.com/en-in",
+        "robotsMeta": "index,follow",
+        "googlebotMeta": null,
+        "loadTime": "8650 ms",
+        "totalRequests": 150,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.herbalife.com/",
+            "status": 302
+          },
+          {
+            "url": "https://www.herbalife.com/en-in",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Achieve Your Goals Products Wellness Resources Business Opportunity CR7 & Pro2col About Herbalife Fuel Like Ronaldo Learn More Protein and nutrients that power you Learn More Power of community Learn More Celebrating female grit and passion for 20 years Learn More 1234 Healthy Weight Fitness & Performance Daily Nutrition & Health Skin & Body Care Achieve your nutrition goals No matter your wellness goals, we have the nutritional products and support to help you succeed and build healthy habits. Learn More ​​Science & quality​ As a global leader ​in health and nutrition for more than 40 years, we rigorously test to ensure the quality and safety of our full line of products. Every Herbalife ingredient is held to high-quality standards, from Seed to Feed. We scientifically verify and test each ingredient with a multi-level quality control system to guarantee you receive the best nutrition possible. Wellness approach When you care for all aspects of your life – body, mind and future – you're on your way to living your best life. At Herbalife, we want to help you get there. Our science-backed products help you nourish a healthy active life. Our Herbalife Independent Associates support and motivate you to realise your full potential. Our business model provides you with the opportunity to earn extra income or build a business of your own.* Are you ready to start living your best life? *The Herbalife Rules of Conduct and all other rules, policies and advisories that Herbalife issues",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 302,
+          "location": "/en-in",
+          "finalUrl": "https://www.herbalife.com/en-in",
+          "title": null
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.herbalife.com/",
+        "initialUrl": "https://www.herbalife.com/en-in",
+        "finalUrl": "https://www.herbalife.com/en-in",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Herbalife India | Global Leader in Nutrition",
+        "h1": "Fuel Like Ronaldo",
+        "canonical": "https://www.herbalife.com/en-in",
+        "robotsMeta": "index,follow",
+        "googlebotMeta": null,
+        "loadTime": "3818 ms",
+        "totalRequests": 153,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.herbalife.com/",
+            "status": 302
+          },
+          {
+            "url": "https://www.herbalife.com/en-in",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Achieve Your Goals Products Wellness Resources Business Opportunity CR7 & Pro2col About Herbalife Fuel Like Ronaldo Learn More Protein and nutrients that power you Learn More Power of community Learn More Celebrating female grit and passion for 20 years Learn More 1234 Healthy Weight Fitness & Performance Daily Nutrition & Health Skin & Body Care Achieve your nutrition goals No matter your wellness goals, we have the nutritional products and support to help you succeed and build healthy habits. Learn More ​​Science & quality​ As a global leader ​in health and nutrition for more than 40 years, we rigorously test to ensure the quality and safety of our full line of products. Every Herbalife ingredient is held to high-quality standards, from Seed to Feed. We scientifically verify and test each ingredient with a multi-level quality control system to guarantee you receive the best nutrition possible. Wellness approach When you care for all aspects of your life – body, mind and future – you're on your way to living your best life. At Herbalife, we want to help you get there. Our science-backed products help you nourish a healthy active life. Our Herbalife Independent Associates support and motivate you to realise your full potential. Our business model provides you with the opportunity to earn extra income or build a business of your own.* Are you ready to start living your best life? *The Herbalife Rules of Conduct and all other rules, policies and advisories that Herbalife issues",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 302,
+          "location": "/en-in",
+          "finalUrl": "https://www.herbalife.com/en-in",
+          "title": null
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.herbalife.com/",
+        "initialUrl": "https://www.herbalife.com/en-in",
+        "finalUrl": "https://www.herbalife.com/en-in",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Herbalife India | Global Leader in Nutrition",
+        "h1": "Fuel Like Ronaldo",
+        "canonical": "https://www.herbalife.com/en-in",
+        "robotsMeta": "index,follow",
+        "googlebotMeta": null,
+        "loadTime": "1566 ms",
+        "totalRequests": 157,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.herbalife.com/",
+            "status": 302
+          },
+          {
+            "url": "https://www.herbalife.com/en-in",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Achieve Your Goals Products Wellness Resources Business Opportunity CR7 & Pro2col About Herbalife Fuel Like Ronaldo Learn More Protein and nutrients that power you Learn More Power of community Learn More Celebrating female grit and passion for 20 years Learn More 1234 Healthy Weight Fitness & Performance Daily Nutrition & Health Skin & Body Care Achieve your nutrition goals No matter your wellness goals, we have the nutritional products and support to help you succeed and build healthy habits. Learn More ​​Science & quality​ As a global leader ​in health and nutrition for more than 40 years, we rigorously test to ensure the quality and safety of our full line of products. Every Herbalife ingredient is held to high-quality standards, from Seed to Feed. We scientifically verify and test each ingredient with a multi-level quality control system to guarantee you receive the best nutrition possible. Wellness approach When you care for all aspects of your life – body, mind and future – you're on your way to living your best life. At Herbalife, we want to help you get there. Our science-backed products help you nourish a healthy active life. Our Herbalife Independent Associates support and motivate you to realise your full potential. Our business model provides you with the opportunity to earn extra income or build a business of your own.* Are you ready to start living your best life? *The Herbalife Rules of Conduct and all other rules, policies and advisories that Herbalife issues",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 302,
+          "location": "/en-in",
+          "finalUrl": "https://www.herbalife.com/en-in",
+          "title": null
+        }
+      }
+    ],
+    "error": null
+  }
+}
