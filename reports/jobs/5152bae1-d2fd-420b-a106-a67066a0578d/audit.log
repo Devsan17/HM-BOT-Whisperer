@@ -1,0 +1,273 @@
+Starting audit for https://www.dezerv.in/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+Direct robots.txt fetch failed: Request blocked by site protection (403 Forbidden)
+Falling back to browser-visible robots.txt
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+OAI-SearchBot BLOCKED (http-403)
+{
+  status: 403,
+  testedUrl: 'https://www.dezerv.in/',
+  initialUrl: 'https://www.dezerv.in/',
+  finalUrl: 'https://www.dezerv.in/',
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'http-403',
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.dezerv.in/', status: 403 } ],
+  preflight: {
+    status: 403,
+    location: null,
+    finalUrl: null,
+    title: 'ERROR: The request could not be satisfied'
+  }
+}
+GPTBot BLOCKED (http-403)
+{
+  status: 403,
+  testedUrl: 'https://www.dezerv.in/',
+  initialUrl: 'https://www.dezerv.in/',
+  finalUrl: 'https://www.dezerv.in/',
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'http-403',
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.dezerv.in/', status: 403 } ],
+  preflight: {
+    status: 403,
+    location: null,
+    finalUrl: null,
+    title: 'ERROR: The request could not be satisfied'
+  }
+}
+robots.txt missing
+
+============================
+FETCHING PAGE
+============================
+
+ChatGPT-User BLOCKED (http-403)
+{
+  status: 403,
+  testedUrl: 'https://www.dezerv.in/',
+  initialUrl: 'https://www.dezerv.in/',
+  finalUrl: 'https://www.dezerv.in/',
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'http-403',
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.dezerv.in/', status: 403 } ],
+  preflight: {
+    status: 403,
+    location: null,
+    finalUrl: null,
+    title: 'ERROR: The request could not be satisfied'
+  }
+}
+Google StoreBot Desktop BLOCKED (http-403)
+{
+  status: 403,
+  testedUrl: 'https://www.dezerv.in/',
+  initialUrl: 'https://www.dezerv.in/',
+  finalUrl: 'https://www.dezerv.in/',
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'http-403',
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.dezerv.in/', status: 403 } ],
+  preflight: {
+    status: 403,
+    location: null,
+    finalUrl: null,
+    title: 'ERROR: The request could not be satisfied'
+  }
+}
+Google StoreBot Mobile BLOCKED (http-403)
+{
+  status: 403,
+  testedUrl: 'https://www.dezerv.in/',
+  initialUrl: 'https://www.dezerv.in/',
+  finalUrl: 'https://www.dezerv.in/',
+  title: 'ERROR: The request could not be satisfied',
+  blocked: true,
+  reason: 'http-403',
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.dezerv.in/', status: 403 } ],
+  preflight: {
+    status: 403,
+    location: null,
+    finalUrl: null,
+    title: 'ERROR: The request could not be satisfied'
+  }
+}
+Browser-visible page loaded (403, ERROR: The request could not be satisfied)
+CANONICAL CHECK
+
+No canonical tag found
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema missing
+Article schema missing
+WebPage schema missing
+WebSite schema missing
+Software/Application schema missing
+No schema types detected
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS missing
+CSP missing
+X-Frame-Options missing
+X-Content-Type-Options missing
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+No common admin URLs exposed
+
+============================
+LLMS.TXT CHECK
+============================
+
+Direct llms.txt fetch failed: Request blocked by site protection (403 Forbidden)
+Falling back to browser-visible llms.txt
+llms.txt missing
+
+============================
+META TAG CHECKS
+============================
+
+Missing OG tags: og:title, og:description, og:image, og:url
+Missing Twitter tags: twitter:card, twitter:title, twitter:description, twitter:image
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+No semantic HTML tags found
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+Basic ARIA accessibility looks good
+
+============================
+CONTENT SEO CHECKS
+============================
+
+✅ Optimized title (41 chars)
+❌ Poor meta description (0 chars)
+❌ Weak H1
+✅ H2 Count: 1
+✅ H3 Count: 0
+✅ Proper heading hierarchy
+❌ No answer-style content
+❌ Thin content (75 words)
+❌ No definitions found
+❌ No comparisons found
+❌ Few/no bullet points
+❌ No multimedia found
+❌ No summary section found
+❌ No freshness signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+Gemini ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.dezerv.in/',
+  initialUrl: 'https://www.dezerv.in/',
+  finalUrl: 'https://www.dezerv.in/',
+  title: 'Dezerv is a house of investment solutions for affluent Indians',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.dezerv.in/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Dezerv is a house of investment solutions for affluent Indians'
+  }
+}
+Copilot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.dezerv.in/',
+  initialUrl: 'https://www.dezerv.in/',
+  finalUrl: 'https://www.dezerv.in/',
+  title: 'Dezerv is a house of investment solutions for affluent Indians',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.dezerv.in/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Dezerv is a house of investment solutions for affluent Indians'
+  }
+}
+
+BOT AUDIT COMPLETE
+
+✅ Fast server response (19ms)
+✅ LCP Passed (1.36s)
+✅ CLS Passed (0.039)
+❌ Heavy JS blocking (214ms)
+❌ GZIP/Brotli compression missing
+✅ Performance Score: 83
+
+============================
+CRUX REAL USER DATA
+============================
+
+✅ INP Passed (79ms)
+✅ Real User LCP: 1.34s
+✅ Real User CLS: 0.000
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

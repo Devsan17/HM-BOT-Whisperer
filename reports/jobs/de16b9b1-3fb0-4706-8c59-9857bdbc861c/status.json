@@ -1,0 +1,12 @@
+{
+  "id": "de16b9b1-3fb0-4706-8c59-9857bdbc861c",
+  "url": "https://scripbox.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-18T13:18:08.373Z",
+  "updatedAt": "2026-08-18T13:20:18.476Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\de16b9b1-3fb0-4706-8c59-9857bdbc861c\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\de16b9b1-3fb0-4706-8c59-9857bdbc861c\\audit.log"
+}

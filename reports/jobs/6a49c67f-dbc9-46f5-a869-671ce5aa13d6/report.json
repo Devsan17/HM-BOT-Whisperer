@@ -1,0 +1,397 @@
+{
+  "targetUrl": "https://www.indmoney.com/",
+  "generatedAt": "2026-08-18T13:01:12.003Z",
+  "seoSecurityAudit": {
+    "url": "https://www.indmoney.com/",
+    "baseUrl": "https://www.indmoney.com",
+    "fetch": {
+      "success": false,
+      "method": "browser",
+      "status": 403,
+      "finalUrl": "https://www.indmoney.com/",
+      "title": "Just a moment...",
+      "error": "Browser-visible page returned 403",
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.indmoney.com/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": false,
+      "count": 0,
+      "value": null,
+      "isAbsolute": null,
+      "isSelfReferencing": null
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": false,
+      "article": null,
+      "webPage": false,
+      "webSite": false,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [],
+      "detectionMethods": {
+        "jsonLd": false,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": true,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [],
+    "llms": {
+      "found": true,
+      "hasTitle": false,
+      "hasDescription": true,
+      "links": [
+        "https://indcdn.indmoney.com/public/images/256x256.png\"/><meta",
+        "http://\")||0===n.agent.indexOf(\"https://\")?r.src=n.agent:r.src=l+\"://\"+n.agent,t.parentNode.insertBefore(r,t)}}function",
+        "https://www.googletagmanager.com/gtag/js?id=G-5JF8RR5MZV\"></script><script>function"
+      ],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:title",
+        "og:description",
+        "og:image",
+        "og:url"
+      ],
+      "missingTwitter": [
+        "twitter:card",
+        "twitter:title",
+        "twitter:description",
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [],
+    "accessibility": {
+      "missingAccessibleLabels": 1
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 71,
+        "ttfbMs": 7,
+        "lcpMs": 1420,
+        "cls": 0,
+        "totalBlockingTimeMs": 619,
+        "compressionEnabled": true,
+        "compressionEncoding": "br",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 128,
+        "lcpMs": 1511,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": false,
+      "titleLength": 16,
+      "metaDescriptionOptimized": false,
+      "metaDescriptionLength": 0,
+      "h1Optimized": true,
+      "h1Count": 1,
+      "h2Count": 2,
+      "h3Count": 0,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": false,
+      "thinContent": true,
+      "wordCount": 110,
+      "hasDefinitions": false,
+      "hasComparisons": true,
+      "hasBulletPoints": false,
+      "bulletCount": 0,
+      "hasMultimedia": true,
+      "imageCount": 1,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.indmoney.com/",
+        "initialUrl": "https://www.indmoney.com/",
+        "finalUrl": "https://www.indmoney.com/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "http-403",
+        "navigatedAfterLoad": false,
+        "title": "Just a moment...",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "0 ms",
+        "totalRequests": 0,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": "a2d11977cafc7e73-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://www.indmoney.com/",
+            "status": 403
+          }
+        ],
+        "renderedTextPreview": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-nT6Ug5JMO0PBXLQQSaZ9Ku&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 403,
+          "location": null,
+          "finalUrl": null,
+          "title": "Just a moment..."
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.indmoney.com/",
+        "initialUrl": "https://www.indmoney.com/",
+        "finalUrl": "https://www.indmoney.com/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "http-403",
+        "navigatedAfterLoad": false,
+        "title": "Just a moment...",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "0 ms",
+        "totalRequests": 0,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": "a2d119966f5f7f65-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://www.indmoney.com/",
+            "status": 403
+          }
+        ],
+        "renderedTextPreview": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-biF0JIAdZrdVHHf5iBd8SU&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 403,
+          "location": null,
+          "finalUrl": null,
+          "title": "Just a moment..."
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.indmoney.com/",
+        "initialUrl": "https://www.indmoney.com/",
+        "finalUrl": "https://www.indmoney.com/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "http-403",
+        "navigatedAfterLoad": false,
+        "title": "Just a moment...",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "0 ms",
+        "totalRequests": 0,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": "a2d119b37bbb2b44-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://www.indmoney.com/",
+            "status": 403
+          }
+        ],
+        "renderedTextPreview": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-AVsLgCLhTUSbCB8gqHQVTJ&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 403,
+          "location": null,
+          "finalUrl": null,
+          "title": "Just a moment..."
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.indmoney.com/",
+        "initialUrl": "https://www.indmoney.com/",
+        "finalUrl": "https://www.indmoney.com/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "http-403",
+        "navigatedAfterLoad": false,
+        "title": "Just a moment...",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "0 ms",
+        "totalRequests": 0,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": "a2d119d53aa31eef-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://www.indmoney.com/",
+            "status": 403
+          }
+        ],
+        "renderedTextPreview": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-LzjxETEhf0rwzABlkCG2dp&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 403,
+          "location": null,
+          "finalUrl": null,
+          "title": "Just a moment..."
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.indmoney.com/",
+        "initialUrl": "https://www.indmoney.com/",
+        "finalUrl": "https://www.indmoney.com/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "http-403",
+        "navigatedAfterLoad": false,
+        "title": "Just a moment...",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "0 ms",
+        "totalRequests": 0,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": "a2d119efbf7ff3fd-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://www.indmoney.com/",
+            "status": 403
+          }
+        ],
+        "renderedTextPreview": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-PRLG6sCgFKlF6tmqqvoB6I&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 403,
+          "location": null,
+          "finalUrl": null,
+          "title": "Just a moment..."
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.indmoney.com/",
+        "initialUrl": "https://www.indmoney.com/",
+        "finalUrl": "https://www.indmoney.com/",
+        "success": false,
+        "status": 403,
+        "blocked": true,
+        "blockReason": "http-403",
+        "navigatedAfterLoad": false,
+        "title": "Just a moment...",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "0 ms",
+        "totalRequests": 0,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=UTF-8",
+        "cfRay": "a2d11a0deffe7237-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://www.indmoney.com/",
+            "status": 403
+          }
+        ],
+        "renderedTextPreview": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-pb5d8tzFOPnzKGxvodTrIH&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd",
+        "screenshot": null,
+        "htmlSnapshot": null,
+        "preflight": {
+          "status": 403,
+          "location": null,
+          "finalUrl": null,
+          "title": "Just a moment..."
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.indmoney.com/",
+        "initialUrl": "https://www.indmoney.com/",
+        "finalUrl": "https://www.indmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Indmoney: Online Trading & Investing App for Indian & US Markets",
+        "h1": "Trade & Invest in Indian & US Markets from One App",
+        "canonical": "https://www.indmoney.com",
+        "robotsMeta": "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1",
+        "googlebotMeta": null,
+        "loadTime": "421 ms",
+        "totalRequests": 87,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d11a285c028839-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://www.indmoney.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "INDmoney US Stocks Indian Stocks ETFs Mutual Funds IPO Features Pricing Login Open Demat Account Trade & Invest in Indian & US Markets from One App Trade round the clock. With INDmoney your money never sleeps. Open Your Free Investment Account in 3 Minutes. +91 (India) +93 (Afghanistan) +355 (Albania) +213 (Algeria) +376 (Andorra) +244 (Angola) +1264 (Anguilla) +1268 (Antigua and Barbuda) +54 (Argentina) +374 (Armenia) +297 (Aruba (Kingdom of the Netherlands)) +61 (Australia) +43 (Austria) +994 (Azerbaijan) +1242 (Bahamas) +973 (Bahrain) +880 (Bangladesh) +1246 (Barbados) +375 (Belarus) +32 (Belgium) +501 (Belize) +229 (Benin) +1441 (Bermuda) +975 (Bhutan) +591 (Bolivia) +387 (Bosnia and Herzegovina) +267 (Botswana) +55 (Brazil) +673 (Brunei Darussalam) +359 (Bulgaria) +226 (Burkina Faso) +257 (Burundi) +238 (Cabo Verde) +855 (Cambodia) +237 (Cameroon) +1 (Canada) +1345 (Cayman Islands) +236 (Central African Republic) +235 (Chad) +56 (Chile) +86 (China) +886 (Chinese Taipei) +57 (Colombia) +269 (Comoros) +242 (Congo) +682 (Cook Islands) +506 (Costa Rica) +225 (Côte d'Ivoire) +385 (Croatia) +53 (Cuba) +599 (Curaçao (Kingdom of the Netherlands)) +357 (Cyprus) +420 (Czech Republic) +850 (Democratic People's Republic of Korea (DPRK)) +243 (Democratic Republic of the Congo) +45 (Denmark) +253 (Djibouti) +1767 (Dominica) +1809 (Dominican Republic) +593 (Ecuador) +20 (Egypt) +503 (El Salvador) +240 (Equatorial Guinea) +291 (Eritrea) +372 (Estonia) +268 (Eswatini) +251 (Ethiopia) +67",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Indmoney: Online Trading &amp; Investing App for Indian &amp; US Markets"
+        }
+      }
+    ],
+    "error": null
+  }
+}

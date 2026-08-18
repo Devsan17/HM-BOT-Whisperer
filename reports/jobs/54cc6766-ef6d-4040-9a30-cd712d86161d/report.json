@@ -1,0 +1,425 @@
+{
+  "targetUrl": "https://www.powerup.money/",
+  "generatedAt": "2026-08-18T12:31:50.069Z",
+  "seoSecurityAudit": {
+    "url": "https://www.powerup.money/",
+    "baseUrl": "https://www.powerup.money",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://www.powerup.money/",
+      "title": "Home",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": null,
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.powerup.money/",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": false,
+      "article": null,
+      "webPage": false,
+      "webSite": false,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [],
+      "detectionMethods": {
+        "jsonLd": false,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": false,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [],
+    "llms": {
+      "found": false,
+      "hasTitle": false,
+      "hasDescription": false,
+      "links": [],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:url"
+      ],
+      "missingTwitter": []
+    },
+    "semanticHtml": [
+      "header",
+      "nav",
+      "main",
+      "article",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 0
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 48,
+        "ttfbMs": 134,
+        "lcpMs": 4514,
+        "cls": 0.048,
+        "totalBlockingTimeMs": 676,
+        "compressionEnabled": true,
+        "compressionEncoding": "gzip",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 137,
+        "lcpMs": 2507,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": false,
+      "titleLength": 4,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 143,
+      "h1Optimized": true,
+      "h1Count": 1,
+      "h2Count": 18,
+      "h3Count": 16,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 1394,
+      "hasDefinitions": false,
+      "hasComparisons": false,
+      "hasBulletPoints": true,
+      "bulletCount": 57,
+      "hasMultimedia": true,
+      "imageCount": 23,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": true,
+      "freshnessSignals": true
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.powerup.money/",
+        "initialUrl": "https://www.powerup.money/",
+        "finalUrl": "https://www.powerup.money/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Home",
+        "h1": "India's trusted Mutual  Fund Advisory App ",
+        "canonical": "https://www.powerup.money/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "4099 ms",
+        "totalRequests": 77,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.powerup.money/",
+            "status": 200
+          },
+          {
+            "url": "https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056207991",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Power Mutual Funds Power Age Calculators Blogs India's trusted Mutual Fund Advisory App Review, select, and rebalance your mutual funds effortlessly Research you can trust Get easy-to-follow insights picked by our in-house experts. All backed by 20+ years of data. PORTFOLIO PERFORMANCE See what’s in-form & what’s out-of-form in your portfolio Get a clear snapshot of how your portfolio is performing. Updated monthly. FUND PERFORMANCE Know exactly what to do with each fund Start SIP, Pause SIP, or Exit Get clear actions, as recommended by our in-house experts. PAST TRENDS Also see how your funds have performed in the last 2 years Use this to see the consistent performers in your portfolio. And make stronger decisions. PORTFOLIO TRACKING Compare your portfolio against key market benchmarks The line graph compares your portfolio returns against the Nifty 50 benchmark, illustrating how your investments perform relative to the market over time. MONTHLY REPORTS Get a clear view of any shifts in your portfolio Status indicators highlight shifts in your portfolio allocation and fund performance categories, including in-form, on-track, and out-of-form funds. Manage your portfolio like the top 1% From selection, review, to rebalancing - make mutual fund investing truly effortless with Elite Selection Unlock top-rated funds, with Power Rank. Skip the guesswork. Review See if your funds are getting better or worse with Rank Trends. Rebalancing Get a tax efficient, qua",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Home"
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.powerup.money/",
+        "initialUrl": "https://www.powerup.money/",
+        "finalUrl": "https://www.powerup.money/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Home",
+        "h1": "India's trusted Mutual  Fund Advisory App ",
+        "canonical": "https://www.powerup.money/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "668 ms",
+        "totalRequests": 77,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.powerup.money/",
+            "status": 200
+          },
+          {
+            "url": "https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056209086",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Power Mutual Funds Power Age Calculators Blogs India's trusted Mutual Fund Advisory App Review, select, and rebalance your mutual funds effortlessly Research you can trust Get easy-to-follow insights picked by our in-house experts. All backed by 20+ years of data. PORTFOLIO PERFORMANCE See what’s in-form & what’s out-of-form in your portfolio Get a clear snapshot of how your portfolio is performing. Updated monthly. FUND PERFORMANCE Know exactly what to do with each fund Start SIP, Pause SIP, or Exit Get clear actions, as recommended by our in-house experts. PAST TRENDS Also see how your funds have performed in the last 2 years Use this to see the consistent performers in your portfolio. And make stronger decisions. PORTFOLIO TRACKING Compare your portfolio against key market benchmarks The line graph compares your portfolio returns against the Nifty 50 benchmark, illustrating how your investments perform relative to the market over time. MONTHLY REPORTS Get a clear view of any shifts in your portfolio Status indicators highlight shifts in your portfolio allocation and fund performance categories, including in-form, on-track, and out-of-form funds. Manage your portfolio like the top 1% From selection, review, to rebalancing - make mutual fund investing truly effortless with Elite Selection Unlock top-rated funds, with Power Rank. Skip the guesswork. Review See if your funds are getting better or worse with Rank Trends. Rebalancing Get a tax efficient, qua",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Home"
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.powerup.money/",
+        "initialUrl": "https://www.powerup.money/",
+        "finalUrl": "https://www.powerup.money/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Home",
+        "h1": "India's trusted Mutual  Fund Advisory App ",
+        "canonical": "https://www.powerup.money/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "451 ms",
+        "totalRequests": 78,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.powerup.money/",
+            "status": 200
+          },
+          {
+            "url": "https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056212659",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Power Mutual Funds Power Age Calculators Blogs India's trusted Mutual Fund Advisory App Review, select, and rebalance your mutual funds effortlessly Research you can trust Get easy-to-follow insights picked by our in-house experts. All backed by 20+ years of data. PORTFOLIO PERFORMANCE See what’s in-form & what’s out-of-form in your portfolio Get a clear snapshot of how your portfolio is performing. Updated monthly. FUND PERFORMANCE Know exactly what to do with each fund Start SIP, Pause SIP, or Exit Get clear actions, as recommended by our in-house experts. PAST TRENDS Also see how your funds have performed in the last 2 years Use this to see the consistent performers in your portfolio. And make stronger decisions. PORTFOLIO TRACKING Compare your portfolio against key market benchmarks The line graph compares your portfolio returns against the Nifty 50 benchmark, illustrating how your investments perform relative to the market over time. MONTHLY REPORTS Get a clear view of any shifts in your portfolio Status indicators highlight shifts in your portfolio allocation and fund performance categories, including in-form, on-track, and out-of-form funds. Manage your portfolio like the top 1% From selection, review, to rebalancing - make mutual fund investing truly effortless with Elite Selection Unlock top-rated funds, with Power Rank. Skip the guesswork. Review See if your funds are getting better or worse with Rank Trends. Rebalancing Get a tax efficient, qua",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Home"
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.powerup.money/",
+        "initialUrl": "https://www.powerup.money/",
+        "finalUrl": "https://www.powerup.money/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Home",
+        "h1": "India's trusted Mutual  Fund Advisory App ",
+        "canonical": "https://www.powerup.money/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "983 ms",
+        "totalRequests": 70,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.powerup.money/",
+            "status": 200
+          },
+          {
+            "url": "https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056219787",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Power Mutual Funds Power Age Calculators Blogs India's trusted Mutual Fund Advisory App Review, select, and rebalance your mutual funds effortlessly Research you can trust Get easy-to-follow insights picked by our in-house experts. All backed by 20+ years of data. PORTFOLIO PERFORMANCE See what’s in-form & what’s out-of-form in your portfolio Get a clear snapshot of how your portfolio is performing. Updated monthly. FUND PERFORMANCE Know exactly what to do with each fund Start SIP, Pause SIP, or Exit Get clear actions, as recommended by our in-house experts. PAST TRENDS Also see how your funds have performed in the last 2 years Use this to see the consistent performers in your portfolio. And make stronger decisions. PORTFOLIO TRACKING Compare your portfolio against key market benchmarks The line graph compares your portfolio returns against the Nifty 50 benchmark, illustrating how your investments perform relative to the market over time. MONTHLY REPORTS Get a clear view of any shifts in your portfolio Status indicators highlight shifts in your portfolio allocation and fund performance categories, including in-form, on-track, and out-of-form funds. Manage your portfolio like the top 1% From selection, review, to rebalancing - make mutual fund investing truly effortless with Elite Selection Unlock top-rated funds, with Power Rank. Skip the guesswork. Review See if your funds are getting better or worse with Rank Trends. Rebalancing Get a tax efficient, qua",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Home"
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.powerup.money/",
+        "initialUrl": "https://www.powerup.money/",
+        "finalUrl": "https://www.powerup.money/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Home",
+        "h1": "India's trusted Mutual  Fund Advisory App ",
+        "canonical": "https://www.powerup.money/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "877 ms",
+        "totalRequests": 69,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.powerup.money/",
+            "status": 200
+          },
+          {
+            "url": "https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056227362",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Power Mutual Funds Power Age Calculators Blogs India's trusted Mutual Fund Advisory App Review, select, and rebalance your mutual funds effortlessly Research you can trust Get easy-to-follow insights picked by our in-house experts. All backed by 20+ years of data. PORTFOLIO PERFORMANCE See what’s in-form & what’s out-of-form in your portfolio Get a clear snapshot of how your portfolio is performing. Updated monthly. FUND PERFORMANCE Know exactly what to do with each fund Start SIP, Pause SIP, or Exit Get clear actions, as recommended by our in-house experts. PAST TRENDS Also see how your funds have performed in the last 2 years Use this to see the consistent performers in your portfolio. And make stronger decisions. PORTFOLIO TRACKING Compare your portfolio against key market benchmarks The line graph compares your portfolio returns against the Nifty 50 benchmark, illustrating how your investments perform relative to the market over time. MONTHLY REPORTS Get a clear view of any shifts in your portfolio Status indicators highlight shifts in your portfolio allocation and fund performance categories, including in-form, on-track, and out-of-form funds. Manage your portfolio like the top 1% From selection, review, to rebalancing - make mutual fund investing truly effortless with Elite Selection Unlock top-rated funds, with Power Rank. Skip the guesswork. Review See if your funds are getting better or worse with Rank Trends. Rebalancing Get a tax efficient, qua",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Home"
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.powerup.money/",
+        "initialUrl": "https://www.powerup.money/",
+        "finalUrl": "https://www.powerup.money/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Home",
+        "h1": "India's trusted Mutual  Fund Advisory App ",
+        "canonical": "https://www.powerup.money/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "499 ms",
+        "totalRequests": 77,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.powerup.money/",
+            "status": 200
+          },
+          {
+            "url": "https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056234615",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Power Mutual Funds Power Age Calculators Blogs India's trusted Mutual Fund Advisory App Review, select, and rebalance your mutual funds effortlessly Research you can trust Get easy-to-follow insights picked by our in-house experts. All backed by 20+ years of data. PORTFOLIO PERFORMANCE See what’s in-form & what’s out-of-form in your portfolio Get a clear snapshot of how your portfolio is performing. Updated monthly. FUND PERFORMANCE Know exactly what to do with each fund Start SIP, Pause SIP, or Exit Get clear actions, as recommended by our in-house experts. PAST TRENDS Also see how your funds have performed in the last 2 years Use this to see the consistent performers in your portfolio. And make stronger decisions. PORTFOLIO TRACKING Compare your portfolio against key market benchmarks The line graph compares your portfolio returns against the Nifty 50 benchmark, illustrating how your investments perform relative to the market over time. MONTHLY REPORTS Get a clear view of any shifts in your portfolio Status indicators highlight shifts in your portfolio allocation and fund performance categories, including in-form, on-track, and out-of-form funds. Manage your portfolio like the top 1% From selection, review, to rebalancing - make mutual fund investing truly effortless with Elite Selection Unlock top-rated funds, with Power Rank. Skip the guesswork. Review See if your funds are getting better or worse with Rank Trends. Rebalancing Get a tax efficient, qua",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Home"
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.powerup.money/",
+        "initialUrl": "https://www.powerup.money/",
+        "finalUrl": "https://www.powerup.money/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Home",
+        "h1": "India's trusted Mutual  Fund Advisory App ",
+        "canonical": "https://www.powerup.money/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "849 ms",
+        "totalRequests": 80,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.powerup.money/",
+            "status": 200
+          },
+          {
+            "url": "https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056241819",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Power Mutual Funds Power Age Calculators Blogs India's trusted Mutual Fund Advisory App Review, select, and rebalance your mutual funds effortlessly Research you can trust Get easy-to-follow insights picked by our in-house experts. All backed by 20+ years of data. PORTFOLIO PERFORMANCE See what’s in-form & what’s out-of-form in your portfolio Get a clear snapshot of how your portfolio is performing. Updated monthly. FUND PERFORMANCE Know exactly what to do with each fund Start SIP, Pause SIP, or Exit Get clear actions, as recommended by our in-house experts. PAST TRENDS Also see how your funds have performed in the last 2 years Use this to see the consistent performers in your portfolio. And make stronger decisions. PORTFOLIO TRACKING Compare your portfolio against key market benchmarks The line graph compares your portfolio returns against the Nifty 50 benchmark, illustrating how your investments perform relative to the market over time. MONTHLY REPORTS Get a clear view of any shifts in your portfolio Status indicators highlight shifts in your portfolio allocation and fund performance categories, including in-form, on-track, and out-of-form funds. Manage your portfolio like the top 1% From selection, review, to rebalancing - make mutual fund investing truly effortless with Elite Selection Unlock top-rated funds, with Power Rank. Skip the guesswork. Review See if your funds are getting better or worse with Rank Trends. Rebalancing Get a tax efficient, qua",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Home"
+        }
+      }
+    ],
+    "error": null
+  }
+}

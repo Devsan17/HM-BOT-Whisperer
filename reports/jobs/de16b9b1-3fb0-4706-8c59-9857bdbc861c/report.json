@@ -1,0 +1,441 @@
+{
+  "targetUrl": "https://scripbox.com/",
+  "generatedAt": "2026-08-18T13:20:18.375Z",
+  "seoSecurityAudit": {
+    "url": "https://scripbox.com/",
+    "baseUrl": "https://scripbox.com",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://scripbox.com/",
+      "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://scripbox.com/mutual-fund/lps.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://scripbox.com/",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": true,
+      "article": null,
+      "webPage": false,
+      "webSite": false,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [
+        "ContactPoint",
+        "Organization",
+        "PostalAddress"
+      ],
+      "detectionMethods": {
+        "jsonLd": true,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": true,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [],
+    "llms": {
+      "found": true,
+      "hasTitle": true,
+      "hasDescription": true,
+      "links": [
+        "https://scripbox.com/mutual-fund/index.html.md):",
+        "https://scripbox.com/etf/index.html.md):",
+        "https://scripbox.com/plan/index.html.md):",
+        "https://scripbox.com/financial-planning.md):",
+        "https://scripbox.com/fixed-deposit/index.html.md):",
+        "https://scripbox.com/recurring-deposit/index.html.md):",
+        "https://scripbox.com/gold-rate/index.html.md):",
+        "https://scripbox.com/wealth/index.html.md/):",
+        "https://scripbox.com/mf/index.html.md/):",
+        "https://scripbox.com/saving-schemes/index.html.md/):",
+        "https://scripbox.com/pf/index.html.md/):",
+        "https://scripbox.com/tax/index.html.md/):",
+        "https://scripbox.com/blog/index.html.md/):",
+        "https://scripbox.com/fd/index.html.md/):",
+        "https://scripbox.com/pricing.md):",
+        "https://scripbox.com/near-me/index.html.md/):",
+        "https://scripbox.com/get-expert-advice.md):",
+        "https://scripbox.com/pages/the-scripbox-team.md):",
+        "https://scripbox.com/pages/terms-of-use.md):",
+        "https://scripbox.com/pages/privacy-policy.md):"
+      ],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [],
+      "missingTwitter": []
+    },
+    "semanticHtml": [
+      "section",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 0
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 69,
+        "ttfbMs": 3,
+        "lcpMs": 913,
+        "cls": 0.255,
+        "totalBlockingTimeMs": 375,
+        "compressionEnabled": true,
+        "compressionEncoding": "br",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 60,
+        "lcpMs": 1358,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": true,
+      "titleLength": 64,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 166,
+      "h1Optimized": true,
+      "h1Count": 1,
+      "h2Count": 6,
+      "h3Count": 8,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": false,
+      "thinContent": false,
+      "wordCount": 819,
+      "hasDefinitions": false,
+      "hasComparisons": false,
+      "hasBulletPoints": true,
+      "bulletCount": 43,
+      "hasMultimedia": true,
+      "imageCount": 35,
+      "videoCount": 0,
+      "iframeCount": 1,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://scripbox.com/",
+        "initialUrl": "https://scripbox.com/",
+        "finalUrl": "https://scripbox.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+        "h1": "Grow wealth.Achieve goals. Invest in the best mutual funds.",
+        "canonical": "https://scripbox.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "1297 ms",
+        "totalRequests": 171,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d134894a77ae3d-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://scripbox.com/",
+            "status": 200
+          },
+          {
+            "url": "https://scripbox-7be0f3a52ae95f516793191.freshchat.com/widget/config_iframe.html?host=https://scripbox-7be0f3a52ae95f516793191.freshchat.com&token=31f8007f-6f80-4f56-96cd-f8477752979c&origin=https://scripbox.com",
+            "status": 200
+          },
+          {
+            "url": "https://scripbox-7be0f3a52ae95f516793191.freshchat.com/widget/?token=31f8007f-6f80-4f56-96cd-f8477752979c&referrer=aHR0cHM6Ly9zY3JpcGJveC5jb20=&eagerLoad=true",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Get Comprehensive Investment Advice in Scripbox mobile app. Get App Mutual Funds Research Financial Planning Fee Login Sign up Grow wealth. Achieve goals. Invest in the best mutual funds. On a mission to help families achieve financial freedom since 2012. 1 lakh Families 2,500 Cities 20,000 Cr of Wealth Experience the Scripbox difference. Scientific investing aligned to your goals, risk management, and 8am to 8pm customer support by phone, email and chat. Grow wealth. Clients who started investing with Scripbox have been able to build meaningful long-term wealth through disciplined investing. Start Investing I've accumulated my first 50 Lakh Mutual fund savings thanks to Scripbox. I've been a customer since 2017 & I am pleasantly surprised how you manage to keep things simple despite the complexities involved. SC Scripbox Customer Investor since 2017 Achieve goals. Scripbox makes it easy to plan for your family's goals, get personalised investment recommendations, track progress & take corrective action. Get Personalised Plan Investing has helped me dream bigger for my family. DS Dr. Shraddha Bahirwani Sr. Dental Consultant Invest in the best mutual funds. Scripbox recommendations are shaped by expert advisors and data-backed algorithms. Start investing now Like their end to end service for investment. They select the best funds, monitor them and then rebalance periodically. I think its best for people who want hasslefree and complete peace of mind service. VI Vivek Scripbox ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Scripbox: Best Regular &amp; Direct Mutual Funds Investment Platform"
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://scripbox.com/",
+        "initialUrl": "https://scripbox.com/",
+        "finalUrl": "https://scripbox.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+        "h1": "Grow wealth.Achieve goals. Invest in the best mutual funds.",
+        "canonical": "https://scripbox.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "839 ms",
+        "totalRequests": 148,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d134acdb4e802b-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://scripbox.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Get Comprehensive Investment Advice in Scripbox mobile app. Get App Mutual Funds Research Financial Planning Fee Login Sign up Grow wealth. Achieve goals. Invest in the best mutual funds. On a mission to help families achieve financial freedom since 2012. 1 lakh Families 2,500 Cities 20,000 Cr of Wealth Experience the Scripbox difference. Scientific investing aligned to your goals, risk management, and 8am to 8pm customer support by phone, email and chat. Grow wealth. Clients who started investing with Scripbox have been able to build meaningful long-term wealth through disciplined investing. Start Investing I've accumulated my first 50 Lakh Mutual fund savings thanks to Scripbox. I've been a customer since 2017 & I am pleasantly surprised how you manage to keep things simple despite the complexities involved. SC Scripbox Customer Investor since 2017 Achieve goals. Scripbox makes it easy to plan for your family's goals, get personalised investment recommendations, track progress & take corrective action. Get Personalised Plan Investing has helped me dream bigger for my family. DS Dr. Shraddha Bahirwani Sr. Dental Consultant Invest in the best mutual funds. Scripbox recommendations are shaped by expert advisors and data-backed algorithms. Start investing now Like their end to end service for investment. They select the best funds, monitor them and then rebalance periodically. I think its best for people who want hasslefree and complete peace of mind service. VI Vivek Scripbox ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Scripbox: Best Regular &amp; Direct Mutual Funds Investment Platform"
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://scripbox.com/",
+        "initialUrl": "https://scripbox.com/",
+        "finalUrl": "https://scripbox.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+        "h1": "Grow wealth.Achieve goals. Invest in the best mutual funds.",
+        "canonical": "https://scripbox.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "989 ms",
+        "totalRequests": 134,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d134d14b3d3d1f-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://scripbox.com/",
+            "status": 200
+          },
+          {
+            "url": "https://scripbox-7be0f3a52ae95f516793191.freshchat.com/widget/config_iframe.html?host=https://scripbox-7be0f3a52ae95f516793191.freshchat.com&token=31f8007f-6f80-4f56-96cd-f8477752979c&origin=https://scripbox.com",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Get Comprehensive Investment Advice in Scripbox mobile app. Get App Mutual Funds Research Financial Planning Fee Login Sign up Grow wealth. Achieve goals. Invest in the best mutual funds. On a mission to help families achieve financial freedom since 2012. 1 lakh Families 2,500 Cities 20,000 Cr of Wealth Experience the Scripbox difference. Scientific investing aligned to your goals, risk management, and 8am to 8pm customer support by phone, email and chat. Grow wealth. Clients who started investing with Scripbox have been able to build meaningful long-term wealth through disciplined investing. Start Investing I've accumulated my first 50 Lakh Mutual fund savings thanks to Scripbox. I've been a customer since 2017 & I am pleasantly surprised how you manage to keep things simple despite the complexities involved. SC Scripbox Customer Investor since 2017 Achieve goals. Scripbox makes it easy to plan for your family's goals, get personalised investment recommendations, track progress & take corrective action. Get Personalised Plan Investing has helped me dream bigger for my family. DS Dr. Shraddha Bahirwani Sr. Dental Consultant Invest in the best mutual funds. Scripbox recommendations are shaped by expert advisors and data-backed algorithms. Start investing now Like their end to end service for investment. They select the best funds, monitor them and then rebalance periodically. I think its best for people who want hasslefree and complete peace of mind service. VI Vivek Scripbox ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Scripbox: Best Regular &amp; Direct Mutual Funds Investment Platform"
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://scripbox.com/",
+        "initialUrl": "https://scripbox.com/",
+        "finalUrl": "https://scripbox.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+        "h1": "Grow wealth.Achieve goals. Invest in the best mutual funds.",
+        "canonical": "https://scripbox.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "833 ms",
+        "totalRequests": 137,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d134f58f563d28-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://scripbox.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Get Comprehensive Investment Advice in Scripbox mobile app. Get App Mutual Funds Research Financial Planning Fee Login Sign up Grow wealth. Achieve goals. Invest in the best mutual funds. On a mission to help families achieve financial freedom since 2012. 1 lakh Families 2,500 Cities 20,000 Cr of Wealth Experience the Scripbox difference. Scientific investing aligned to your goals, risk management, and 8am to 8pm customer support by phone, email and chat. Grow wealth. Clients who started investing with Scripbox have been able to build meaningful long-term wealth through disciplined investing. Start Investing I've accumulated my first 50 Lakh Mutual fund savings thanks to Scripbox. I've been a customer since 2017 & I am pleasantly surprised how you manage to keep things simple despite the complexities involved. SC Scripbox Customer Investor since 2017 Achieve goals. Scripbox makes it easy to plan for your family's goals, get personalised investment recommendations, track progress & take corrective action. Get Personalised Plan Investing has helped me dream bigger for my family. DS Dr. Shraddha Bahirwani Sr. Dental Consultant Invest in the best mutual funds. Scripbox recommendations are shaped by expert advisors and data-backed algorithms. Start investing now Like their end to end service for investment. They select the best funds, monitor them and then rebalance periodically. I think its best for people who want hasslefree and complete peace of mind service. VI Vivek Scripbox ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Scripbox: Best Regular &amp; Direct Mutual Funds Investment Platform"
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://scripbox.com/",
+        "initialUrl": "https://scripbox.com/",
+        "finalUrl": "https://scripbox.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+        "h1": "Grow wealth.Achieve goals. Invest in the best mutual funds.",
+        "canonical": "https://scripbox.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "911 ms",
+        "totalRequests": 137,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d13517ea813d34-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://scripbox.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Get Comprehensive Investment Advice in Scripbox mobile app. Get App Mutual Funds Research Financial Planning Fee Login Sign up Grow wealth. Achieve goals. Invest in the best mutual funds. On a mission to help families achieve financial freedom since 2012. 1 lakh Families 2,500 Cities 20,000 Cr of Wealth Experience the Scripbox difference. Scientific investing aligned to your goals, risk management, and 8am to 8pm customer support by phone, email and chat. Grow wealth. Clients who started investing with Scripbox have been able to build meaningful long-term wealth through disciplined investing. Start Investing I've accumulated my first 50 Lakh Mutual fund savings thanks to Scripbox. I've been a customer since 2017 & I am pleasantly surprised how you manage to keep things simple despite the complexities involved. SC Scripbox Customer Investor since 2017 Achieve goals. Scripbox makes it easy to plan for your family's goals, get personalised investment recommendations, track progress & take corrective action. Get Personalised Plan Investing has helped me dream bigger for my family. DS Dr. Shraddha Bahirwani Sr. Dental Consultant Invest in the best mutual funds. Scripbox recommendations are shaped by expert advisors and data-backed algorithms. Start investing now Like their end to end service for investment. They select the best funds, monitor them and then rebalance periodically. I think its best for people who want hasslefree and complete peace of mind service. VI Vivek Scripbox ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Scripbox: Best Regular &amp; Direct Mutual Funds Investment Platform"
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://scripbox.com/",
+        "initialUrl": "https://scripbox.com/",
+        "finalUrl": "https://scripbox.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+        "h1": "Grow wealth.Achieve goals. Invest in the best mutual funds.",
+        "canonical": "https://scripbox.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "846 ms",
+        "totalRequests": 173,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d135399a290bbe-MAA",
+        "documentNavigations": [
+          {
+            "url": "https://scripbox.com/",
+            "status": 200
+          },
+          {
+            "url": "https://scripbox-7be0f3a52ae95f516793191.freshchat.com/widget/config_iframe.html?host=https://scripbox-7be0f3a52ae95f516793191.freshchat.com&token=31f8007f-6f80-4f56-96cd-f8477752979c&origin=https://scripbox.com",
+            "status": 200
+          },
+          {
+            "url": "https://scripbox-7be0f3a52ae95f516793191.freshchat.com/widget/?token=31f8007f-6f80-4f56-96cd-f8477752979c&referrer=aHR0cHM6Ly9zY3JpcGJveC5jb20=&eagerLoad=true",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Get Comprehensive Investment Advice in Scripbox mobile app. Get App Mutual Funds Research Financial Planning Fee Login Sign up Grow wealth. Achieve goals. Invest in the best mutual funds. On a mission to help families achieve financial freedom since 2012. 1 lakh Families 2,500 Cities 20,000 Cr of Wealth Experience the Scripbox difference. Scientific investing aligned to your goals, risk management, and 8am to 8pm customer support by phone, email and chat. Grow wealth. Clients who started investing with Scripbox have been able to build meaningful long-term wealth through disciplined investing. Start Investing I've accumulated my first 50 Lakh Mutual fund savings thanks to Scripbox. I've been a customer since 2017 & I am pleasantly surprised how you manage to keep things simple despite the complexities involved. SC Scripbox Customer Investor since 2017 Achieve goals. Scripbox makes it easy to plan for your family's goals, get personalised investment recommendations, track progress & take corrective action. Get Personalised Plan Investing has helped me dream bigger for my family. DS Dr. Shraddha Bahirwani Sr. Dental Consultant Invest in the best mutual funds. Scripbox recommendations are shaped by expert advisors and data-backed algorithms. Start investing now Like their end to end service for investment. They select the best funds, monitor them and then rebalance periodically. I think its best for people who want hasslefree and complete peace of mind service. VI Vivek Scripbox ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Scripbox: Best Regular &amp; Direct Mutual Funds Investment Platform"
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://scripbox.com/",
+        "initialUrl": "https://scripbox.com/",
+        "finalUrl": "https://scripbox.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Scripbox: Best Regular & Direct Mutual Funds Investment Platform",
+        "h1": "Grow wealth.Achieve goals. Invest in the best mutual funds.",
+        "canonical": "https://scripbox.com/",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "1020 ms",
+        "totalRequests": 146,
+        "server": "cloudflare",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": "a2d1355c4b653d23-BLR",
+        "documentNavigations": [
+          {
+            "url": "https://scripbox.com/",
+            "status": 200
+          },
+          {
+            "url": "https://scripbox-7be0f3a52ae95f516793191.freshchat.com/widget/config_iframe.html?host=https://scripbox-7be0f3a52ae95f516793191.freshchat.com&token=31f8007f-6f80-4f56-96cd-f8477752979c&origin=https://scripbox.com",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Get Comprehensive Investment Advice in Scripbox mobile app. Get App Mutual Funds Research Financial Planning Fee Login Sign up Grow wealth. Achieve goals. Invest in the best mutual funds. On a mission to help families achieve financial freedom since 2012. 1 lakh Families 2,500 Cities 20,000 Cr of Wealth Experience the Scripbox difference. Scientific investing aligned to your goals, risk management, and 8am to 8pm customer support by phone, email and chat. Grow wealth. Clients who started investing with Scripbox have been able to build meaningful long-term wealth through disciplined investing. Start Investing I've accumulated my first 50 Lakh Mutual fund savings thanks to Scripbox. I've been a customer since 2017 & I am pleasantly surprised how you manage to keep things simple despite the complexities involved. SC Scripbox Customer Investor since 2017 Achieve goals. Scripbox makes it easy to plan for your family's goals, get personalised investment recommendations, track progress & take corrective action. Get Personalised Plan Investing has helped me dream bigger for my family. DS Dr. Shraddha Bahirwani Sr. Dental Consultant Invest in the best mutual funds. Scripbox recommendations are shaped by expert advisors and data-backed algorithms. Start investing now Like their end to end service for investment. They select the best funds, monitor them and then rebalance periodically. I think its best for people who want hasslefree and complete peace of mind service. VI Vivek Scripbox ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Scripbox: Best Regular &amp; Direct Mutual Funds Investment Platform"
+        }
+      }
+    ],
+    "error": null
+  }
+}

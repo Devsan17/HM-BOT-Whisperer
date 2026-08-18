@@ -1,0 +1,277 @@
+Starting audit for https://www.jioblackrock.com/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+Sitemap Found: https://www.jioblackrock.com/sitemap.xml
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, Investment advice for India | JioBlackRock Investment Advisers)
+CANONICAL CHECK
+
+Canonical Found: https://www.jioblackrock.com
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema found
+Product/Service schema missing
+Organization schema found
+Article schema missing
+WebPage schema found
+WebSite schema found
+Software/Application schema missing
+Detected schema types: ContactPoint, Country, FinancialService, ItemList, ListItem, Offer, Organization, Person, PostalAddress, WebPage, WebSite
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP enabled
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+Exposed admin URLs detected
+ - /login (200)
+
+============================
+LLMS.TXT CHECK
+============================
+
+llms.txt found
+Title found
+Description found
+78 links found
+
+============================
+META TAG CHECKS
+============================
+
+Open Graph tags found
+Twitter cards found
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (header, nav, main, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+2 elements missing accessible labels
+
+============================
+CONTENT SEO CHECKS
+============================
+
+✅ Optimized title (62 chars)
+✅ Optimized meta description (127 chars)
+✅ Optimized H1
+✅ H2 Count: 16
+✅ H3 Count: 13
+✅ Proper heading hierarchy
+✅ Answer-style content found
+✅ Content length good (5106 words)
+✅ Definitions found
+✅ Comparisons found
+✅ Bullet points found (45)
+✅ Multimedia found (Images: 33, Videos: 0)
+✅ Key takeaway/summary section found
+✅ Freshness/update signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+✅ Fast server response (132ms)
+❌ LCP Failed (2.64s)
+✅ CLS Passed (0.004)
+❌ Heavy JS blocking (296ms)
+✅ Compression enabled (gzip)
+✅ Performance Score: 72
+
+============================
+CRUX REAL USER DATA
+============================
+
+✅ INP Passed (101ms)
+✅ Real User LCP: 1.68s
+✅ Real User CLS: 0.000
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.jioblackrock.com/',
+  initialUrl: 'https://www.jioblackrock.com/',
+  finalUrl: 'https://www.jioblackrock.com/',
+  title: 'Investment advice for India | JioBlackRock Investment Advisers',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.jioblackrock.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Investment advice for India | JioBlackRock Investment Advisers'
+  }
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.jioblackrock.com/',
+  initialUrl: 'https://www.jioblackrock.com/',
+  finalUrl: 'https://www.jioblackrock.com/',
+  title: 'Investment advice for India | JioBlackRock Investment Advisers',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.jioblackrock.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Investment advice for India | JioBlackRock Investment Advisers'
+  }
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.jioblackrock.com/',
+  initialUrl: 'https://www.jioblackrock.com/',
+  finalUrl: 'https://www.jioblackrock.com/',
+  title: 'Investment advice for India | JioBlackRock Investment Advisers',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.jioblackrock.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Investment advice for India | JioBlackRock Investment Advisers'
+  }
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.jioblackrock.com/',
+  initialUrl: 'https://www.jioblackrock.com/',
+  finalUrl: 'https://www.jioblackrock.com/',
+  title: 'Investment advice for India | JioBlackRock Investment Advisers',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.jioblackrock.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Investment advice for India | JioBlackRock Investment Advisers'
+  }
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.jioblackrock.com/',
+  initialUrl: 'https://www.jioblackrock.com/',
+  finalUrl: 'https://www.jioblackrock.com/',
+  title: 'Investment advice for India | JioBlackRock Investment Advisers',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.jioblackrock.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Investment advice for India | JioBlackRock Investment Advisers'
+  }
+}
+Gemini ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.jioblackrock.com/',
+  initialUrl: 'https://www.jioblackrock.com/',
+  finalUrl: 'https://www.jioblackrock.com/',
+  title: 'Investment advice for India | JioBlackRock Investment Advisers',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.jioblackrock.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Investment advice for India | JioBlackRock Investment Advisers'
+  }
+}
+Copilot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.jioblackrock.com/',
+  initialUrl: 'https://www.jioblackrock.com/',
+  finalUrl: 'https://www.jioblackrock.com/',
+  title: 'Investment advice for India | JioBlackRock Investment Advisers',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [ { url: 'https://www.jioblackrock.com/', status: 200 } ],
+  preflight: {
+    status: 200,
+    location: null,
+    finalUrl: null,
+    title: 'Investment advice for India | JioBlackRock Investment Advisers'
+  }
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

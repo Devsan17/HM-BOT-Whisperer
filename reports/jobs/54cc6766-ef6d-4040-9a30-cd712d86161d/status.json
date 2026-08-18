@@ -1,0 +1,12 @@
+{
+  "id": "54cc6766-ef6d-4040-9a30-cd712d86161d",
+  "url": "https://www.powerup.money/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-18T12:29:41.387Z",
+  "updatedAt": "2026-08-18T12:31:50.118Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\54cc6766-ef6d-4040-9a30-cd712d86161d\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\54cc6766-ef6d-4040-9a30-cd712d86161d\\audit.log"
+}

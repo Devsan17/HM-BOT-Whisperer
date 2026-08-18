@@ -1,0 +1,281 @@
+Starting audit for https://www.powerup.money/
+
+============================
+FULL SEO + SECURITY + AI AUDIT
+============================
+
+ROBOTS.TXT CHECK
+
+
+====================================
+AI BOT CRAWLABILITY AUDITOR
+====================================
+
+Testing OAI-SearchBot
+
+Testing GPTBot
+
+Testing ChatGPT-User
+
+Testing Google StoreBot Desktop
+
+Testing Google StoreBot Mobile
+
+Testing Gemini
+
+Testing Copilot
+robots.txt found
+All major bots are allowed
+No sitemap found
+
+============================
+FETCHING PAGE
+============================
+
+Browser-visible page loaded (200, Home)
+CANONICAL CHECK
+
+Canonical Found: https://www.powerup.money/
+Canonical is absolute URL
+Self-referencing canonical
+
+============================
+SCHEMA CHECK
+============================
+
+FAQ schema missing
+Breadcrumb schema missing
+Product/Service schema missing
+Organization schema missing
+Article schema missing
+WebPage schema missing
+WebSite schema missing
+Software/Application schema missing
+No schema types detected
+
+============================
+SECURITY CHECKS
+============================
+
+HTTPS enabled
+HSTS enabled
+CSP missing
+X-Frame-Options enabled
+X-Content-Type-Options enabled
+
+============================
+MIXED CONTENT CHECK
+============================
+
+No mixed content detected
+
+============================
+ADMIN URL CHECK
+============================
+
+No common admin URLs exposed
+
+============================
+LLMS.TXT CHECK
+============================
+
+llms.txt not found
+llms.txt missing
+
+============================
+META TAG CHECKS
+============================
+
+Missing OG tags: og:url
+Twitter cards found
+
+============================
+SEMANTIC HTML CHECK
+============================
+
+Semantic HTML used (header, nav, main, article, footer)
+
+============================
+ACCESSIBILITY CHECK
+============================
+
+Basic ARIA accessibility looks good
+
+============================
+CONTENT SEO CHECKS
+============================
+
+❌ Poor title length (4 chars)
+✅ Optimized meta description (143 chars)
+✅ Optimized H1
+✅ H2 Count: 18
+✅ H3 Count: 16
+✅ Proper heading hierarchy
+✅ Answer-style content found
+✅ Content length good (1394 words)
+❌ No definitions found
+❌ No comparisons found
+✅ Bullet points found (57)
+✅ Multimedia found (Images: 23, Videos: 0)
+✅ Key takeaway/summary section found
+✅ Freshness/update signals found
+
+============================
+PAGE SPEED CHECK
+============================
+
+✅ Fast server response (134ms)
+❌ LCP Failed (4.51s)
+✅ CLS Passed (0.048)
+❌ Heavy JS blocking (676ms)
+✅ Compression enabled (gzip)
+✅ Performance Score: 48
+
+============================
+CRUX REAL USER DATA
+============================
+
+✅ INP Passed (137ms)
+✅ Real User LCP: 2.51s
+✅ Real User CLS: 0.000
+OAI-SearchBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.powerup.money/',
+  initialUrl: 'https://www.powerup.money/',
+  finalUrl: 'https://www.powerup.money/',
+  title: 'Home',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.powerup.money/', status: 200 },
+    {
+      url: 'https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056207991',
+      status: 200
+    }
+  ],
+  preflight: { status: 200, location: null, finalUrl: null, title: 'Home' }
+}
+GPTBot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.powerup.money/',
+  initialUrl: 'https://www.powerup.money/',
+  finalUrl: 'https://www.powerup.money/',
+  title: 'Home',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.powerup.money/', status: 200 },
+    {
+      url: 'https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056209086',
+      status: 200
+    }
+  ],
+  preflight: { status: 200, location: null, finalUrl: null, title: 'Home' }
+}
+ChatGPT-User ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.powerup.money/',
+  initialUrl: 'https://www.powerup.money/',
+  finalUrl: 'https://www.powerup.money/',
+  title: 'Home',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.powerup.money/', status: 200 },
+    {
+      url: 'https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056212659',
+      status: 200
+    }
+  ],
+  preflight: { status: 200, location: null, finalUrl: null, title: 'Home' }
+}
+Google StoreBot Desktop ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.powerup.money/',
+  initialUrl: 'https://www.powerup.money/',
+  finalUrl: 'https://www.powerup.money/',
+  title: 'Home',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.powerup.money/', status: 200 },
+    {
+      url: 'https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056219787',
+      status: 200
+    }
+  ],
+  preflight: { status: 200, location: null, finalUrl: null, title: 'Home' }
+}
+Google StoreBot Mobile ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.powerup.money/',
+  initialUrl: 'https://www.powerup.money/',
+  finalUrl: 'https://www.powerup.money/',
+  title: 'Home',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.powerup.money/', status: 200 },
+    {
+      url: 'https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056227362',
+      status: 200
+    }
+  ],
+  preflight: { status: 200, location: null, finalUrl: null, title: 'Home' }
+}
+Gemini ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.powerup.money/',
+  initialUrl: 'https://www.powerup.money/',
+  finalUrl: 'https://www.powerup.money/',
+  title: 'Home',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.powerup.money/', status: 200 },
+    {
+      url: 'https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056234615',
+      status: 200
+    }
+  ],
+  preflight: { status: 200, location: null, finalUrl: null, title: 'Home' }
+}
+Copilot ALLOWED
+{
+  status: 200,
+  testedUrl: 'https://www.powerup.money/',
+  initialUrl: 'https://www.powerup.money/',
+  finalUrl: 'https://www.powerup.money/',
+  title: 'Home',
+  blocked: false,
+  reason: null,
+  navigatedAfterLoad: false,
+  documentNavigations: [
+    { url: 'https://www.powerup.money/', status: 200 },
+    {
+      url: 'https://www.powerup.money/~partytown/partytown-sandbox-sw.html?1787056241819',
+      status: 200
+    }
+  ],
+  preflight: { status: 200, location: null, finalUrl: null, title: 'Home' }
+}
+
+BOT AUDIT COMPLETE
+
+
+====================================
+COMBINED REPORT SAVED
+C:\Users\Sanath Shetty\Desktop\BotWhisper\reports\report.json
+====================================

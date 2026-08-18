@@ -1,0 +1,12 @@
+{
+  "id": "6a49c67f-dbc9-46f5-a869-671ce5aa13d6",
+  "url": "https://www.indmoney.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-18T12:59:44.571Z",
+  "updatedAt": "2026-08-18T13:01:12.054Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\6a49c67f-dbc9-46f5-a869-671ce5aa13d6\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\6a49c67f-dbc9-46f5-a869-671ce5aa13d6\\audit.log"
+}

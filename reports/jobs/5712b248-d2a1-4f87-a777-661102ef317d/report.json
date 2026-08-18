@@ -1,0 +1,515 @@
+{
+  "targetUrl": "https://www.etmoney.com/",
+  "generatedAt": "2026-08-18T12:53:42.855Z",
+  "seoSecurityAudit": {
+    "url": "https://www.etmoney.com/",
+    "baseUrl": "https://www.etmoney.com",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://www.etmoney.com/",
+      "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.etmoney.com/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.etmoney.com",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": true,
+      "article": null,
+      "webPage": false,
+      "webSite": true,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [
+        "ContactPoint",
+        "EntryPoint",
+        "FinancialService",
+        "Offer",
+        "OfferCatalog",
+        "Organization",
+        "PostalAddress",
+        "SearchAction",
+        "WebSite"
+      ],
+      "detectionMethods": {
+        "jsonLd": true,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": false,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [
+      {
+        "path": "/dashboard",
+        "status": 200
+      }
+    ],
+    "llms": {
+      "found": true,
+      "hasTitle": true,
+      "hasDescription": true,
+      "links": [
+        "https://www.etmoney.com/mutual-funds):",
+        "https://www.etmoney.com/mutual-funds/featured):",
+        "https://www.etmoney.com/mutual-funds/compare):",
+        "https://www.etmoney.com/mutual-funds/fund-houses):",
+        "https://www.etmoney.com/mutual-funds/equity):",
+        "https://www.etmoney.com/mutual-funds/debt):",
+        "https://www.etmoney.com/mutual-funds/hybrid):",
+        "https://www.etmoney.com/mutual-funds/equity/large-cap/32)",
+        "https://www.etmoney.com/mutual-funds/equity/mid-cap/35)",
+        "https://www.etmoney.com/mutual-funds/equity/small-cap/36)",
+        "https://www.etmoney.com/mutual-funds/equity/flexi-cap/79)",
+        "https://www.etmoney.com/mutual-funds/equity/multi-cap/34)",
+        "https://www.etmoney.com/mutual-funds/equity/large-and-midcap/33)",
+        "https://www.etmoney.com/mutual-funds/equity/elss/38)",
+        "https://www.etmoney.com/mutual-funds/debt/liquid/57)",
+        "https://www.etmoney.com/mutual-funds/hybrid/arbitrage/73)",
+        "https://www.etmoney.com/mutual-funds/hybrid/dynamic-asset-allocation/74)",
+        "https://www.etmoney.com/mutual-funds/hybrid/multi-asset-allocation/75)",
+        "https://www.etmoney.com/mutual-funds/featured/best-mutual-funds/29)",
+        "https://www.etmoney.com/mutual-funds/featured/best-index-funds/12)",
+        "https://www.etmoney.com/mutual-funds/featured/best-sip-funds/18)",
+        "https://www.etmoney.com/mutual-funds/featured/best-gold-mutual-funds/25)",
+        "https://www.etmoney.com/mutual-funds/featured/best-momentum-funds/28)",
+        "https://www.etmoney.com/mutual-funds/featured/best-fund-of-funds-fof/27)",
+        "https://www.etmoney.com/mutual-funds/featured/best-low-risk-mutual-funds/21)",
+        "https://www.etmoney.com/mutual-funds/featured/high-risk-and-high-returns/20)",
+        "https://www.etmoney.com/mutual-funds/featured/mutual-fund-for-beginners/14)",
+        "https://www.etmoney.com/mutual-funds/featured/retirement-funds/13)",
+        "https://www.etmoney.com/stocks):",
+        "https://www.etmoney.com/nps):",
+        "https://www.etmoney.com/nps/pension-fund-manager):",
+        "https://www.etmoney.com/term-life-insurance):",
+        "https://www.etmoney.com/health-insurance):",
+        "https://www.etmoney.com/fixed-deposit):",
+        "https://www.etmoney.com/fixed-deposit/bajaj-finance-ltd-fd-rates/1)",
+        "https://www.etmoney.com/fixed-deposit/shriram-finance-fd-rates/21)",
+        "https://www.etmoney.com/fixed-deposit/suryoday-sf-bank-fd-rates/18)",
+        "https://www.etmoney.com/fixed-deposit/slice-sf-bank-fd-rates/19)",
+        "https://www.etmoney.com/fixed-deposit/shivalik-sf-bank-fd-rates/20)",
+        "https://www.etmoney.com/loan-against-mutual-fund):",
+        "https://www.etmoney.com/tools-and-calculators):",
+        "https://www.etmoney.com/tools-and-calculators/sip-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/step-up-sip-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/lumpsum-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/mutual-fund-calculator)",
+        "https://www.etmoney.com/tools-and-calculators/elss-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/income-tax-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/fd-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/nps-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/cagr-calculator):",
+        "https://www.etmoney.com/tools-and-calculators/compound-interest-calculator)",
+        "https://www.etmoney.com/tools-and-calculators/simple-interest-calculator)",
+        "https://www.etmoney.com/tools-and-calculators/salary-calculator):",
+        "https://www.etmoney.com/portfolio-health):",
+        "https://www.etmoney.com/know-your-investor-personality):",
+        "https://www.etmoney.com/learn/):",
+        "https://www.etmoney.com/learn/mutual-funds/):",
+        "https://www.etmoney.com/learn/nps/):",
+        "https://www.etmoney.com/learn/fixed-deposit/):",
+        "https://www.etmoney.com/learn/income-tax/):",
+        "https://www.etmoney.com/learn/insurance/):",
+        "https://www.etmoney.com/learn/stocks/):",
+        "https://www.etmoney.com/learn/personal-finance/):",
+        "https://www.etmoney.com/learn/loans/):",
+        "https://www.etmoney.com/learn/saving-schemes/):",
+        "https://www.etmoney.com/help):",
+        "https://www.etmoney.com/about-us)",
+        "https://www.etmoney.com/privacy-policy)",
+        "https://www.etmoney.com/disclaimer)",
+        "https://www.etmoney.com/disclosures)",
+        "https://play.google.com/store/apps/details?id=com.smartspends&hl=en_IN)",
+        "https://apps.apple.com/in/app/et-money-mutual-fund-sip-app/id1212752482)"
+      ],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:title",
+        "og:description"
+      ],
+      "missingTwitter": [
+        "twitter:image"
+      ]
+    },
+    "semanticHtml": [
+      "header",
+      "nav",
+      "section",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 19
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 95,
+        "ttfbMs": 163,
+        "lcpMs": 1106,
+        "cls": 0,
+        "totalBlockingTimeMs": 102,
+        "compressionEnabled": true,
+        "compressionEncoding": "gzip",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 104,
+        "lcpMs": 1462,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": true,
+      "titleLength": 57,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 170,
+      "h1Optimized": true,
+      "h1Count": 1,
+      "h2Count": 6,
+      "h3Count": 4,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 3300,
+      "hasDefinitions": false,
+      "hasComparisons": true,
+      "hasBulletPoints": true,
+      "bulletCount": 297,
+      "hasMultimedia": true,
+      "imageCount": 111,
+      "videoCount": 0,
+      "iframeCount": 2,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": false
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.etmoney.com/",
+        "initialUrl": "https://www.etmoney.com/",
+        "finalUrl": "https://www.etmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+        "h1": "Invest in the freedom to choose",
+        "canonical": "https://www.etmoney.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "3518 ms",
+        "totalRequests": 83,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.etmoney.com/",
+            "status": 200
+          },
+          {
+            "url": "https://inzz99199068.in.webengage.co/storage-frame-1.13.htm?cdn=y&cbf=webengage-engagement-callback-frame&lc=in~~99199068",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Mutual Funds Genius Stocks NPS More My Account Invest in the freedom to choose Wealth is not just about money. It's about what all you can do with it. It is having your own story of progress. And living it every single day. So go ahead, imagine a future you want to shape. And make it happen. Get started I paid the downpayment of my dream home with the returns I got from my SIP. Rahul Diwan Manali Start your investing journey today. Sign up now Mutual Funds Stocks Learn Tools & Calculators Top AMCs Aditya Birla Sun Life Mutual Fund Axis Mutual Fund Bandhan Mutual Fund DSP Mutual Fund Edelweiss Mutual Fund Categories Equity Funds Flexi Cap Funds Large Cap Funds Mid Cap Funds Multi Cap Funds Investment Themes Best Index Funds Best Mutual Funds Best SIP Funds Best Fund of Funds (FoF) Best Gold Mutual Funds Popular Funds HDFC Flexi Cap Fund HDFC Balanced Advantage Fund HDFC Mid Cap Fund Motilal Oswal Midcap Fund Nippon India Small Cap Fund Show more Company About us Investor Charter Privacy Policy Terms & Conditions Disclaimer Disclosures Fraud Awareness Careers Products Mutual Funds Stocks NFO NPS FD LAMF Term Life Insurance Health Insurance Quick Links Learn Tools & Calculators Help & Support Testimonials Portfolio Health Investor Personality Stocks Market Indices Sectoral Indices Explore Mutual Fund Screener Compare Mutual Funds Historical NAV Bajaj Finance FD Suryoday SF Bank FD slice SF Bank FD Shriram Finance FD Shivalik SF Bank FD Download Mobile Apps ©Copyright 2026 etmone",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App"
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.etmoney.com/",
+        "initialUrl": "https://www.etmoney.com/",
+        "finalUrl": "https://www.etmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+        "h1": "Invest in the freedom to choose",
+        "canonical": "https://www.etmoney.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "346 ms",
+        "totalRequests": 84,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.etmoney.com/",
+            "status": 200
+          },
+          {
+            "url": "https://inzz99199068.in.webengage.co/storage-frame-1.13.htm?cdn=y&cbf=webengage-engagement-callback-frame&lc=in~~99199068",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Mutual Funds Genius Stocks NPS More My Account Invest in the freedom to choose Wealth is not just about money. It's about what all you can do with it. It is having your own story of progress. And living it every single day. So go ahead, imagine a future you want to shape. And make it happen. Get started You are here: 5.5 yrs I paid the downpayment of my dream home with the returns I got from my SIP. Rahul Diwan Manali Start your investing journey today. Sign up now Mutual Funds Stocks Learn Tools & Calculators Top AMCs Aditya Birla Sun Life Mutual Fund Axis Mutual Fund Bandhan Mutual Fund DSP Mutual Fund Edelweiss Mutual Fund Categories Equity Funds Flexi Cap Funds Large Cap Funds Mid Cap Funds Multi Cap Funds Investment Themes Best Index Funds Best Mutual Funds Best SIP Funds Best Fund of Funds (FoF) Best Gold Mutual Funds Popular Funds HDFC Flexi Cap Fund HDFC Balanced Advantage Fund HDFC Mid Cap Fund Motilal Oswal Midcap Fund Nippon India Small Cap Fund Show more Company About us Investor Charter Privacy Policy Terms & Conditions Disclaimer Disclosures Fraud Awareness Careers Products Mutual Funds Stocks NFO NPS FD LAMF Term Life Insurance Health Insurance Quick Links Learn Tools & Calculators Help & Support Testimonials Portfolio Health Investor Personality Stocks Market Indices Sectoral Indices Explore Mutual Fund Screener Compare Mutual Funds Historical NAV Bajaj Finance FD Suryoday SF Bank FD slice SF Bank FD Shriram Finance FD Shivalik SF Bank FD Download Mobile Apps ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App"
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.etmoney.com/",
+        "initialUrl": "https://www.etmoney.com/",
+        "finalUrl": "https://www.etmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+        "h1": "Invest in the freedom to choose",
+        "canonical": "https://www.etmoney.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "568 ms",
+        "totalRequests": 84,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.etmoney.com/",
+            "status": 200
+          },
+          {
+            "url": "https://inzz99199068.in.webengage.co/storage-frame-1.13.htm?cdn=y&cbf=webengage-engagement-callback-frame&lc=in~~99199068",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Mutual Funds Genius Stocks NPS More My Account Invest in the freedom to choose Wealth is not just about money. It's about what all you can do with it. It is having your own story of progress. And living it every single day. So go ahead, imagine a future you want to shape. And make it happen. Get started You are here: 5.5 yrs I paid the downpayment of my dream home with the returns I got from my SIP. Rahul Diwan Manali Start your investing journey today. Sign up now Mutual Funds Stocks Learn Tools & Calculators Top AMCs Aditya Birla Sun Life Mutual Fund Axis Mutual Fund Bandhan Mutual Fund DSP Mutual Fund Edelweiss Mutual Fund Categories Equity Funds Flexi Cap Funds Large Cap Funds Mid Cap Funds Multi Cap Funds Investment Themes Best Index Funds Best Mutual Funds Best SIP Funds Best Fund of Funds (FoF) Best Gold Mutual Funds Popular Funds HDFC Flexi Cap Fund HDFC Balanced Advantage Fund HDFC Mid Cap Fund Motilal Oswal Midcap Fund Nippon India Small Cap Fund Show more Company About us Investor Charter Privacy Policy Terms & Conditions Disclaimer Disclosures Fraud Awareness Careers Products Mutual Funds Stocks NFO NPS FD LAMF Term Life Insurance Health Insurance Quick Links Learn Tools & Calculators Help & Support Testimonials Portfolio Health Investor Personality Stocks Market Indices Sectoral Indices Explore Mutual Fund Screener Compare Mutual Funds Historical NAV Bajaj Finance FD Suryoday SF Bank FD slice SF Bank FD Shriram Finance FD Shivalik SF Bank FD Download Mobile Apps ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App"
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.etmoney.com/",
+        "initialUrl": "https://www.etmoney.com/",
+        "finalUrl": "https://www.etmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+        "h1": "Invest in the freedom to choose",
+        "canonical": "https://www.etmoney.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "536 ms",
+        "totalRequests": 84,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.etmoney.com/",
+            "status": 200
+          },
+          {
+            "url": "https://inzz99199068.in.webengage.co/storage-frame-1.13.htm?cdn=y&cbf=webengage-engagement-callback-frame&lc=in~~99199068",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Mutual Funds Genius Stocks NPS More My Account Invest in the freedom to choose Wealth is not just about money. It's about what all you can do with it. It is having your own story of progress. And living it every single day. So go ahead, imagine a future you want to shape. And make it happen. Get started I paid the downpayment of my dream home with the returns I got from my SIP. Rahul Diwan Manali Start your investing journey today. Sign up now Mutual Funds Stocks Learn Tools & Calculators Top AMCs Aditya Birla Sun Life Mutual Fund Axis Mutual Fund Bandhan Mutual Fund DSP Mutual Fund Edelweiss Mutual Fund Categories Equity Funds Flexi Cap Funds Large Cap Funds Mid Cap Funds Multi Cap Funds Investment Themes Best Index Funds Best Mutual Funds Best SIP Funds Best Fund of Funds (FoF) Best Gold Mutual Funds Popular Funds HDFC Flexi Cap Fund HDFC Balanced Advantage Fund HDFC Mid Cap Fund Motilal Oswal Midcap Fund Nippon India Small Cap Fund Show more Company About us Investor Charter Privacy Policy Terms & Conditions Disclaimer Disclosures Fraud Awareness Careers Products Mutual Funds Stocks NFO NPS FD LAMF Term Life Insurance Health Insurance Quick Links Learn Tools & Calculators Help & Support Testimonials Portfolio Health Investor Personality Stocks Market Indices Sectoral Indices Explore Mutual Fund Screener Compare Mutual Funds Historical NAV Bajaj Finance FD Suryoday SF Bank FD slice SF Bank FD Shriram Finance FD Shivalik SF Bank FD Download Mobile Apps ©Copyright 2026 etmone",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App"
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.etmoney.com/",
+        "initialUrl": "https://www.etmoney.com/",
+        "finalUrl": "https://www.etmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+        "h1": "Invest in the freedom to choose",
+        "canonical": "https://www.etmoney.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "552 ms",
+        "totalRequests": 83,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.etmoney.com/",
+            "status": 200
+          },
+          {
+            "url": "https://inzz99199068.in.webengage.co/storage-frame-1.13.htm?cdn=y&cbf=webengage-engagement-callback-frame&lc=in~~99199068",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Mutual Funds Genius Stocks NPS More My Account Invest in the freedom to choose Wealth is not just about money. It's about what all you can do with it. It is having your own story of progress. And living it every single day. So go ahead, imagine a future you want to shape. And make it happen. Get started You are here: 5.5 yrs I paid the downpayment of my dream home with the returns I got from my SIP. Rahul Diwan Manali Start your investing journey today. Sign up now Mutual Funds Stocks Learn Tools & Calculators Top AMCs Aditya Birla Sun Life Mutual Fund Axis Mutual Fund Bandhan Mutual Fund DSP Mutual Fund Edelweiss Mutual Fund Categories Equity Funds Flexi Cap Funds Large Cap Funds Mid Cap Funds Multi Cap Funds Investment Themes Best Index Funds Best Mutual Funds Best SIP Funds Best Fund of Funds (FoF) Best Gold Mutual Funds Popular Funds HDFC Flexi Cap Fund HDFC Balanced Advantage Fund HDFC Mid Cap Fund Motilal Oswal Midcap Fund Nippon India Small Cap Fund Show more Company About us Investor Charter Privacy Policy Terms & Conditions Disclaimer Disclosures Fraud Awareness Careers Products Mutual Funds Stocks NFO NPS FD LAMF Term Life Insurance Health Insurance Quick Links Learn Tools & Calculators Help & Support Testimonials Portfolio Health Investor Personality Stocks Market Indices Sectoral Indices Explore Mutual Fund Screener Compare Mutual Funds Historical NAV Bajaj Finance FD Suryoday SF Bank FD slice SF Bank FD Shriram Finance FD Shivalik SF Bank FD Download Mobile Apps ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App"
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.etmoney.com/",
+        "initialUrl": "https://www.etmoney.com/",
+        "finalUrl": "https://www.etmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+        "h1": "Invest in the freedom to choose",
+        "canonical": "https://www.etmoney.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "426 ms",
+        "totalRequests": 83,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.etmoney.com/",
+            "status": 200
+          },
+          {
+            "url": "https://inzz99199068.in.webengage.co/storage-frame-1.13.htm?cdn=y&cbf=webengage-engagement-callback-frame&lc=in~~99199068",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Mutual Funds Genius Stocks NPS More My Account Invest in the freedom to choose Wealth is not just about money. It's about what all you can do with it. It is having your own story of progress. And living it every single day. So go ahead, imagine a future you want to shape. And make it happen. Get started You are here: 5.5 yrs I paid the downpayment of my dream home with the returns I got from my SIP. Rahul Diwan Manali Start your investing journey today. Sign up now Mutual Funds Stocks Learn Tools & Calculators Top AMCs Aditya Birla Sun Life Mutual Fund Axis Mutual Fund Bandhan Mutual Fund DSP Mutual Fund Edelweiss Mutual Fund Categories Equity Funds Flexi Cap Funds Large Cap Funds Mid Cap Funds Multi Cap Funds Investment Themes Best Index Funds Best Mutual Funds Best SIP Funds Best Fund of Funds (FoF) Best Gold Mutual Funds Popular Funds HDFC Flexi Cap Fund HDFC Balanced Advantage Fund HDFC Mid Cap Fund Motilal Oswal Midcap Fund Nippon India Small Cap Fund Show more Company About us Investor Charter Privacy Policy Terms & Conditions Disclaimer Disclosures Fraud Awareness Careers Products Mutual Funds Stocks NFO NPS FD LAMF Term Life Insurance Health Insurance Quick Links Learn Tools & Calculators Help & Support Testimonials Portfolio Health Investor Personality Stocks Market Indices Sectoral Indices Explore Mutual Fund Screener Compare Mutual Funds Historical NAV Bajaj Finance FD Suryoday SF Bank FD slice SF Bank FD Shriram Finance FD Shivalik SF Bank FD Download Mobile Apps ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App"
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.etmoney.com/",
+        "initialUrl": "https://www.etmoney.com/",
+        "finalUrl": "https://www.etmoney.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": "captcha",
+        "navigatedAfterLoad": false,
+        "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App",
+        "h1": "Invest in the freedom to choose",
+        "canonical": "https://www.etmoney.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "503 ms",
+        "totalRequests": 81,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html;charset=UTF-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.etmoney.com/",
+            "status": 200
+          },
+          {
+            "url": "https://inzz99199068.in.webengage.co/storage-frame-1.13.htm?cdn=y&cbf=webengage-engagement-callback-frame&lc=in~~99199068",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Mutual Funds Genius Stocks NPS More My Account Invest in the freedom to choose Wealth is not just about money. It's about what all you can do with it. It is having your own story of progress. And living it every single day. So go ahead, imagine a future you want to shape. And make it happen. Get started You are here: 5.5 yrs I paid the downpayment of my dream home with the returns I got from my SIP. Rahul Diwan Manali Start your investing journey today. Sign up now Mutual Funds Stocks Learn Tools & Calculators Top AMCs Aditya Birla Sun Life Mutual Fund Axis Mutual Fund Bandhan Mutual Fund DSP Mutual Fund Edelweiss Mutual Fund Categories Equity Funds Flexi Cap Funds Large Cap Funds Mid Cap Funds Multi Cap Funds Investment Themes Best Index Funds Best Mutual Funds Best SIP Funds Best Fund of Funds (FoF) Best Gold Mutual Funds Popular Funds HDFC Flexi Cap Fund HDFC Balanced Advantage Fund HDFC Mid Cap Fund Motilal Oswal Midcap Fund Nippon India Small Cap Fund Show more Company About us Investor Charter Privacy Policy Terms & Conditions Disclaimer Disclosures Fraud Awareness Careers Products Mutual Funds Stocks NFO NPS FD LAMF Term Life Insurance Health Insurance Quick Links Learn Tools & Calculators Help & Support Testimonials Portfolio Health Investor Personality Stocks Market Indices Sectoral Indices Explore Mutual Fund Screener Compare Mutual Funds Historical NAV Bajaj Finance FD Suryoday SF Bank FD slice SF Bank FD Shriram Finance FD Shivalik SF Bank FD Download Mobile Apps ",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "ET Money: Mutual Funds, Stocks & Long-Term Investment App"
+        }
+      }
+    ],
+    "error": null
+  }
+}

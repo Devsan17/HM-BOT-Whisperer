@@ -1,0 +1,12 @@
+{
+  "id": "5152bae1-d2fd-420b-a106-a67066a0578d",
+  "url": "https://www.dezerv.in/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-18T12:32:39.884Z",
+  "updatedAt": "2026-08-18T12:34:19.446Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\5152bae1-d2fd-420b-a106-a67066a0578d\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\5152bae1-d2fd-420b-a106-a67066a0578d\\audit.log"
+}

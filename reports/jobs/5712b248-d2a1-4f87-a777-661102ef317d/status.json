@@ -1,0 +1,12 @@
+{
+  "id": "5712b248-d2a1-4f87-a777-661102ef317d",
+  "url": "https://www.etmoney.com/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-18T12:51:45.404Z",
+  "updatedAt": "2026-08-18T12:53:42.909Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\5712b248-d2a1-4f87-a777-661102ef317d\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\5712b248-d2a1-4f87-a777-661102ef317d\\audit.log"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "4e344c7e-31b3-4648-872c-d4addf99f824",
+  "url": "https://kuvera.in/",
+  "status": "completed",
+  "progress": 100,
+  "step": "Audit completed",
+  "createdAt": "2026-08-18T13:11:08.353Z",
+  "updatedAt": "2026-08-18T13:14:12.480Z",
+  "error": null,
+  "reportPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\4e344c7e-31b3-4648-872c-d4addf99f824\\report.json",
+  "logPath": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\reports\\jobs\\4e344c7e-31b3-4648-872c-d4addf99f824\\audit.log"
+}

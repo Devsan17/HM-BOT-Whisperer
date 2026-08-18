@@ -1,0 +1,455 @@
+{
+  "targetUrl": "https://kuvera.in/",
+  "generatedAt": "2026-08-18T13:14:12.362Z",
+  "seoSecurityAudit": {
+    "url": "https://kuvera.in/",
+    "baseUrl": "https://kuvera.in",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://kuvera.in/",
+      "title": "Kuvera by CRED",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://kuvera.in/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": false,
+      "count": 0,
+      "value": null,
+      "isAbsolute": null,
+      "isSelfReferencing": null
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": false,
+      "productOrService": null,
+      "organization": false,
+      "article": null,
+      "webPage": false,
+      "webSite": false,
+      "softwareApplication": false,
+      "person": false,
+      "localBusiness": false,
+      "foundTypes": [],
+      "detectionMethods": {
+        "jsonLd": false,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": false,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [
+      {
+        "path": "/admin",
+        "status": 200
+      },
+      {
+        "path": "/wp-admin",
+        "status": 200
+      },
+      {
+        "path": "/login",
+        "status": 200
+      },
+      {
+        "path": "/dashboard",
+        "status": 200
+      },
+      {
+        "path": "/cpanel",
+        "status": 200
+      },
+      {
+        "path": "/phpmyadmin",
+        "status": 200
+      }
+    ],
+    "llms": {
+      "found": true,
+      "hasTitle": false,
+      "hasDescription": true,
+      "links": [
+        "http://kuvera.surveysparrow.com",
+        "https://codepush.azurewebsites.net",
+        "http://www.google-analytics.com",
+        "https://pagead2.googlesyndication.com/",
+        "https://ssl.gstatic.com",
+        "https://fonts.googleapis.com",
+        "https://assets.kuvera.in",
+        "https://assets2.kuvera.in",
+        "https://wchat.freshchat.com",
+        "https://cdn.in-freshbots.ai",
+        "https://tagmanager.google.com",
+        "https://testforkuvera.surveysparrow.com",
+        "https://codepush.azurewebsites.net",
+        "https://ssl.gstatic.com",
+        "https://testforkuvera.surveysparrow.com",
+        "https://fonts.googleapis.com",
+        "https://assets.kuvera.in",
+        "https://assets2.kuvera.in",
+        "https://tagmanager.google.com",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/favicons/fav_icon_kuv.png\">",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/favicons/fav_icon_kuv.png\">",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/favicons/fav_icon_kuv.png\">",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/favicons/fav_icon_kuv.png\">",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/favicons/fav_icon_kuv.png\">",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/favicons/fav_icon_kuv.png\">",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/favicons/fav_icon_kuv.png\">",
+        "https://fonts.googleapis.com/css?family=Poppins:300,400,500|Work+Sans\"",
+        "https://fonts.googleapis.com/css?family=Rubik:300,400,500|Work+Sans\"",
+        "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js\"></script>",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/css/kuvera-styles.b1756f9bb6bf562e39a48f70173c9fe7.css\"",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/css/font-awesome.min.css\"",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/img/loading.svg\"",
+        "https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver\"></script>-->",
+        "https://assets2.kuvera.in/production/atlantis/web/assets/js/main.2c6eeca1196098576928.js\"></script>"
+      ],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [
+        "og:url"
+      ],
+      "missingTwitter": []
+    },
+    "semanticHtml": [
+      "main",
+      "section",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 2
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 80,
+        "ttfbMs": 1,
+        "lcpMs": 2996,
+        "cls": 0,
+        "totalBlockingTimeMs": 119,
+        "compressionEnabled": true,
+        "compressionEncoding": "gzip",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 78,
+        "lcpMs": 1676,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": false,
+      "titleLength": 14,
+      "metaDescriptionOptimized": false,
+      "metaDescriptionLength": 33,
+      "h1Optimized": false,
+      "h1Count": 0,
+      "h2Count": 5,
+      "h3Count": 0,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 375,
+      "hasDefinitions": false,
+      "hasComparisons": false,
+      "hasBulletPoints": true,
+      "bulletCount": 5,
+      "hasMultimedia": true,
+      "imageCount": 30,
+      "videoCount": 2,
+      "iframeCount": 0,
+      "hasKeyTakeaways": false,
+      "freshnessSignals": true
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://kuvera.in/",
+        "initialUrl": "https://kuvera.in/",
+        "finalUrl": "https://kuvera.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Kuvera by CRED",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "462 ms",
+        "totalRequests": 390,
+        "server": "nginx",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://kuvera.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "SCROLL DOWN Find patterns in your wealth Track all your assets. Invest in handpicked mutual funds. Discover curated paths to grow wealth. All, in one place. For money that is waiting but never idle Surplus keeps your idle money productive. Earn up to 2.5x more than account balances. Grow every day. Use anytime. *or 90% of holdings, whichever is lower. applicable per day. up to 2.5x returns compared to savings accounts redeem ₹4L instantly* 01 Filter out noise in the world of investing Focus on making the right moves DISCIPLINE + See how your decisions take shape over time, across markets and moments. Because the more you understand them, the better they tend to work for you. ALLOCATION + Understand where risk could show up, before it does. So when it does, you’re already optimized for it. PERFORMANCE + See what’s working, what isn’t, and why. Then reallocate funds, so your money stays where it works better. We're invested in you, long-term Kuvera by CRED was built to prioritize long-term capital growth . Every insight we surface is crafted to help you lead with intent over instinct; and make confident, considered decisions about your portfolio. Begin making the right moves Try Kuvera by CRED TRY NOW Kuvera by CRED is published by Dreamplug Technologies Private Limited. Contact: help@kuvera.in Arevuk Advisory Services Private Limited (CIN: U74900MH2016PTC422227) | SEBI-registered Non-Individual Investment Adviser (Registration No. INA200005166) | Validity: 02/01/2026 - Perpetu",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Kuvera by CRED"
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://kuvera.in/",
+        "initialUrl": "https://kuvera.in/",
+        "finalUrl": "https://kuvera.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Kuvera by CRED",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "405 ms",
+        "totalRequests": 390,
+        "server": "nginx",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://kuvera.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "SCROLL DOWN Find patterns in your wealth Track all your assets. Invest in handpicked mutual funds. Discover curated paths to grow wealth. All, in one place. For money that is waiting but never idle Surplus keeps your idle money productive. Earn up to 2.5x more than account balances. Grow every day. Use anytime. *or 90% of holdings, whichever is lower. applicable per day. up to 2.5x returns compared to savings accounts redeem ₹4L instantly* 01 Filter out noise in the world of investing Focus on making the right moves DISCIPLINE + See how your decisions take shape over time, across markets and moments. Because the more you understand them, the better they tend to work for you. ALLOCATION + Understand where risk could show up, before it does. So when it does, you’re already optimized for it. PERFORMANCE + See what’s working, what isn’t, and why. Then reallocate funds, so your money stays where it works better. We're invested in you, long-term Kuvera by CRED was built to prioritize long-term capital growth . Every insight we surface is crafted to help you lead with intent over instinct; and make confident, considered decisions about your portfolio. Begin making the right moves Try Kuvera by CRED TRY NOW Kuvera by CRED is published by Dreamplug Technologies Private Limited. Contact: help@kuvera.in Arevuk Advisory Services Private Limited (CIN: U74900MH2016PTC422227) | SEBI-registered Non-Individual Investment Adviser (Registration No. INA200005166) | Validity: 02/01/2026 - Perpetu",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Kuvera by CRED"
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://kuvera.in/",
+        "initialUrl": "https://kuvera.in/",
+        "finalUrl": "https://kuvera.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Kuvera by CRED",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "325 ms",
+        "totalRequests": 392,
+        "server": "nginx",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://kuvera.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "SCROLL DOWN Find patterns in your wealth Track all your assets. Invest in handpicked mutual funds. Discover curated paths to grow wealth. All, in one place. For money that is waiting but never idle Surplus keeps your idle money productive. Earn up to 2.5x more than account balances. Grow every day. Use anytime. *or 90% of holdings, whichever is lower. applicable per day. up to 2.5x returns compared to savings accounts redeem ₹4L instantly* 01 Filter out noise in the world of investing Focus on making the right moves DISCIPLINE + See how your decisions take shape over time, across markets and moments. Because the more you understand them, the better they tend to work for you. ALLOCATION + Understand where risk could show up, before it does. So when it does, you’re already optimized for it. PERFORMANCE + See what’s working, what isn’t, and why. Then reallocate funds, so your money stays where it works better. We're invested in you, long-term Kuvera by CRED was built to prioritize long-term capital growth . Every insight we surface is crafted to help you lead with intent over instinct; and make confident, considered decisions about your portfolio. Begin making the right moves Try Kuvera by CRED TRY NOW Kuvera by CRED is published by Dreamplug Technologies Private Limited. Contact: help@kuvera.in Arevuk Advisory Services Private Limited (CIN: U74900MH2016PTC422227) | SEBI-registered Non-Individual Investment Adviser (Registration No. INA200005166) | Validity: 02/01/2026 - Perpetu",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Kuvera by CRED"
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://kuvera.in/",
+        "initialUrl": "https://kuvera.in/",
+        "finalUrl": "https://kuvera.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Kuvera by CRED",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "247 ms",
+        "totalRequests": 389,
+        "server": "nginx",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://kuvera.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "SCROLL DOWN Find patterns in your wealth Track all your assets. Invest in handpicked mutual funds. Discover curated paths to grow wealth. All, in one place. For money that is waiting but never idle Surplus keeps your idle money productive. Earn up to 2.5x more than account balances. Grow every day. Use anytime. *or 90% of holdings, whichever is lower. applicable per day. up to 2.5x returns compared to savings accounts redeem ₹4L instantly* 01 Filter out noise in the world of investing Focus on making the right moves DISCIPLINE + See how your decisions take shape over time, across markets and moments. Because the more you understand them, the better they tend to work for you. ALLOCATION + Understand where risk could show up, before it does. So when it does, you’re already optimized for it. PERFORMANCE + See what’s working, what isn’t, and why. Then reallocate funds, so your money stays where it works better. We're invested in you, long-term Kuvera by CRED was built to prioritize long-term capital growth . Every insight we surface is crafted to help you lead with intent over instinct; and make confident, considered decisions about your portfolio. Begin making the right moves Try Kuvera by CRED TRY NOW Kuvera by CRED is published by Dreamplug Technologies Private Limited. Contact: help@kuvera.in Arevuk Advisory Services Private Limited (CIN: U74900MH2016PTC422227) | SEBI-registered Non-Individual Investment Adviser (Registration No. INA200005166) | Validity: 02/01/2026 - Perpetu",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Kuvera by CRED"
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://kuvera.in/",
+        "initialUrl": "https://kuvera.in/",
+        "finalUrl": "https://kuvera.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Kuvera by CRED",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "380 ms",
+        "totalRequests": 390,
+        "server": "nginx",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://kuvera.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "SCROLL DOWN Find patterns in your wealth Track all your assets. Invest in handpicked mutual funds. Discover curated paths to grow wealth. All, in one place. For money that is waiting but never idle Surplus keeps your idle money productive. Earn up to 2.5x more than account balances. Grow every day. Use anytime. *or 90% of holdings, whichever is lower. applicable per day. up to 2.5x returns compared to savings accounts redeem ₹4L instantly* 01 Filter out noise in the world of investing Focus on making the right moves DISCIPLINE + See how your decisions take shape over time, across markets and moments. Because the more you understand them, the better they tend to work for you. ALLOCATION + Understand where risk could show up, before it does. So when it does, you’re already optimized for it. PERFORMANCE + See what’s working, what isn’t, and why. Then reallocate funds, so your money stays where it works better. We're invested in you, long-term Kuvera by CRED was built to prioritize long-term capital growth . Every insight we surface is crafted to help you lead with intent over instinct; and make confident, considered decisions about your portfolio. Begin making the right moves Try Kuvera by CRED TRY NOW Kuvera by CRED is published by Dreamplug Technologies Private Limited. Contact: help@kuvera.in Arevuk Advisory Services Private Limited (CIN: U74900MH2016PTC422227) | SEBI-registered Non-Individual Investment Adviser (Registration No. INA200005166) | Validity: 02/01/2026 - Perpetu",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Kuvera by CRED"
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://kuvera.in/",
+        "initialUrl": "https://kuvera.in/",
+        "finalUrl": "https://kuvera.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Kuvera by CRED",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "337 ms",
+        "totalRequests": 390,
+        "server": "nginx",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://kuvera.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "SCROLL DOWN Find patterns in your wealth Track all your assets. Invest in handpicked mutual funds. Discover curated paths to grow wealth. All, in one place. For money that is waiting but never idle Surplus keeps your idle money productive. Earn up to 2.5x more than account balances. Grow every day. Use anytime. *or 90% of holdings, whichever is lower. applicable per day. up to 2.5x returns compared to savings accounts redeem ₹4L instantly* 01 Filter out noise in the world of investing Focus on making the right moves DISCIPLINE + See how your decisions take shape over time, across markets and moments. Because the more you understand them, the better they tend to work for you. ALLOCATION + Understand where risk could show up, before it does. So when it does, you’re already optimized for it. PERFORMANCE + See what’s working, what isn’t, and why. Then reallocate funds, so your money stays where it works better. We're invested in you, long-term Kuvera by CRED was built to prioritize long-term capital growth . Every insight we surface is crafted to help you lead with intent over instinct; and make confident, considered decisions about your portfolio. Begin making the right moves Try Kuvera by CRED TRY NOW Kuvera by CRED is published by Dreamplug Technologies Private Limited. Contact: help@kuvera.in Arevuk Advisory Services Private Limited (CIN: U74900MH2016PTC422227) | SEBI-registered Non-Individual Investment Adviser (Registration No. INA200005166) | Validity: 02/01/2026 - Perpetu",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Kuvera by CRED"
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://kuvera.in/",
+        "initialUrl": "https://kuvera.in/",
+        "finalUrl": "https://kuvera.in/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Kuvera by CRED",
+        "h1": null,
+        "canonical": null,
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "451 ms",
+        "totalRequests": 390,
+        "server": "nginx",
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://kuvera.in/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "SCROLL DOWN Find patterns in your wealth Track all your assets. Invest in handpicked mutual funds. Discover curated paths to grow wealth. All, in one place. For money that is waiting but never idle Surplus keeps your idle money productive. Earn up to 2.5x more than account balances. Grow every day. Use anytime. *or 90% of holdings, whichever is lower. applicable per day. up to 2.5x returns compared to savings accounts redeem ₹4L instantly* 01 Filter out noise in the world of investing Focus on making the right moves DISCIPLINE + See how your decisions take shape over time, across markets and moments. Because the more you understand them, the better they tend to work for you. ALLOCATION + Understand where risk could show up, before it does. So when it does, you’re already optimized for it. PERFORMANCE + See what’s working, what isn’t, and why. Then reallocate funds, so your money stays where it works better. We're invested in you, long-term Kuvera by CRED was built to prioritize long-term capital growth . Every insight we surface is crafted to help you lead with intent over instinct; and make confident, considered decisions about your portfolio. Begin making the right moves Try Kuvera by CRED TRY NOW Kuvera by CRED is published by Dreamplug Technologies Private Limited. Contact: help@kuvera.in Arevuk Advisory Services Private Limited (CIN: U74900MH2016PTC422227) | SEBI-registered Non-Individual Investment Adviser (Registration No. INA200005166) | Validity: 02/01/2026 - Perpetu",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Kuvera by CRED"
+        }
+      }
+    ],
+    "error": null
+  }
+}

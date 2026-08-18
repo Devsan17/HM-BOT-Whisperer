@@ -1,0 +1,490 @@
+{
+  "targetUrl": "https://www.jioblackrock.com/",
+  "generatedAt": "2026-08-18T12:24:24.509Z",
+  "seoSecurityAudit": {
+    "url": "https://www.jioblackrock.com/",
+    "baseUrl": "https://www.jioblackrock.com",
+    "fetch": {
+      "success": true,
+      "method": "browser",
+      "status": 200,
+      "finalUrl": "https://www.jioblackrock.com/",
+      "title": "Investment advice for India | JioBlackRock Investment Advisers",
+      "error": null,
+      "fetchedWithBrowser": true
+    },
+    "robots": {
+      "found": true,
+      "blockedBots": [],
+      "sitemap": "https://www.jioblackrock.com/sitemap.xml",
+      "error": null
+    },
+    "canonical": {
+      "found": true,
+      "count": 1,
+      "value": "https://www.jioblackrock.com",
+      "isAbsolute": true,
+      "isSelfReferencing": true
+    },
+    "schema": {
+      "faq": false,
+      "breadcrumb": true,
+      "productOrService": null,
+      "organization": true,
+      "article": null,
+      "webPage": true,
+      "webSite": true,
+      "softwareApplication": false,
+      "person": true,
+      "localBusiness": false,
+      "foundTypes": [
+        "ContactPoint",
+        "Country",
+        "FinancialService",
+        "ItemList",
+        "ListItem",
+        "Offer",
+        "Organization",
+        "Person",
+        "PostalAddress",
+        "WebPage",
+        "WebSite"
+      ],
+      "detectionMethods": {
+        "jsonLd": true,
+        "microdata": false,
+        "rdfa": false
+      }
+    },
+    "security": {
+      "https": true,
+      "hsts": true,
+      "csp": true,
+      "xFrameOptions": true,
+      "xContentTypeOptions": true
+    },
+    "mixedContent": [],
+    "adminUrls": [
+      {
+        "path": "/login",
+        "status": 200
+      }
+    ],
+    "llms": {
+      "found": true,
+      "hasTitle": true,
+      "hasDescription": true,
+      "links": [
+        "https://www.jioblackrock.com/):",
+        "https://www.jioblackrock.com/the-jioblackrock-partnership):",
+        "https://www.jioblackrock.com/our-board):",
+        "https://www.jioblackrock.com/our-story):",
+        "https://www.jioblackrock.com/team):",
+        "https://www.jioblackrock.com/investment-philosophy):",
+        "https://www.jioblackrock.com/contact-us):",
+        "https://www.jioblackrock.com/faq):",
+        "https://www.jioblackrock.com/glossary):",
+        "https://www.jioblackrock.com/regulatory-disclosures):",
+        "https://www.jioblackrock.com/press-releases):",
+        "https://www.jioblackrock.com/press-releases/jioblackrock-investment-advisers-launches-personalised-investment-advice-to-democratise-wealth-management-for-the-people-of-india):",
+        "https://www.jioblackrock.com/press-releases/jioblackrock-investment-advisers-announces-launch-of-official-website-and-early-access-campaign):",
+        "https://www.jioblackrock.com/press-releases/jioblackrock-investment-advisers-receives-sebi-approval-to-launch-advisory-business):",
+        "https://www.jioblackrock.com/blogs):",
+        "https://www.jioblackrock.com/blogs/it-is-never-too-early-to-start-investing):",
+        "https://www.jioblackrock.com/blogs/why-starting-early-is-better-than-starting-big-in-investing):",
+        "https://www.jioblackrock.com/blogs/investing-in-your-20s-the-gift-you-can-give-your-future-self):",
+        "https://www.jioblackrock.com/blogs/budgeting-how-to-start-managing-your-money):",
+        "https://www.jioblackrock.com/blogs/doing-nothing-with-your-money-could-cost-you-more-than-you-think):",
+        "https://www.jioblackrock.com/blogs/taking-control-of-your-finances-starts-with-a-plan):",
+        "https://www.jioblackrock.com/blogs/what-a-portfolio-is-and-how-to-build-one-that-works-for-you):",
+        "https://www.jioblackrock.com/blogs/building-a-long-term-portfolio-what-you-need-to-know-before-you-start):",
+        "https://www.jioblackrock.com/blogs/asset-allocation-a-balanced-approach-to-achieving-your-financial-goals):",
+        "https://www.jioblackrock.com/blogs/how-asset-allocation-helps-you-manage-risk-and-grow-your-money):",
+        "https://www.jioblackrock.com/blogs/why-is-asset-allocation-important-during-periods-of-market-stress):",
+        "https://www.jioblackrock.com/blogs/risk-and-return-the-building-blocks-of-a-long-term-portfolio):",
+        "https://www.jioblackrock.com/blogs/why-investing-your-money-in-a-mix-of-assets-is-a-good-idea):",
+        "https://www.jioblackrock.com/blogs/what-is-portfolio-rebalancing-and-why-it-matters):",
+        "https://www.jioblackrock.com/blogs/portfolio-rebalancing-by-jioblackrock):",
+        "https://www.jioblackrock.com/blogs/buy-and-hold-vs-rebalancing-what-is-better):",
+        "https://www.jioblackrock.com/blogs/sticking-to-your-target-asset-allocation-the-key-to-long-term-investing-success):",
+        "https://www.jioblackrock.com/blogs/is-your-portfolio-over-diversified-how-to-achieve-the-right-balance):",
+        "https://www.jioblackrock.com/blogs/if-you-re-only-buying-stocks-you-re-missing-the-bigger-picture):",
+        "https://www.jioblackrock.com/blogs/from-products-to-purpose-why-a-personalised-investment-plan-matters):",
+        "https://www.jioblackrock.com/blogs/fixed-income-pillar-of-a-resilient-portfolio):",
+        "https://www.jioblackrock.com/blogs/investing-with-clarity-cutting-through-behavioural-bias):",
+        "https://www.jioblackrock.com/blogs/the-psychology-of-investing-why-losses-hurt-more-than-gains-feel-good):",
+        "https://www.jioblackrock.com/blogs/discipline-is-the-cornerstone-of-successful-investing):",
+        "https://www.jioblackrock.com/blogs/why-fund-drawdown-and-recovery-periods-matter):",
+        "https://www.jioblackrock.com/blogs/avoid-these-6-common-investment-mistakes):",
+        "https://www.jioblackrock.com/blogs/how-much-are-your-mutual-fund-fees-costing-you):",
+        "https://www.jioblackrock.com/blogs/key-players-in-the-mutual-funds-industry):",
+        "https://www.jioblackrock.com/blogs/direct-or-regular-mutual-fund-plans-which-one-works-for-you):",
+        "https://www.jioblackrock.com/blogs/active-or-index-funds-which-should-you-choose):",
+        "https://www.jioblackrock.com/blogs/index-funds-the-foundation-for-long-term-portfolios):",
+        "https://www.jioblackrock.com/blogs/selecting-index-funds-key-factors-that-matter-most):",
+        "https://www.jioblackrock.com/blogs/smart-sips-from-jioblackrock-redefining-the-way-investors-build-wealth):",
+        "https://www.jioblackrock.com/blogs/from-confusion-to-clarity-why-investment-advice-makes-all-the-difference):",
+        "https://www.jioblackrock.com/blogs/diy-vs-personalised-investing-find-the-strategy-that-fits-you):",
+        "https://www.jioblackrock.com/blogs/how-data-driven-investing-can-boost-your-portfolio-performance):",
+        "https://www.jioblackrock.com/blogs/what-you-miss-out-without-personalised-investment-advice):",
+        "https://www.jioblackrock.com/blogs/why-investors-need-an-investment-plan-not-just-stock-picks):",
+        "https://www.jioblackrock.com/blogs/why-every-indian-investor-should-consider-wealth-management-not-just-the-wealthy):",
+        "https://www.jioblackrock.com/blogs/smart-investing-for-women-build-wealth-your-way):",
+        "https://www.jioblackrock.com/blogs/how-to-interpret-returns-making-sense-of-investment-numbers-for-you):",
+        "https://www.jioblackrock.com/blogs/explaining-risk-adjusted-returns):",
+        "https://www.jioblackrock.com/blogs/ever-wonder-what-alpha-and-beta-really-mean-for-your-investments):",
+        "https://www.jioblackrock.com/blogs/what-are-strategic-and-tactical-asset-allocations):",
+        "https://www.jioblackrock.com/blogs/how-we-manage-risk-at-jioblackrock):",
+        "https://www.jioblackrock.com/blogs/how-jioblackrock-builds-a-personalised-investment-plan):",
+        "https://www.jioblackrock.com/blogs/aladdin-in-your-pocket-smart-investing-starts-with-jioblackrock-personalised-investment-advice):",
+        "https://www.jioblackrock.com/blogs/sebi-registered-investment-advisers-who-they-are-and-what-they-do):",
+        "https://www.jioblackrock.com/blogs/what-is-an-ria-agreement-and-why-it-s-important-to-sign-it-before-receiving-advice):",
+        "https://www.jioblackrock.com/blogs/understanding-kyc-for-mutual-fund-investments):",
+        "https://www.jioblackrock.com/blogs/appointing-nominees-a-guide-for-investors):",
+        "https://www.jioblackrock.com/blogs/getting-onboard-with-jioblackrock-personalised-investment-advice):",
+        "https://www.jioblackrock.com/blogs/risk-profiling-the-foundation-of-your-investment-plan):",
+        "https://www.jioblackrock.com/blogs/find-out-your-investor-type-with-jioblackrock):",
+        "https://www.jioblackrock.com/blogs/why-choose-jioblackrock-for-personalised-investment-advice):",
+        "https://www.jioblackrock.com/blogs/how-jioblackrock-investment-advisers-charges-for-personalised-investment-advice):",
+        "https://www.jioblackrock.com/blogs/wealth-checkup-by-jioblackrock-investment-advisers):",
+        "https://www.jioblackrock.com/blogs/monthly-asset-allocation-view-march-2026):",
+        "https://www.jioblackrock.com/blogs/monthly-asset-allocation-view-may-2026):",
+        "https://www.jioblackrock.com/blogs/monthly-asset-allocation-view-june-2026):",
+        "https://www.jioblackrock.com/wealth-checkup):",
+        "https://www.jioblackrock.com/robots.txt)",
+        "https://www.jioblackrock.com/sitemap.xml)"
+      ],
+      "tooSmall": false,
+      "error": null
+    },
+    "metaTags": {
+      "missingOpenGraph": [],
+      "missingTwitter": []
+    },
+    "semanticHtml": [
+      "header",
+      "nav",
+      "main",
+      "footer"
+    ],
+    "accessibility": {
+      "missingAccessibleLabels": 2
+    },
+    "performance": {
+      "pageSpeed": {
+        "success": true,
+        "performanceScore": 72,
+        "ttfbMs": 132,
+        "lcpMs": 2644,
+        "cls": 0.004,
+        "totalBlockingTimeMs": 296,
+        "compressionEnabled": true,
+        "compressionEncoding": "gzip",
+        "error": null
+      },
+      "crux": {
+        "success": true,
+        "inpMs": 101,
+        "lcpMs": 1680,
+        "cls": 0,
+        "error": null
+      }
+    },
+    "contentSeo": {
+      "titleOptimized": true,
+      "titleLength": 62,
+      "metaDescriptionOptimized": true,
+      "metaDescriptionLength": 127,
+      "h1Optimized": true,
+      "h1Count": 1,
+      "h2Count": 16,
+      "h3Count": 13,
+      "properHeadingHierarchy": true,
+      "faqStyleContent": true,
+      "thinContent": false,
+      "wordCount": 5106,
+      "hasDefinitions": true,
+      "hasComparisons": true,
+      "hasBulletPoints": true,
+      "bulletCount": 45,
+      "hasMultimedia": true,
+      "imageCount": 33,
+      "videoCount": 0,
+      "iframeCount": 0,
+      "hasKeyTakeaways": true,
+      "freshnessSignals": true
+    }
+  },
+  "aiBotCrawlabilityAudit": {
+    "success": true,
+    "results": [
+      {
+        "bot": "OAI-SearchBot",
+        "testedUrl": "https://www.jioblackrock.com/",
+        "initialUrl": "https://www.jioblackrock.com/",
+        "finalUrl": "https://www.jioblackrock.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Investment advice for India | JioBlackRock Investment Advisers",
+        "h1": "Introducing JioBlackRock Personalised Investment Advice",
+        "canonical": "https://www.jioblackrock.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "1017 ms",
+        "totalRequests": 119,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.jioblackrock.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Home Wealth Checkup About Learn Get started Introducing JioBlackRock Personalised Investment Advice Your dreams are unique. The way you invest should be too. If investing has felt complex, costly or exclusive, this is for you. Personalised investment advice is now at your fingertips. Get started For too long, investment advice has felt out of reach. We are here to change that. Everyone’s dreams and priorities are different. We create a personalised investment plan based on what matters to you and monitor it over time as your life and the markets change. Why choose JioBlackRock Personalised investment advice powered by global expertise and smart technology. An investment plan built for you JioBlackRock is a SEBI registered investment adviser, always acting in your best interests. The personalised plan is shaped around you to help you achieve your investment objectives. A balanced approach that protects you Your money is invested in a mix of assets, helping reduce risk and smoothing out market ups and downs. Daily monitoring using BlackRock’s Aladdin® Your portfolio is monitored by seasoned investment professionals and BlackRock's Aladdin® technology to ensure your investments stay on track. One-click portfolio rebalancing When market conditions change or your portfolio needs attention, we alert you and with a single click, you can rebalance your investments. Smart money in and out When you invest or withdraw money, we optimise it to make sure you stay alig",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\OAI_SearchBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\OAI_SearchBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Investment advice for India | JioBlackRock Investment Advisers"
+        }
+      },
+      {
+        "bot": "GPTBot",
+        "testedUrl": "https://www.jioblackrock.com/",
+        "initialUrl": "https://www.jioblackrock.com/",
+        "finalUrl": "https://www.jioblackrock.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Investment advice for India | JioBlackRock Investment Advisers",
+        "h1": "Introducing JioBlackRock Personalised Investment Advice",
+        "canonical": "https://www.jioblackrock.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "611 ms",
+        "totalRequests": 119,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.jioblackrock.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Home Wealth Checkup About Learn Get started Introducing JioBlackRock Personalised Investment Advice Your dreams are unique. The way you invest should be too. If investing has felt complex, costly or exclusive, this is for you. Personalised investment advice is now at your fingertips. Get started For too long, investment advice has felt out of reach. We are here to change that. Everyone’s dreams and priorities are different. We create a personalised investment plan based on what matters to you and monitor it over time as your life and the markets change. Why choose JioBlackRock Personalised investment advice powered by global expertise and smart technology. An investment plan built for you JioBlackRock is a SEBI registered investment adviser, always acting in your best interests. The personalised plan is shaped around you to help you achieve your investment objectives. A balanced approach that protects you Your money is invested in a mix of assets, helping reduce risk and smoothing out market ups and downs. Daily monitoring using BlackRock’s Aladdin® Your portfolio is monitored by seasoned investment professionals and BlackRock's Aladdin® technology to ensure your investments stay on track. One-click portfolio rebalancing When market conditions change or your portfolio needs attention, we alert you and with a single click, you can rebalance your investments. Smart money in and out When you invest or withdraw money, we optimise it to make sure you stay alig",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\GPTBot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\GPTBot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Investment advice for India | JioBlackRock Investment Advisers"
+        }
+      },
+      {
+        "bot": "ChatGPT-User",
+        "testedUrl": "https://www.jioblackrock.com/",
+        "initialUrl": "https://www.jioblackrock.com/",
+        "finalUrl": "https://www.jioblackrock.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Investment advice for India | JioBlackRock Investment Advisers",
+        "h1": "Introducing JioBlackRock Personalised Investment Advice",
+        "canonical": "https://www.jioblackrock.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "783 ms",
+        "totalRequests": 118,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.jioblackrock.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Home Wealth Checkup About Learn Get started Introducing JioBlackRock Personalised Investment Advice Your dreams are unique. The way you invest should be too. If investing has felt complex, costly or exclusive, this is for you. Personalised investment advice is now at your fingertips. Get started For too long, investment advice has felt out of reach. We are here to change that. Everyone’s dreams and priorities are different. We create a personalised investment plan based on what matters to you and monitor it over time as your life and the markets change. Why choose JioBlackRock Personalised investment advice powered by global expertise and smart technology. An investment plan built for you JioBlackRock is a SEBI registered investment adviser, always acting in your best interests. The personalised plan is shaped around you to help you achieve your investment objectives. A balanced approach that protects you Your money is invested in a mix of assets, helping reduce risk and smoothing out market ups and downs. Daily monitoring using BlackRock’s Aladdin® Your portfolio is monitored by seasoned investment professionals and BlackRock's Aladdin® technology to ensure your investments stay on track. One-click portfolio rebalancing When market conditions change or your portfolio needs attention, we alert you and with a single click, you can rebalance your investments. Smart money in and out When you invest or withdraw money, we optimise it to make sure you stay alig",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\ChatGPT_User.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\ChatGPT_User.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Investment advice for India | JioBlackRock Investment Advisers"
+        }
+      },
+      {
+        "bot": "Google StoreBot Desktop",
+        "testedUrl": "https://www.jioblackrock.com/",
+        "initialUrl": "https://www.jioblackrock.com/",
+        "finalUrl": "https://www.jioblackrock.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Investment advice for India | JioBlackRock Investment Advisers",
+        "h1": "Introducing JioBlackRock Personalised Investment Advice",
+        "canonical": "https://www.jioblackrock.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "565 ms",
+        "totalRequests": 96,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.jioblackrock.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Home Wealth Checkup About Learn Get started Introducing JioBlackRock Personalised Investment Advice Your dreams are unique. The way you invest should be too. If investing has felt complex, costly or exclusive, this is for you. Personalised investment advice is now at your fingertips. Get started For too long, investment advice has felt out of reach. We are here to change that. Everyone’s dreams and priorities are different. We create a personalised investment plan based on what matters to you and monitor it over time as your life and the markets change. Why choose JioBlackRock Personalised investment advice powered by global expertise and smart technology. An investment plan built for you JioBlackRock is a SEBI registered investment adviser, always acting in your best interests. The personalised plan is shaped around you to help you achieve your investment objectives. A balanced approach that protects you Your money is invested in a mix of assets, helping reduce risk and smoothing out market ups and downs. Daily monitoring using BlackRock’s Aladdin® Your portfolio is monitored by seasoned investment professionals and BlackRock's Aladdin® technology to ensure your investments stay on track. One-click portfolio rebalancing When market conditions change or your portfolio needs attention, we alert you and with a single click, you can rebalance your investments. Smart money in and out When you invest or withdraw money, we optimise it to make sure you stay alig",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Desktop.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Desktop.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Investment advice for India | JioBlackRock Investment Advisers"
+        }
+      },
+      {
+        "bot": "Google StoreBot Mobile",
+        "testedUrl": "https://www.jioblackrock.com/",
+        "initialUrl": "https://www.jioblackrock.com/",
+        "finalUrl": "https://www.jioblackrock.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Investment advice for India | JioBlackRock Investment Advisers",
+        "h1": "Introducing JioBlackRock Personalised Investment Advice",
+        "canonical": "https://www.jioblackrock.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "973 ms",
+        "totalRequests": 104,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.jioblackrock.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Home Wealth Checkup About Learn Get started Introducing JioBlackRock Personalised Investment Advice Your dreams are unique. The way you invest should be too. If investing has felt complex, costly or exclusive, this is for you. Personalised investment advice is now at your fingertips. Get started For too long, investment advice has felt out of reach. We are here to change that. Everyone’s dreams and priorities are different. We create a personalised investment plan based on what matters to you and monitor it over time as your life and the markets change. Why choose JioBlackRock Personalised investment advice powered by global expertise and smart technology. An investment plan built for you JioBlackRock is a SEBI registered investment adviser, always acting in your best interests. The personalised plan is shaped around you to help you achieve your investment objectives. A balanced approach that protects you Your money is invested in a mix of assets, helping reduce risk and smoothing out market ups and downs. Daily monitoring using BlackRock’s Aladdin® Your portfolio is monitored by seasoned investment professionals and BlackRock's Aladdin® technology to ensure your investments stay on track. One-click portfolio rebalancing When market conditions change or your portfolio needs attention, we alert you and with a single click, you can rebalance your investments. Smart money in and out When you invest or withdraw money, we optimise it to make sure you stay alig",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Google_StoreBot_Mobile.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Google_StoreBot_Mobile.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Investment advice for India | JioBlackRock Investment Advisers"
+        }
+      },
+      {
+        "bot": "Gemini",
+        "testedUrl": "https://www.jioblackrock.com/",
+        "initialUrl": "https://www.jioblackrock.com/",
+        "finalUrl": "https://www.jioblackrock.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Investment advice for India | JioBlackRock Investment Advisers",
+        "h1": "Introducing JioBlackRock Personalised Investment Advice",
+        "canonical": "https://www.jioblackrock.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "642 ms",
+        "totalRequests": 118,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.jioblackrock.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Home Wealth Checkup About Learn Get started Introducing JioBlackRock Personalised Investment Advice Your dreams are unique. The way you invest should be too. If investing has felt complex, costly or exclusive, this is for you. Personalised investment advice is now at your fingertips. Get started For too long, investment advice has felt out of reach. We are here to change that. Everyone’s dreams and priorities are different. We create a personalised investment plan based on what matters to you and monitor it over time as your life and the markets change. Why choose JioBlackRock Personalised investment advice powered by global expertise and smart technology. An investment plan built for you JioBlackRock is a SEBI registered investment adviser, always acting in your best interests. The personalised plan is shaped around you to help you achieve your investment objectives. A balanced approach that protects you Your money is invested in a mix of assets, helping reduce risk and smoothing out market ups and downs. Daily monitoring using BlackRock’s Aladdin® Your portfolio is monitored by seasoned investment professionals and BlackRock's Aladdin® technology to ensure your investments stay on track. One-click portfolio rebalancing When market conditions change or your portfolio needs attention, we alert you and with a single click, you can rebalance your investments. Smart money in and out When you invest or withdraw money, we optimise it to make sure you stay alig",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Gemini.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Gemini.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Investment advice for India | JioBlackRock Investment Advisers"
+        }
+      },
+      {
+        "bot": "Copilot",
+        "testedUrl": "https://www.jioblackrock.com/",
+        "initialUrl": "https://www.jioblackrock.com/",
+        "finalUrl": "https://www.jioblackrock.com/",
+        "success": true,
+        "status": 200,
+        "blocked": false,
+        "blockReason": null,
+        "navigatedAfterLoad": false,
+        "title": "Investment advice for India | JioBlackRock Investment Advisers",
+        "h1": "Introducing JioBlackRock Personalised Investment Advice",
+        "canonical": "https://www.jioblackrock.com",
+        "robotsMeta": null,
+        "googlebotMeta": null,
+        "loadTime": "610 ms",
+        "totalRequests": 119,
+        "server": null,
+        "xRobotsTag": null,
+        "contentType": "text/html; charset=utf-8",
+        "cfRay": null,
+        "documentNavigations": [
+          {
+            "url": "https://www.jioblackrock.com/",
+            "status": 200
+          }
+        ],
+        "renderedTextPreview": "Skip to main content Home Wealth Checkup About Learn Get started Introducing JioBlackRock Personalised Investment Advice Your dreams are unique. The way you invest should be too. If investing has felt complex, costly or exclusive, this is for you. Personalised investment advice is now at your fingertips. Get started For too long, investment advice has felt out of reach. We are here to change that. Everyone’s dreams and priorities are different. We create a personalised investment plan based on what matters to you and monitor it over time as your life and the markets change. Why choose JioBlackRock Personalised investment advice powered by global expertise and smart technology. An investment plan built for you JioBlackRock is a SEBI registered investment adviser, always acting in your best interests. The personalised plan is shaped around you to help you achieve your investment objectives. A balanced approach that protects you Your money is invested in a mix of assets, helping reduce risk and smoothing out market ups and downs. Daily monitoring using BlackRock’s Aladdin® Your portfolio is monitored by seasoned investment professionals and BlackRock's Aladdin® technology to ensure your investments stay on track. One-click portfolio rebalancing When market conditions change or your portfolio needs attention, we alert you and with a single click, you can rebalance your investments. Smart money in and out When you invest or withdraw money, we optimise it to make sure you stay alig",
+        "screenshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\screenshots\\Copilot.png",
+        "htmlSnapshot": "C:\\Users\\Sanath Shetty\\Desktop\\BotWhisper\\html-snapshots\\Copilot.html",
+        "browserAttemptedOffOriginUrl": null,
+        "preflight": {
+          "status": 200,
+          "location": null,
+          "finalUrl": null,
+          "title": "Investment advice for India | JioBlackRock Investment Advisers"
+        }
+      }
+    ],
+    "error": null
+  }
+}
